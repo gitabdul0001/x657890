@@ -1,7 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 const HeroSection: React.FC = () => {
-  return <section className="relative min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 overflow-hidden" data-magicpath-id="0" data-magicpath-path="HeroSection.tsx">
+  return <section className="relative min-h-screen overflow-hidden" style={{
+    backgroundImage: 'url(https://raw.githubusercontent.com/gitabdul0001/example/refs/heads/main/Untitled%20(Website).svg)',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat'
+  }} data-magicpath-id="0" data-magicpath-path="HeroSection.tsx">
       {/* Abstract blob shapes */}
       <motion.div className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full opacity-20 blur-xl" animate={{
       x: [0, 30, 0],
@@ -48,7 +53,7 @@ const HeroSection: React.FC = () => {
       {/* Main content */}
       <div className="relative z-10 flex items-center justify-center min-h-screen px-6" data-magicpath-id="8" data-magicpath-path="HeroSection.tsx">
         <div className="text-center max-w-4xl mx-auto" data-magicpath-id="9" data-magicpath-path="HeroSection.tsx">
-          <motion.h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight" initial={{
+          <motion.h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 mb-6 leading-tight" initial={{
           opacity: 0,
           y: 30
         }} animate={{
@@ -58,14 +63,10 @@ const HeroSection: React.FC = () => {
           duration: 0.8,
           ease: "easeOut"
         }} data-magicpath-id="10" data-magicpath-path="HeroSection.tsx">
-            Build Better
-            <br data-magicpath-id="11" data-magicpath-path="HeroSection.tsx" />
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent" data-magicpath-id="12" data-magicpath-path="HeroSection.tsx">
-              Products Faster
-            </span>
+            Don't post without data ever again
           </motion.h1>
           
-          <motion.p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed" initial={{
+          <motion.p className="text-lg md:text-xl font-normal text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed mt-4" initial={{
           opacity: 0,
           y: 30
         }} animate={{
@@ -75,11 +76,11 @@ const HeroSection: React.FC = () => {
           duration: 0.8,
           delay: 0.2,
           ease: "easeOut"
-        }} data-magicpath-id="13" data-magicpath-path="HeroSection.tsx">
-            Reaxo empowers teams to innovate, collaborate, and deliver exceptional products with our comprehensive suite of development tools.
+        }} data-magicpath-id="11" data-magicpath-path="HeroSection.tsx">
+            No more wasted posts or blind strategies. Reaxo gives creators the insights they need to grow smarter and reach bigger.
           </motion.p>
           
-          <motion.button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1" initial={{
+          <motion.a href="https://reaxo.xyz" className="inline-block px-12 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-xl font-semibold rounded-full hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1" initial={{
           opacity: 0,
           y: 30
         }} animate={{
@@ -93,9 +94,9 @@ const HeroSection: React.FC = () => {
           scale: 1.05
         }} whileTap={{
           scale: 0.95
-        }} data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">
+        }} data-magicpath-id="12" data-magicpath-path="HeroSection.tsx">
             Sign up free
-          </motion.button>
+          </motion.a>
         </div>
       </div>
     </section>;

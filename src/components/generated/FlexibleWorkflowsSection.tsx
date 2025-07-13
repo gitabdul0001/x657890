@@ -6,32 +6,32 @@ const FlexibleWorkflowsSection: React.FC = () => {
     title: "Development Workflow",
     image: "🚀",
     description: "Streamline your development process with automated testing and deployment",
-    mpid: "4117b808-aac6-435b-b135-765c063c452d"
+    mpid: "e2fafc4b-7890-461e-9b2c-b3d2a3af3074"
   }, {
     title: "Design System",
     image: "🎨",
     description: "Maintain consistency across your products with a unified design system",
-    mpid: "1945f4d5-df08-448a-9f56-a57c668a209d"
+    mpid: "409c6ad8-0bb3-454a-afaf-b22815a49284"
   }, {
     title: "Project Management",
     image: "📊",
     description: "Keep your team aligned with powerful project tracking and collaboration tools",
-    mpid: "99fd3a6d-23db-49c0-a22d-b73a1046ca8a"
+    mpid: "078e6305-f80f-474d-a334-d8f6962e6228"
   }, {
     title: "Quality Assurance",
     image: "✅",
     description: "Ensure product quality with comprehensive testing and review processes",
-    mpid: "39c0ccdc-e3e5-40cb-aac4-b7f5ba3cf479"
+    mpid: "89a98e03-fe79-47ea-9a85-0c7c287731e2"
   }, {
     title: "Analytics & Insights",
     image: "📈",
     description: "Make data-driven decisions with real-time analytics and reporting",
-    mpid: "3b1f7b96-f167-4779-9dad-142e5de7e4f1"
+    mpid: "d86332d2-cdb6-4779-b22a-eeb6455ab3a2"
   }, {
     title: "Customer Feedback",
     image: "💬",
     description: "Collect and analyze customer feedback to improve your products continuously",
-    mpid: "702aa783-fbae-4200-b182-cdb9fe43475b"
+    mpid: "33353975-861d-4096-9f6d-c249ee44da24"
   }] as any[];
   const [currentIndex, setCurrentIndex] = useState(0);
   const itemsPerView = 3;
@@ -106,13 +106,13 @@ const FlexibleWorkflowsSection: React.FC = () => {
               once: true
             }} data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-id="14" data-magicpath-path="FlexibleWorkflowsSection.tsx">
                   <div className="text-center" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-id="15" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-                    <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="image:string" data-magicpath-id="16" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+                    <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="image:unknown" data-magicpath-id="16" data-magicpath-path="FlexibleWorkflowsSection.tsx">
                       {workflow.image}
                     </div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:string" data-magicpath-id="17" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="17" data-magicpath-path="FlexibleWorkflowsSection.tsx">
                       {workflow.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:string" data-magicpath-id="18" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+                    <p className="text-gray-600 leading-relaxed" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:unknown" data-magicpath-id="18" data-magicpath-path="FlexibleWorkflowsSection.tsx">
                       {workflow.description}
                     </p>
                   </div>
