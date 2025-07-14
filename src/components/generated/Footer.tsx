@@ -6,92 +6,92 @@ const Footer: React.FC = () => {
     Product: [{
       name: 'Features',
       href: '#',
-      mpid: "12dd3ff2-791c-4495-af05-269333dfb662"
+      mpid: "c9a5b6c4-7f8c-4f8f-9974-2652989b6eae"
     }, {
       name: 'Pricing',
       href: '#',
-      mpid: "8a39b00d-dc29-4920-8b79-f08e2b95dcdd"
+      mpid: "6ac50355-78b4-4268-9bb1-328a134ee8f5"
     }, {
       name: 'Integrations',
       href: '#',
-      mpid: "d8e53410-a910-4df8-8df4-2fc6875e559d"
+      mpid: "2ef59115-9b54-4920-af72-a1b84d58f981"
     }, {
       name: 'API',
       href: '#',
-      mpid: "8af022be-f1c1-4f3f-b34f-ee0d7acc06bb"
+      mpid: "2b9a4aac-256c-4111-b8a6-aa465e08c225"
     }],
     Company: [{
       name: 'About',
       href: '#',
-      mpid: "9727217a-89b3-497d-96ad-4de78498c0a4"
+      mpid: "cefc2272-753b-404e-80ce-2132168f6211"
     }, {
       name: 'Blog',
       href: '#',
-      mpid: "cbfd1dfa-0c27-41fa-92cc-9a67e4f2dfa2"
+      mpid: "4d057914-12c9-4b5d-82c6-51e6bf151928"
     }, {
       name: 'Careers',
       href: '#',
-      mpid: "e7d1be2c-19a7-4ed3-8af4-0d89cbde5704"
+      mpid: "ca1b92c4-3db5-4307-a467-a3c647df4a86"
     }, {
       name: 'Press',
       href: '#',
-      mpid: "84cdd29b-19ad-4fab-a16f-e40c94d76267"
+      mpid: "3fa7ca7e-796e-4a2d-92fc-84acaafc34df"
     }],
     Resources: [{
       name: 'Documentation',
       href: '#',
-      mpid: "5690812c-9de0-4491-94f2-ae291acf9fda"
+      mpid: "2560d945-4b8c-47bd-8f1d-7feb88eb33f8"
     }, {
       name: 'Help Center',
       href: '#',
-      mpid: "2a0952cd-d5e5-4139-b259-798373390899"
+      mpid: "b3019dc4-c7b5-4843-9dc9-d397f5b66e74"
     }, {
       name: 'Community',
       href: '#',
-      mpid: "3b8cd101-bf45-4909-91d6-f342d1b43119"
+      mpid: "bca1eee6-ed4b-4b37-946f-4fd0eff87099"
     }, {
       name: 'Status',
       href: '#',
-      mpid: "5133b737-eeb6-4c4a-8e48-30769d42e9fd"
+      mpid: "c61229a7-96cc-4674-952b-8a29e0725792"
     }],
     Legal: [{
       name: 'Privacy',
       href: '#',
-      mpid: "201b53e8-3330-4761-b218-e367ed4dd9f9"
+      mpid: "4d6043ef-3df9-478c-81a5-064f396cc419"
     }, {
       name: 'Terms',
       href: '#',
-      mpid: "036b3205-b547-4a48-8f82-b69a3ad02636"
+      mpid: "948bde04-d380-48b7-b0f3-d584f39e6b12"
     }, {
       name: 'Security',
       href: '#',
-      mpid: "f13cf2d4-14e0-41e4-a30b-debe674a700a"
+      mpid: "2a2483bc-111a-4580-8c5e-1d3d48f1f6b6"
     }, {
       name: 'Cookies',
       href: '#',
-      mpid: "20b166fc-d1a8-4c84-94ef-72a1040a95df"
+      mpid: "2d47f965-67d0-4cd9-a281-5a94ce830127"
     }]
   };
   const socialLinks = [{
     icon: Github,
     href: '#',
     label: 'GitHub',
-    mpid: "2bda85df-d29e-4875-9220-fa80213b6f8d"
+    mpid: "e888261a-fa0a-44e3-b298-3dd0133e85d6"
   }, {
     icon: Twitter,
     href: '#',
     label: 'Twitter',
-    mpid: "1f3bc811-6073-4533-8207-f5e0f43fe23a"
+    mpid: "b3bb2d83-fd5f-4692-91f0-4871f7c38a5b"
   }, {
     icon: Linkedin,
     href: '#',
     label: 'LinkedIn',
-    mpid: "b16c81b8-7dfb-4b80-bf9b-51928bd87c4a"
+    mpid: "d575cc3f-d6bb-4c99-b643-048561dc1868"
   }, {
     icon: Mail,
     href: '#',
     label: 'Email',
-    mpid: "db3a37a6-90c9-4e95-87ed-70f3a7a38aa5"
+    mpid: "f1fa7cba-07ec-4fca-8b0a-6cad777e305c"
   }] as any[];
   return <footer className="bg-black text-white" data-magicpath-id="0" data-magicpath-path="Footer.tsx">
       <div className="max-w-7xl mx-auto px-6 py-16" data-magicpath-id="1" data-magicpath-path="Footer.tsx">

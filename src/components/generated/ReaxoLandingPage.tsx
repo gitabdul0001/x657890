@@ -7,7 +7,7 @@ import FlexibleWorkflowsSection from './FlexibleWorkflowsSection';
 import WhyTeamsInnovateSection from './WhyTeamsInnovateSection';
 import Footer from './Footer';
 const ReaxoLandingPage: React.FC = () => {
-  return <main className="min-h-screen bg-white" data-magicpath-id="0" data-magicpath-path="ReaxoLandingPage.tsx">
+  return <main className="min-h-screen" data-magicpath-id="0" data-magicpath-path="ReaxoLandingPage.tsx">
       <HeroSection data-magicpath-id="1" data-magicpath-path="ReaxoLandingPage.tsx" />
       <DashboardShowcaseSection data-magicpath-id="2" data-magicpath-path="ReaxoLandingPage.tsx" />
       <CustomerCarouselSection data-magicpath-id="3" data-magicpath-path="ReaxoLandingPage.tsx" />
