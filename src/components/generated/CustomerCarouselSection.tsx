@@ -19,133 +19,133 @@ const CustomerCarouselSection: React.FC = () => {
   const firstRowBrands = [{
     name: 'Microsoft',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/microsoft.svg',
-    mpid: "0c6d8b74-5efe-4ff5-ac90-59bffdda5291"
+    mpid: "6fa923da-8ae2-4c23-8092-78bc4d5ff280"
   }, {
     name: 'Google',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/google.svg',
-    mpid: "00ce68ca-94dc-424e-bbd4-2e82af6a2084"
+    mpid: "455ec45e-001d-4828-b00e-97721c8f03c3"
   }, {
     name: 'Apple',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/apple.svg',
-    mpid: "f031dbb1-09be-47b1-a087-704c3411e4a0"
+    mpid: "2bf9de43-88af-4db6-b5df-eec13c8c226d"
   }, {
     name: 'Amazon',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/amazon.svg',
-    mpid: "0d645231-1f47-4d2c-9c07-6e3d60dfa88e"
+    mpid: "8bc3a7ac-53d4-4d1f-be9c-44152f9a9e0e"
   }, {
     name: 'Netflix',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/netflix.svg',
-    mpid: "ccae7af5-b9af-40b2-8628-1426499bc191"
+    mpid: "f495a33a-2046-4f43-84a9-88555ca86275"
   }, {
     name: 'Spotify',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/spotify.svg',
-    mpid: "11d48cd3-ddc8-41c8-bc24-af53c65f486e"
+    mpid: "0feedbb1-47d4-4365-84f2-034b6f56b2be"
   }, {
     name: 'Slack',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/slack.svg',
-    mpid: "165a9a3c-5e44-4b32-a27d-32a203c58691"
+    mpid: "bcbe1232-d8f4-42c5-b474-e59dea0ea01f"
   }, {
     name: 'GitHub',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/github.svg',
-    mpid: "1ca48278-3ec9-4ffb-ae29-3fe33d7c25f2"
+    mpid: "fb9643c4-5486-4c87-8b2f-b5adb95fcbd7"
   }, {
     name: 'Zoom',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/zoom.svg',
-    mpid: "be6ad7f6-276b-4d1b-aeeb-f72881cfae1f"
+    mpid: "b144bc6f-a3e7-44c3-a1a9-055a57da4790"
   }, {
     name: 'Dropbox',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/dropbox.svg',
-    mpid: "fb21b3a0-0468-48c0-abb1-211da2ef4c3e"
+    mpid: "6be985d2-abf9-48e4-b98c-889fe420c095"
   }, {
     name: 'Adobe',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/adobe.svg',
-    mpid: "33babfdb-6c55-4fcf-863b-fa19288d2afa"
+    mpid: "824804d5-0604-4ca6-89d9-42dd36d98c06"
   }, {
     name: 'Tesla',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/tesla.svg',
-    mpid: "abae47a2-2580-4a3e-8078-42a3bff66b08"
+    mpid: "c90dcf0c-d672-426c-bed6-0339e0f8a42f"
   }, {
     name: 'Airbnb',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/airbnb.svg',
-    mpid: "eee7a3ed-ea12-44a8-812f-6ca684342f89"
+    mpid: "a6337da4-4ce5-4158-988b-fbe6ffbe413b"
   }, {
     name: 'Uber',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/uber.svg',
-    mpid: "72603b0f-a590-48e1-a947-28a48710a52c"
+    mpid: "e8e9da7b-ba55-4c89-b982-58e2f242819f"
   }, {
     name: 'Twitter',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/twitter.svg',
-    mpid: "0bfadebd-8fbd-43fc-bb89-f26afa1ab442"
+    mpid: "f0561e59-d7ce-4286-a3ec-add4f9183f05"
   }] as any[];
   const secondRowBrands = [{
     name: 'Meta',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/meta.svg',
-    mpid: "b3348796-87cf-4195-976c-c09389541876"
+    mpid: "826cf834-6041-45b3-a797-54d0e0381e13"
   }, {
     name: 'LinkedIn',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/linkedin.svg',
-    mpid: "b5dbed62-318e-4330-8ad2-d9a3f3fa9214"
+    mpid: "823d7c06-50f3-4a20-b7a8-368b499d7ae9"
   }, {
     name: 'PayPal',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/paypal.svg',
-    mpid: "da8ed6f3-852c-45b7-a433-f82ae485cd43"
+    mpid: "7171d3d6-6ef8-41cf-afb4-6648d88af9eb"
   }, {
     name: 'Discord',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/discord.svg',
-    mpid: "6b62cf55-fe71-41c2-9349-faf678f709d9"
+    mpid: "45a12bd9-fa7c-4a78-ab00-d70c5100e306"
   }, {
     name: 'Notion',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/notion.svg',
-    mpid: "486e2e3a-72fc-48b2-a2ba-7b2770bd723a"
+    mpid: "80ce9abf-b873-4c8d-8699-e8d47c53307a"
   }, {
     name: 'Figma',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/figma.svg',
-    mpid: "d4b5dcd1-2a04-4467-8b86-03be9d254c4a"
+    mpid: "9d4d858f-7839-45c6-81e2-a5af81ec9b11"
   }, {
     name: 'Canva',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/canva.svg',
-    mpid: "f240dba4-b32d-47e0-acdb-6fb9d1d905d9"
+    mpid: "85cf72c1-1cec-401e-858f-22b972235b51"
   }, {
     name: 'Trello',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/trello.svg',
-    mpid: "3f0348a2-1455-4ca5-88c8-aace79db9362"
+    mpid: "77dd4a53-da03-48ae-ad3c-1aaf77688241"
   }, {
     name: 'Asana',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/asana.svg',
-    mpid: "56ed824d-6843-419f-a4de-76f270eee4b9"
+    mpid: "541668fc-76e0-4a3d-a8fe-c7dc869a4b4b"
   }, {
     name: 'Salesforce',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/salesforce.svg',
-    mpid: "16bc372a-6551-4fc0-bec0-a451effd2083"
+    mpid: "9983c671-f162-4d7a-8786-ec068b7797a1"
   }, {
     name: 'HubSpot',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/hubspot.svg',
-    mpid: "d3d90a85-4ed1-4275-a19d-fc189c8f3d0a"
+    mpid: "daa4b37f-5b12-4329-9ca7-a115f6422202"
   }, {
     name: 'Mailchimp',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/mailchimp.svg',
-    mpid: "4eb046fb-af11-4050-a847-1cf4b65461c7"
+    mpid: "b21ab1b3-ea18-4913-ac3e-e053f268326a"
   }, {
     name: 'Twitch',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/twitch.svg',
-    mpid: "8b0bc6bd-878b-47bd-b09b-1fe3c13c9bb0"
+    mpid: "69c888e2-8690-4206-b7d3-4f8a303b0429"
   }, {
     name: 'Reddit',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/reddit.svg',
-    mpid: "9c8bb217-78e4-459a-b79b-6502a39980af"
+    mpid: "39836490-e343-4da7-bb13-30ce9820a20c"
   }, {
     name: 'Vercel',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/vercel.svg',
-    mpid: "1c61e71a-ff8e-4c2a-bf31-e814c454a81e"
+    mpid: "3cfffc7a-537c-4bc2-ac72-cfb63205d3bb"
   }] as any[];
 
   // Duplicate arrays for seamless infinite scroll effect
   const duplicatedFirstRow = [...firstRowBrands, ...firstRowBrands, ...firstRowBrands];
   const duplicatedSecondRow = [...secondRowBrands, ...secondRowBrands, ...secondRowBrands];
   return <section ref={sectionRef} className="py-32 px-6 bg-white overflow-hidden" data-magicpath-id="0" data-magicpath-path="CustomerCarouselSection.tsx">
-      <div className="max-w-7xl mx-auto" data-magicpath-id="1" data-magicpath-path="CustomerCarouselSection.tsx">
+      <div className="w-full max-w-none mx-auto" data-magicpath-id="1" data-magicpath-path="CustomerCarouselSection.tsx">
         {/* Section Header */}
-        <motion.div className="text-center mb-20" initial={{
+        <motion.div className="text-center mb-20 max-w-7xl mx-auto" initial={{
         opacity: 0,
         y: 40
       }} whileInView={{
@@ -179,10 +179,10 @@ const CustomerCarouselSection: React.FC = () => {
         </motion.div>
 
         {/* Brand Carousel with Scroll Animation */}
-        <div className="relative" data-magicpath-id="7" data-magicpath-path="CustomerCarouselSection.tsx">
+        <div className="relative w-full" data-magicpath-id="7" data-magicpath-path="CustomerCarouselSection.tsx">
           {/* First row - moves left to right on scroll down */}
-          <div className="relative mb-8 overflow-hidden" data-magicpath-id="8" data-magicpath-path="CustomerCarouselSection.tsx">
-            <motion.div className="flex gap-8 w-fit" style={{
+          <div className="relative mb-8 overflow-hidden w-full" data-magicpath-id="8" data-magicpath-path="CustomerCarouselSection.tsx">
+            <motion.div className="flex gap-8 w-fit min-w-full" style={{
             x: firstRowX
           }} initial={{
             opacity: 0,
@@ -220,8 +220,8 @@ const CustomerCarouselSection: React.FC = () => {
           </div>
 
           {/* Second row - moves right to left on scroll down */}
-          <div className="relative overflow-hidden" data-magicpath-id="17" data-magicpath-path="CustomerCarouselSection.tsx">
-            <motion.div className="flex gap-8 w-fit" style={{
+          <div className="relative overflow-hidden w-full" data-magicpath-id="17" data-magicpath-path="CustomerCarouselSection.tsx">
+            <motion.div className="flex gap-8 w-fit min-w-full" style={{
             x: secondRowX
           }} initial={{
             opacity: 0,
@@ -260,7 +260,7 @@ const CustomerCarouselSection: React.FC = () => {
         </div>
 
         {/* Bottom CTA */}
-        <motion.div className="text-center mt-24" initial={{
+        <motion.div className="text-center mt-24 max-w-7xl mx-auto" initial={{
         opacity: 0,
         y: 40
       }} whileInView={{
