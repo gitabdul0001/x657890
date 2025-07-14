@@ -9,11 +9,11 @@ const HeroSection: React.FC = () => {
   }} data-magicpath-id="0" data-magicpath-path="HeroSection.tsx">
       {/* Top navigation */}
       <nav className="absolute top-6 right-6 z-10" data-magicpath-id="1" data-magicpath-path="HeroSection.tsx">
-        <div className="flex gap-4" data-magicpath-id="2" data-magicpath-path="HeroSection.tsx">
-          <button className="inline-block px-12 py-4 bg-primary-900 text-white text-xl font-semibold rounded-full hover:bg-jive-green focus:ring-4 focus:ring-jive-teal/30 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 transition-all duration-300 text-center" data-magicpath-id="3" data-magicpath-path="HeroSection.tsx">
+        <div className="flex gap-3" data-magicpath-id="2" data-magicpath-path="HeroSection.tsx">
+          <button className="inline-block px-8 py-2.5 bg-white text-gray-900 text-sm font-medium rounded-full hover:bg-[#fe8363] hover:text-white focus:ring-4 focus:ring-[#fe8363]/30 transition-all duration-300 text-center border border-gray-200" data-magicpath-id="3" data-magicpath-path="HeroSection.tsx">
             Login
           </button>
-          <button className="inline-block px-12 py-4 bg-primary-900 text-white text-xl font-semibold rounded-full hover:bg-jive-green focus:ring-4 focus:ring-jive-teal/30 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 transition-all duration-300 text-center" data-magicpath-id="4" data-magicpath-path="HeroSection.tsx">
+          <button className="inline-block px-8 py-2.5 bg-gray-900 text-white text-sm font-medium rounded-full hover:bg-[#8b7fff] focus:ring-4 focus:ring-[#8b7fff]/30 transition-all duration-300 text-center" data-magicpath-id="4" data-magicpath-path="HeroSection.tsx">
             Sign up
           </button>
         </div>
