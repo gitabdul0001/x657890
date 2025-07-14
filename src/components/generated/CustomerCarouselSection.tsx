@@ -5,51 +5,51 @@ const CustomerCarouselSection: React.FC = () => {
   const customers = [{
     name: 'Slack',
     logo: '💬',
-    mpid: "62963cca-989b-46ef-94c5-063f5bf09e48"
+    mpid: "819a151d-f2c4-4df4-b5b8-eea9b745c185"
   }, {
     name: 'Notion',
     logo: '📝',
-    mpid: "ceb749c8-0c46-4209-8618-333cdced588e"
+    mpid: "d24f4e48-cefa-4b9d-8cc5-08ece584eca3"
   }, {
     name: 'Figma',
     logo: '🎨',
-    mpid: "2af7f025-09a1-4998-b220-21264cf48f9b"
+    mpid: "312e8413-3077-4370-b9ef-13429377d6aa"
   }, {
     name: 'GitHub',
     logo: '🐙',
-    mpid: "7e0360d5-8b0c-4af1-898a-e02deb3a3250"
+    mpid: "beb0a765-a506-4895-98a8-c21beee86104"
   }, {
     name: 'Discord',
     logo: '🎮',
-    mpid: "da989f45-93d4-4b97-944c-922c4f13203d"
+    mpid: "c6aefe28-183b-40a5-a6fd-b08e6a0715a4"
   }, {
     name: 'Spotify',
     logo: '🎵',
-    mpid: "c831e9e3-3ba8-46b1-ad59-51c47960acb0"
+    mpid: "f74da2ff-4178-45a9-86be-779b6e585088"
   }, {
     name: 'Netflix',
     logo: '🎬',
-    mpid: "ead2b57b-8196-4696-9c95-6717e4c395e6"
+    mpid: "bbba9288-db8b-4b8f-8732-c274000b5ab7"
   }, {
     name: 'Airbnb',
     logo: '🏠',
-    mpid: "0b77c01c-2bf8-4b81-aa5b-958444fc17df"
+    mpid: "d4d7505f-dbf3-4657-b4d2-132a3766e48f"
   }, {
     name: 'Uber',
     logo: '🚗',
-    mpid: "04e83637-25b6-48c1-b8fe-f0c1cad64a53"
+    mpid: "c63a91bc-3fc1-4e32-ad1c-d1498c6ef4c9"
   }, {
     name: 'Stripe',
     logo: '💳',
-    mpid: "5df243c2-d8e9-4edf-8a3a-2eac5bc5e285"
+    mpid: "991c54c3-fed1-4134-92f2-139b4416ff2d"
   }, {
     name: 'Zoom',
     logo: '📹',
-    mpid: "75afacbf-5203-46cb-8a70-cdc400c52df0"
+    mpid: "e6dee203-a064-4b26-b7bf-1a40489b1439"
   }, {
     name: 'Dropbox',
     logo: '📦',
-    mpid: "137ec185-2c38-4ede-b9f3-bbfa690f963b"
+    mpid: "ccaa6cc7-6859-4a21-815f-b24a6eed73e4"
   }] as any[];
 
   // Duplicate for seamless infinite scroll
