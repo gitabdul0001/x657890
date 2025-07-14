@@ -1,175 +1,153 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import React, { useEffect, useState, useRef } from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 const CustomerCarouselSection: React.FC = () => {
-  const [scrollY, setScrollY] = useState(0);
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  const sectionRef = useRef<HTMLElement>(null);
+  const {
+    scrollYProgress
+  } = useScroll({
+    target: sectionRef,
+    offset: ["start end", "end start"]
+  });
 
-  // Extended brand lists with more logos for smooth animation
-  const brands = [{
+  // Transform scroll progress to pixel values for smooth animation
+  const firstRowX = useTransform(scrollYProgress, [0, 1], [-400, 400]);
+  const secondRowX = useTransform(scrollYProgress, [0, 1], [400, -400]);
+
+  // Extended brand lists with premium tech companies
+  const firstRowBrands = [{
     name: 'Microsoft',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/microsoft.svg',
-    mpid: "e98d7b14-2ead-49cd-9715-b5bf7f2970b4"
+    mpid: "5e364cfb-2fd0-4d45-a859-cc78fb739cc7"
   }, {
     name: 'Google',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/google.svg',
-    mpid: "866504fa-cbce-4f87-b2ea-3b0e3cae1590"
+    mpid: "3d47d820-74c5-4dee-b089-955b3214a6fc"
   }, {
     name: 'Apple',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/apple.svg',
-    mpid: "475ed023-599c-48df-838d-b0462cda0d8b"
+    mpid: "0bff7c24-8210-42d2-9beb-7d541dfdbbbd"
   }, {
     name: 'Amazon',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/amazon.svg',
-    mpid: "d0d01405-1491-4111-b0f5-d689992f73c3"
+    mpid: "efbbedbd-a292-475d-9e0e-b583832bb928"
   }, {
     name: 'Netflix',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/netflix.svg',
-    mpid: "d2b454d7-fb71-407c-aed2-f03f22bd1c1a"
+    mpid: "5f76cbb0-a3f2-4cd1-8498-edb8a02ad9ba"
   }, {
     name: 'Spotify',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/spotify.svg',
-    mpid: "37b6d379-42fb-4795-9be9-e5b11ca33947"
+    mpid: "243c4e07-6fdc-41ef-8a5d-284ef1f02ef9"
   }, {
     name: 'Slack',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/slack.svg',
-    mpid: "d1d5b2ea-db7a-43b3-9f47-f901e06917ce"
+    mpid: "0de9028f-cb3a-4245-8b09-4f02ff035d30"
   }, {
     name: 'GitHub',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/github.svg',
-    mpid: "d862df00-6c33-4ae3-bde9-fbd55a5297b0"
+    mpid: "db9f2d60-530b-4ed5-83af-affa86775972"
   }, {
     name: 'Zoom',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/zoom.svg',
-    mpid: "15a5d796-b822-42e1-accb-31f5e2158d6c"
+    mpid: "2341fbc8-c98f-495c-8af9-bdba89605330"
   }, {
     name: 'Dropbox',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/dropbox.svg',
-    mpid: "1e7a0573-c56f-41ac-b982-4005520678e1"
+    mpid: "3dde200f-1005-4372-96c9-5ff1ceac710a"
   }, {
     name: 'Adobe',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/adobe.svg',
-    mpid: "a61b8266-c75f-4ab3-8cfb-5642cebea2cd"
+    mpid: "d8b317f6-5ecc-4901-a620-b09301459838"
   }, {
     name: 'Tesla',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/tesla.svg',
-    mpid: "398e03bf-981c-4733-9a6d-f10a72d11cdf"
+    mpid: "b1866cff-fd15-48e6-a8cc-33a9f5bfbaf5"
   }, {
     name: 'Airbnb',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/airbnb.svg',
-    mpid: "b4ab19d7-49c3-48b6-b603-33fc57251ea0"
+    mpid: "c35ef6d2-6c2d-4bb6-ac35-b6323e327c83"
   }, {
     name: 'Uber',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/uber.svg',
-    mpid: "6ed3910c-1880-42aa-bf8a-7f3c6e5ba978"
+    mpid: "b3b6d688-9d78-43bd-8978-66f2219608d2"
   }, {
     name: 'Twitter',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/twitter.svg',
-    mpid: "ed865e58-ec0b-49a4-a211-8152748c2568"
-  }, {
-    name: 'Instagram',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/instagram.svg',
-    mpid: "0ef59f0b-fb26-4c18-9a97-4d0443162d42"
-  }, {
-    name: 'YouTube',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/youtube.svg',
-    mpid: "6897c9e7-3fe2-47d1-bdaf-326a86afdbfd"
-  }, {
-    name: 'TikTok',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/tiktok.svg',
-    mpid: "d8b233f1-8e2d-401a-9361-5404ca3c8602"
+    mpid: "86ec376a-95a6-4267-8da6-c295f46cc583"
   }] as any[];
   const secondRowBrands = [{
     name: 'Meta',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/meta.svg',
-    mpid: "ed93a6d0-0eb4-4cbd-88a2-8ca42c4c0c26"
+    mpid: "1f74c6e1-a44f-468d-8625-0356ba5163cc"
   }, {
     name: 'LinkedIn',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/linkedin.svg',
-    mpid: "49d97653-7c89-4537-88f1-6c6200c9b194"
+    mpid: "508377e4-58fe-4b0e-a04b-0e0209557771"
   }, {
     name: 'PayPal',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/paypal.svg',
-    mpid: "b7365a2a-079a-46ef-9928-8f1763ea1af5"
-  }, {
-    name: 'Stripe',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/stripe.svg',
-    mpid: "b1580c37-28fa-49ba-867e-f4b9d3b0daf6"
-  }, {
-    name: 'Shopify',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/shopify.svg',
-    mpid: "f13728fd-1168-4679-b6e0-67c92c5bf599"
+    mpid: "75b218b5-78e7-425e-9771-77732e9a0296"
   }, {
     name: 'Discord',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/discord.svg',
-    mpid: "55a20e39-6e06-4ce8-8cd8-c2f8e91c73c9"
+    mpid: "f21dd758-24f5-4a62-ab21-206253b161f3"
   }, {
     name: 'Notion',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/notion.svg',
-    mpid: "cee6cbba-ba57-4242-8eab-9a14ea38f81c"
+    mpid: "60a4c87d-f89c-4573-9700-e76b4630cb1e"
   }, {
     name: 'Figma',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/figma.svg',
-    mpid: "7e1b3073-c410-4e1d-ae2b-697c1d3f94ef"
+    mpid: "e4f45d07-82e3-431b-b0df-b9892fe4aa47"
   }, {
     name: 'Canva',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/canva.svg',
-    mpid: "1a7fa048-5638-4d53-aa2d-1b121a1f481c"
+    mpid: "8cceb40f-bf3d-4434-8497-bd83e622cb55"
   }, {
     name: 'Trello',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/trello.svg',
-    mpid: "621bfe7d-9984-46ef-b8f2-93f9d001bfe4"
+    mpid: "74d266cf-ced7-4100-bd4b-9b79d0d6daa6"
   }, {
     name: 'Asana',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/asana.svg',
-    mpid: "d153c09a-3509-48c5-896f-2ed0c67ede4a"
+    mpid: "9592fa44-f799-49fb-bdfb-98fc44fe8d29"
   }, {
     name: 'Salesforce',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/salesforce.svg',
-    mpid: "0aa89feb-f9ee-4c55-95aa-2a23226af105"
+    mpid: "4941cd44-75bf-4c44-9304-699843c1ca5f"
   }, {
     name: 'HubSpot',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/hubspot.svg',
-    mpid: "e3440ad3-a910-4f60-ba59-97ea01b589d1"
+    mpid: "5b042456-4fdf-4ceb-a592-95c110227816"
   }, {
     name: 'Mailchimp',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/mailchimp.svg',
-    mpid: "79e74bd4-c725-43ae-9096-194e93be3d66"
+    mpid: "83fc4d90-5a9f-48e5-922a-4e04b67fa2cd"
   }, {
     name: 'Twitch',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/twitch.svg',
-    mpid: "05cf763b-4c22-4359-b205-e6ce630c0e43"
+    mpid: "8b634367-3181-482c-80d0-73e0e6017a5e"
   }, {
     name: 'Reddit',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/reddit.svg',
-    mpid: "62e04da5-aad6-4fd7-98ce-3f060fad723f"
+    mpid: "fe1bcf25-5689-4a8d-967b-370b81829a4f"
   }, {
-    name: 'Pinterest',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/pinterest.svg',
-    mpid: "a3c2c06e-459a-4a30-92d6-e87747d7005e"
-  }, {
-    name: 'Snapchat',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/snapchat.svg',
-    mpid: "981469bb-cc69-42d5-b125-65e9e1293cc8"
+    name: 'Vercel',
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/vercel.svg',
+    mpid: "78860ad7-9081-49d6-9705-6ff9e5605ea6"
   }] as any[];
 
-  // Calculate transform values based on scroll
-  const firstRowTransform = scrollY * 0.3; // Move right on scroll down
-  const secondRowTransform = -scrollY * 0.3; // Move left on scroll down
-
-  return <section className="py-24 px-6 bg-white" data-magicpath-id="0" data-magicpath-path="CustomerCarouselSection.tsx">
+  // Duplicate arrays for seamless infinite scroll effect
+  const duplicatedFirstRow = [...firstRowBrands, ...firstRowBrands, ...firstRowBrands];
+  const duplicatedSecondRow = [...secondRowBrands, ...secondRowBrands, ...secondRowBrands];
+  return <section ref={sectionRef} className="py-32 px-6 bg-gradient-to-b from-slate-50 to-white overflow-hidden" data-magicpath-id="0" data-magicpath-path="CustomerCarouselSection.tsx">
       <div className="max-w-7xl mx-auto" data-magicpath-id="1" data-magicpath-path="CustomerCarouselSection.tsx">
         {/* Section Header */}
-        <motion.div className="text-center mb-16" initial={{
+        <motion.div className="text-center mb-20" initial={{
         opacity: 0,
-        y: 30
+        y: 40
       }} whileInView={{
         opacity: 1,
         y: 0
@@ -179,90 +157,111 @@ const CustomerCarouselSection: React.FC = () => {
       }} viewport={{
         once: true
       }} data-magicpath-id="2" data-magicpath-path="CustomerCarouselSection.tsx">
-          <div className="flex items-center justify-center gap-4 mb-6" data-magicpath-id="3" data-magicpath-path="CustomerCarouselSection.tsx">
-            <img src="https://www.todesktop.com/_app/immutable/assets/pointing-arrow.hZqSxAwL.svg" alt="pointing arrow" className="inline w-6 h-6" data-magicpath-id="4" data-magicpath-path="CustomerCarouselSection.tsx" />
-            <h2 className="text-2xl md:text-3xl font-inter font-semibold text-gray-800 tracking-wider uppercase" data-magicpath-id="5" data-magicpath-path="CustomerCarouselSection.tsx">
-              Brands that love Reaxo
+          <div className="flex items-center justify-center gap-6 mb-8" data-magicpath-id="3" data-magicpath-path="CustomerCarouselSection.tsx">
+            <motion.img src="https://www.todesktop.com/_app/immutable/assets/pointing-arrow.hZqSxAwL.svg" alt="pointing arrow" className="w-8 h-8 opacity-60" animate={{
+            x: [-2, 2, -2]
+          }} transition={{
+            duration: 2,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }} data-magicpath-id="4" data-magicpath-path="CustomerCarouselSection.tsx" />
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-slate-800 tracking-wide" data-magicpath-id="5" data-magicpath-path="CustomerCarouselSection.tsx">
+              Trusted by industry leaders
             </h2>
-            <img src="https://www.todesktop.com/_app/immutable/assets/pointing-arrow.hZqSxAwL.svg" alt="pointing arrow" className="inline transform scale-x-[-1] w-6 h-6" data-magicpath-id="6" data-magicpath-path="CustomerCarouselSection.tsx" />
+            <motion.img src="https://www.todesktop.com/_app/immutable/assets/pointing-arrow.hZqSxAwL.svg" alt="pointing arrow" className="w-8 h-8 opacity-60 transform scale-x-[-1]" animate={{
+            x: [2, -2, 2]
+          }} transition={{
+            duration: 2,
+            repeat: Infinity,
+            ease: "easeInOut"
+          }} data-magicpath-id="6" data-magicpath-path="CustomerCarouselSection.tsx" />
           </div>
+          <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed" data-magicpath-id="7" data-magicpath-path="CustomerCarouselSection.tsx">
+            Join thousands of companies that rely on Reaxo to streamline their workflows and accelerate growth
+          </p>
         </motion.div>
 
-        {/* Brand Grid with Scroll Animation */}
-        <div className="relative overflow-hidden" data-magicpath-id="7" data-magicpath-path="CustomerCarouselSection.tsx">
-          <div className="relative flex w-full flex-col items-center gap-4" data-magicpath-id="8" data-magicpath-path="CustomerCarouselSection.tsx">
-            {/* First row of logos - moves left to right on scroll down */}
-            <motion.div className="flex w-fit flex-nowrap" style={{
-            transform: `translateX(${68.88 + firstRowTransform}px)`,
-            transition: 'none'
+        {/* Brand Carousel with Scroll Animation */}
+        <div className="relative" data-magicpath-id="8" data-magicpath-path="CustomerCarouselSection.tsx">
+          {/* First row - moves left to right on scroll down */}
+          <div className="relative mb-8 overflow-hidden" data-magicpath-id="9" data-magicpath-path="CustomerCarouselSection.tsx">
+            <motion.div className="flex gap-8 w-fit" style={{
+            x: firstRowX
           }} initial={{
             opacity: 0,
-            y: 20
+            y: 30
           }} whileInView={{
             opacity: 1,
             y: 0
           }} transition={{
-            duration: 0.6,
+            duration: 0.8,
             delay: 0.2
           }} viewport={{
             once: true
-          }} data-magicpath-id="9" data-magicpath-path="CustomerCarouselSection.tsx">
-              <div className="flex w-fit gap-4" data-magicpath-id="10" data-magicpath-path="CustomerCarouselSection.tsx">
-                {brands.map((brand, index) => <motion.div key={`${brand.name}-${index}`} className="flex h-24 w-24 flex-none flex-col items-center justify-center gap-2 rounded-xl border border-gray-300 bg-[#fcfcf9] lg:h-32 lg:w-32 hover:shadow-lg transition-all duration-300" whileHover={{
-                scale: 1.05,
-                y: -2
-              }} transition={{
-                duration: 0.2
-              }} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="11" data-magicpath-path="CustomerCarouselSection.tsx">
-                    <div className="h-12 w-12 lg:h-16 lg:w-16" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="12" data-magicpath-path="CustomerCarouselSection.tsx">
-                      <img alt={`${brand.name} app icon`} className="block h-12 w-12 lg:h-16 lg:w-16 object-contain filter brightness-0" loading="lazy" src={brand.logo} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:string" data-magicpath-id="13" data-magicpath-path="CustomerCarouselSection.tsx" />
+          }} data-magicpath-id="10" data-magicpath-path="CustomerCarouselSection.tsx">
+              {duplicatedFirstRow.map((brand, index) => <motion.div key={`first-${brand.name}-${index}`} className="flex-none" whileHover={{
+              y: -8
+            }} transition={{
+              duration: 0.3,
+              ease: "easeOut"
+            }} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="11" data-magicpath-path="CustomerCarouselSection.tsx">
+                  <div className="group relative w-28 h-28 lg:w-36 lg:h-36 bg-white rounded-2xl border border-slate-200/60 shadow-sm hover:shadow-xl transition-all duration-500 flex items-center justify-center backdrop-blur-sm" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="12" data-magicpath-path="CustomerCarouselSection.tsx">
+                    <div className="absolute inset-0 bg-gradient-to-br from-white/80 to-slate-50/40 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="13" data-magicpath-path="CustomerCarouselSection.tsx" />
+                    <div className="relative z-10 flex flex-col items-center gap-3" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="14" data-magicpath-path="CustomerCarouselSection.tsx">
+                      <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="15" data-magicpath-path="CustomerCarouselSection.tsx">
+                        <img alt={`${brand.name} logo`} className="w-full h-full object-contain filter brightness-0 opacity-70 group-hover:opacity-90 transition-all duration-300" loading="lazy" src={brand.logo} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:unknown" data-magicpath-id="16" data-magicpath-path="CustomerCarouselSection.tsx" />
+                      </div>
+                      <span className="text-xs lg:text-sm font-medium text-slate-600 group-hover:text-slate-800 transition-colors duration-300" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="17" data-magicpath-path="CustomerCarouselSection.tsx">
+                        {brand.name}
+                      </span>
                     </div>
-                    <div className="font-display text-[12px] lg:text-[16px] text-gray-700 font-medium" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:string" data-magicpath-id="14" data-magicpath-path="CustomerCarouselSection.tsx">
-                      {brand.name}
-                    </div>
-                  </motion.div>)}
-              </div>
+                  </div>
+                </motion.div>)}
             </motion.div>
+          </div>
 
-            {/* Second row of logos - moves right to left on scroll down */}
-            <motion.div className="flex w-fit flex-nowrap" style={{
-            transform: `translateX(${-68.88 + secondRowTransform}px)`,
-            transition: 'none'
+          {/* Second row - moves right to left on scroll down */}
+          <div className="relative overflow-hidden" data-magicpath-id="18" data-magicpath-path="CustomerCarouselSection.tsx">
+            <motion.div className="flex gap-8 w-fit" style={{
+            x: secondRowX
           }} initial={{
             opacity: 0,
-            y: 20
+            y: 30
           }} whileInView={{
             opacity: 1,
             y: 0
           }} transition={{
-            duration: 0.6,
+            duration: 0.8,
             delay: 0.4
           }} viewport={{
             once: true
-          }} data-magicpath-id="15" data-magicpath-path="CustomerCarouselSection.tsx">
-              <div className="flex w-fit gap-4" data-magicpath-id="16" data-magicpath-path="CustomerCarouselSection.tsx">
-                {secondRowBrands.map((brand, index) => <motion.div key={`${brand.name}-${index}`} className="flex h-24 w-24 flex-none flex-col items-center justify-center gap-2 rounded-xl border border-gray-300 bg-[#fcfcf9] lg:h-32 lg:w-32 hover:shadow-lg transition-all duration-300" whileHover={{
-                scale: 1.05,
-                y: -2
-              }} transition={{
-                duration: 0.2
-              }} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="17" data-magicpath-path="CustomerCarouselSection.tsx">
-                    <div className="h-12 w-12 lg:h-16 lg:w-16" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="18" data-magicpath-path="CustomerCarouselSection.tsx">
-                      <img alt={`${brand.name} app icon`} className="block h-12 w-12 lg:h-16 lg:w-16 object-contain filter brightness-0" loading="lazy" src={brand.logo} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:string" data-magicpath-id="19" data-magicpath-path="CustomerCarouselSection.tsx" />
+          }} data-magicpath-id="19" data-magicpath-path="CustomerCarouselSection.tsx">
+              {duplicatedSecondRow.map((brand, index) => <motion.div key={`second-${brand.name}-${index}`} className="flex-none" whileHover={{
+              y: -8
+            }} transition={{
+              duration: 0.3,
+              ease: "easeOut"
+            }} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="20" data-magicpath-path="CustomerCarouselSection.tsx">
+                  <div className="group relative w-28 h-28 lg:w-36 lg:h-36 bg-white rounded-2xl border border-slate-200/60 shadow-sm hover:shadow-xl transition-all duration-500 flex items-center justify-center backdrop-blur-sm" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="21" data-magicpath-path="CustomerCarouselSection.tsx">
+                    <div className="absolute inset-0 bg-gradient-to-br from-white/80 to-slate-50/40 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="22" data-magicpath-path="CustomerCarouselSection.tsx" />
+                    <div className="relative z-10 flex flex-col items-center gap-3" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="23" data-magicpath-path="CustomerCarouselSection.tsx">
+                      <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="24" data-magicpath-path="CustomerCarouselSection.tsx">
+                        <img alt={`${brand.name} logo`} className="w-full h-full object-contain filter brightness-0 opacity-70 group-hover:opacity-90 transition-all duration-300" loading="lazy" src={brand.logo} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:unknown" data-magicpath-id="25" data-magicpath-path="CustomerCarouselSection.tsx" />
+                      </div>
+                      <span className="text-xs lg:text-sm font-medium text-slate-600 group-hover:text-slate-800 transition-colors duration-300" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="26" data-magicpath-path="CustomerCarouselSection.tsx">
+                        {brand.name}
+                      </span>
                     </div>
-                    <div className="font-display text-[12px] lg:text-[16px] text-gray-700 font-medium" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:string" data-magicpath-id="20" data-magicpath-path="CustomerCarouselSection.tsx">
-                      {brand.name}
-                    </div>
-                  </motion.div>)}
-              </div>
+                  </div>
+                </motion.div>)}
             </motion.div>
           </div>
         </div>
 
         {/* Bottom CTA */}
-        <motion.div className="text-center mt-20" initial={{
+        <motion.div className="text-center mt-24" initial={{
         opacity: 0,
-        y: 30
+        y: 40
       }} whileInView={{
         opacity: 1,
         y: 0
@@ -272,16 +271,28 @@ const CustomerCarouselSection: React.FC = () => {
         ease: "easeOut"
       }} viewport={{
         once: true
-      }} data-magicpath-id="21" data-magicpath-path="CustomerCarouselSection.tsx">
-          <p className="text-lg text-gray-600 mb-8" data-magicpath-id="22" data-magicpath-path="CustomerCarouselSection.tsx">
-            Ready to join them?
+      }} data-magicpath-id="27" data-magicpath-path="CustomerCarouselSection.tsx">
+          <p className="text-xl text-slate-600 mb-10 font-light" data-magicpath-id="28" data-magicpath-path="CustomerCarouselSection.tsx">
+            Ready to join the leaders?
           </p>
-          <motion.button className="px-10 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl" whileHover={{
-          scale: 1.05
+          <motion.button className="group relative px-12 py-5 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white text-lg font-medium rounded-2xl overflow-hidden transition-all duration-300 shadow-lg hover:shadow-2xl" whileHover={{
+          scale: 1.02,
+          y: -2
         }} whileTap={{
-          scale: 0.95
-        }} data-magicpath-id="23" data-magicpath-path="CustomerCarouselSection.tsx">
-            Start your free trial
+          scale: 0.98
+        }} data-magicpath-id="29" data-magicpath-path="CustomerCarouselSection.tsx">
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-purple-600/20 to-blue-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" data-magicpath-id="30" data-magicpath-path="CustomerCarouselSection.tsx" />
+            <span className="relative z-10" data-magicpath-id="31" data-magicpath-path="CustomerCarouselSection.tsx">
+              Start your journey today
+            </span>
+            <motion.div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent" initial={{
+            x: '-100%'
+          }} whileHover={{
+            x: '100%'
+          }} transition={{
+            duration: 0.6,
+            ease: "easeInOut"
+          }} data-magicpath-id="32" data-magicpath-path="CustomerCarouselSection.tsx" />
           </motion.button>
         </motion.div>
       </div>
