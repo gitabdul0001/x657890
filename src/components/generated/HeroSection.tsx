@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 const HeroSection: React.FC = () => {
-  return <section className="relative min-h-screen overflow-hidden bg-cover bg-center bg-no-repeat" style={{
-    backgroundImage: 'url(https://raw.githubusercontent.com/gitabdul0001/example/refs/heads/main/Untitled%20(Website).svg)'
+  const [backgroundLoaded, setBackgroundLoaded] = useState(false);
+  useEffect(() => {
+    // Preload the SVG background
+    const img = new Image();
+    img.onload = () => setBackgroundLoaded(true);
+    img.src = 'https://raw.githubusercontent.com/gitabdul0001/example/refs/heads/main/Untitled%20(Website).svg';
+  }, []);
+  return <section className="relative min-h-screen overflow-hidden" style={{
+    backgroundImage: backgroundLoaded ? 'url(https://raw.githubusercontent.com/gitabdul0001/example/refs/heads/main/Untitled%20(Website).svg)' : 'none',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundColor: backgroundLoaded ? 'transparent' : '#f8fafc'
   }} data-magicpath-id="0" data-magicpath-path="HeroSection.tsx">
       {/* Top navigation */}
       <nav className="absolute top-6 right-6 z-10" data-magicpath-id="1" data-magicpath-path="HeroSection.tsx">
@@ -65,6 +76,11 @@ const HeroSection: React.FC = () => {
           </motion.a>
         </div>
       </div>
+
+      {/* Loading indicator while background loads */}
+      {!backgroundLoaded && <div className="absolute inset-0 flex items-center justify-center bg-gray-50" data-magicpath-id="10" data-magicpath-path="HeroSection.tsx">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600" data-magicpath-id="11" data-magicpath-path="HeroSection.tsx"></div>
+        </div>}
     </section>;
 };
 export default HeroSection;
