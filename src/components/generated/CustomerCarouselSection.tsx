@@ -6,122 +6,122 @@ const CustomerCarouselSection: React.FC = () => {
   const brands = [{
     name: 'Microsoft',
     logo: 'https://logo.clearbit.com/microsoft.com',
-    mpid: "c72e8cbb-1c98-400c-8327-1ea84ca20254"
+    mpid: "324ee21c-f291-468b-a161-5876d456d73e"
   }, {
     name: 'Google',
     logo: 'https://logo.clearbit.com/google.com',
-    mpid: "c02c0707-64cc-480e-b930-1c25022f8d57"
+    mpid: "ce1eed54-de66-4c1b-821b-96319deb6189"
   }, {
     name: 'Apple',
     logo: 'https://logo.clearbit.com/apple.com',
-    mpid: "e22531d5-aee0-4638-b11c-a826c9b9f7bf"
+    mpid: "56d9fc58-4877-4c3b-93ea-86656750d0a4"
   }, {
     name: 'Amazon',
     logo: 'https://logo.clearbit.com/amazon.com',
-    mpid: "5fa3b11c-6d89-45d8-89e4-d3e27c2e3133"
+    mpid: "412fdd11-6825-4f5c-a5c4-8bd9cd0aef3f"
   }, {
     name: 'Netflix',
     logo: 'https://logo.clearbit.com/netflix.com',
-    mpid: "96924b20-2e82-43e1-aa9d-005b9fd12d26"
+    mpid: "60f30624-8742-4358-802a-8a45080e2157"
   }, {
     name: 'Spotify',
     logo: 'https://logo.clearbit.com/spotify.com',
-    mpid: "f9f3f52a-c376-44d3-aa69-85674d427b59"
+    mpid: "80528bbe-e24a-4189-9b8f-18fad1219cb5"
   }, {
     name: 'Slack',
     logo: 'https://logo.clearbit.com/slack.com',
-    mpid: "7e2f42d5-85cb-4cc6-bbe6-4d4a39ba4fd8"
+    mpid: "44ab93c6-7e00-43d3-8d12-bda34726a8ed"
   }, {
     name: 'GitHub',
     logo: 'https://logo.clearbit.com/github.com',
-    mpid: "577282d1-dd61-4600-9536-f197efd4851d"
+    mpid: "84e1a09c-a0b3-48e1-991d-9a62ea2b5d5b"
   }, {
     name: 'Zoom',
     logo: 'https://logo.clearbit.com/zoom.us',
-    mpid: "ae2d4b11-a87f-4015-91a0-53f66dd0b5fc"
+    mpid: "37f2f626-0137-4062-a1d5-083384eb2bed"
   }, {
     name: 'Dropbox',
     logo: 'https://logo.clearbit.com/dropbox.com',
-    mpid: "919c059c-6790-482a-8db2-c9704fa59b36"
+    mpid: "5da6bce9-565f-4169-b71c-00aa74fdca83"
   }, {
     name: 'Adobe',
     logo: 'https://logo.clearbit.com/adobe.com',
-    mpid: "2627e112-1817-4c92-9e1e-cea6b914d236"
+    mpid: "c6a511a1-3127-4634-ba57-7a2a984100e3"
   }, {
     name: 'Tesla',
     logo: 'https://logo.clearbit.com/tesla.com',
-    mpid: "e1a34fe8-9866-4c91-93a0-55c504a7b7bc"
+    mpid: "e669e9b3-cbfa-481c-bcc4-9234a807dcf1"
   }, {
     name: 'Airbnb',
     logo: 'https://logo.clearbit.com/airbnb.com',
-    mpid: "a9c541aa-0e5a-4e27-b384-5a4d4fed743e"
+    mpid: "e53ad697-5b11-4dc7-b1f3-af3d13b8bc34"
   }, {
     name: 'Uber',
     logo: 'https://logo.clearbit.com/uber.com',
-    mpid: "fb056579-cc5a-4fc0-b9f0-6123845a63ca"
+    mpid: "72db4f6c-34d7-41f2-9b36-0b7e6217b759"
   }, {
     name: 'Twitter',
     logo: 'https://logo.clearbit.com/twitter.com',
-    mpid: "0788fa6d-ad94-4cc8-8752-edeaed4265b3"
+    mpid: "5f073c5f-c6b1-411d-9ee8-411eea398fff"
   }] as any[];
   const secondRowBrands = [{
     name: 'Meta',
     logo: 'https://logo.clearbit.com/meta.com',
-    mpid: "8212b237-f365-47f2-911c-bf140a9d5852"
+    mpid: "467d422a-a189-48f8-b97d-47c5ee69ff89"
   }, {
     name: 'LinkedIn',
     logo: 'https://logo.clearbit.com/linkedin.com',
-    mpid: "608c8ccf-7036-4160-9e53-da5bd5a33ce0"
+    mpid: "6f563700-942e-4a78-8695-b21f2e9faf10"
   }, {
     name: 'PayPal',
     logo: 'https://logo.clearbit.com/paypal.com',
-    mpid: "5646e8b5-bdb5-46d1-bb8b-119bbd01e24a"
+    mpid: "e2893cf1-ff19-4e44-b26c-e0384c720353"
   }, {
     name: 'Stripe',
     logo: 'https://logo.clearbit.com/stripe.com',
-    mpid: "5be7818a-e351-4603-80a1-5aa2addcd074"
+    mpid: "4892585f-eb08-478f-8496-bdc45e6923cf"
   }, {
     name: 'Shopify',
     logo: 'https://logo.clearbit.com/shopify.com',
-    mpid: "4719534c-01e7-498b-b157-d84e4743b3fe"
+    mpid: "a025e50a-22ab-4c14-877b-b89840328424"
   }, {
     name: 'Discord',
     logo: 'https://logo.clearbit.com/discord.com',
-    mpid: "92c491f4-67e5-4226-a7bd-c505b396f677"
+    mpid: "b336f801-6cea-4c5a-b555-5e608245dfa7"
   }, {
     name: 'Notion',
     logo: 'https://logo.clearbit.com/notion.so',
-    mpid: "d342323d-6398-4a2c-b3aa-c9a7e9148982"
+    mpid: "a817b906-5ed5-47f3-976c-9a58c9871a7d"
   }, {
     name: 'Figma',
     logo: 'https://logo.clearbit.com/figma.com',
-    mpid: "7f299e42-e01b-40b9-a7f1-833d909c7e6a"
+    mpid: "5dc38dbd-1032-47d3-9f9d-ae93c983e166"
   }, {
     name: 'Canva',
     logo: 'https://logo.clearbit.com/canva.com',
-    mpid: "f94e646b-0483-46c2-b54f-35c08f901bfe"
+    mpid: "9cb6d8b5-9b12-4204-993f-a1d27d14cd2c"
   }, {
     name: 'Trello',
     logo: 'https://logo.clearbit.com/trello.com',
-    mpid: "f7a4e67f-6336-4c99-8128-12b06757839d"
+    mpid: "d217ba3f-7b4f-456e-accd-b5d35bb64d8f"
   }, {
     name: 'Asana',
     logo: 'https://logo.clearbit.com/asana.com',
-    mpid: "8832f73e-5ee8-4290-b3a4-1faeb1407b30"
+    mpid: "b4fbe5e9-c509-42b9-ab13-946d4604557d"
   }, {
     name: 'Salesforce',
     logo: 'https://logo.clearbit.com/salesforce.com',
-    mpid: "9962ec67-5253-4b72-8a4e-2408f98232fa"
+    mpid: "ae101d16-8c45-4547-8982-8903649f16b2"
   }, {
     name: 'HubSpot',
     logo: 'https://logo.clearbit.com/hubspot.com',
-    mpid: "55d5fdc7-caa8-4a5d-afed-31a9975686fb"
+    mpid: "d14e8c64-e1a0-4374-99cf-e7e28ca65c1c"
   }, {
     name: 'Mailchimp',
     logo: 'https://logo.clearbit.com/mailchimp.com',
-    mpid: "619d21eb-6455-4230-8b94-a29278e35306"
+    mpid: "630bcb14-f16f-449d-943a-4aeb62b59547"
   }] as any[];
-  return <section className="py-24 px-6 bg-gray-50" data-magicpath-id="0" data-magicpath-path="CustomerCarouselSection.tsx">
+  return <section className="py-24 px-6 bg-white" data-magicpath-id="0" data-magicpath-path="CustomerCarouselSection.tsx">
       <div className="max-w-7xl mx-auto" data-magicpath-id="1" data-magicpath-path="CustomerCarouselSection.tsx">
         {/* Section Header */}
         <motion.div className="text-center mb-16" initial={{
@@ -137,11 +137,11 @@ const CustomerCarouselSection: React.FC = () => {
         once: true
       }} data-magicpath-id="2" data-magicpath-path="CustomerCarouselSection.tsx">
           <div className="flex items-center justify-center gap-4 mb-6" data-magicpath-id="3" data-magicpath-path="CustomerCarouselSection.tsx">
-            <span className="text-2xl transform scale-x-[-1]" data-magicpath-id="4" data-magicpath-path="CustomerCarouselSection.tsx">⟨</span>
-            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 tracking-wide uppercase" data-magicpath-id="5" data-magicpath-path="CustomerCarouselSection.tsx">
+            <img src="https://www.todesktop.com/_app/immutable/assets/pointing-arrow.hZqSxAwL.svg" alt="pointing arrow" className="inline w-6 h-6" data-magicpath-id="4" data-magicpath-path="CustomerCarouselSection.tsx" />
+            <h2 className="text-2xl md:text-3xl font-inter font-semibold text-gray-800 tracking-wider uppercase" data-magicpath-id="5" data-magicpath-path="CustomerCarouselSection.tsx">
               Brands that love Reaxo
             </h2>
-            <img src="https://www.todesktop.com/_app/immutable/assets/pointing-arrow.hZqSxAwL.svg" alt="pointing arrow" className="ml-3 inline translate-y-2 transform scale-x-[-1] w-6 h-6" data-magicpath-id="6" data-magicpath-path="CustomerCarouselSection.tsx" />
+            <img src="https://www.todesktop.com/_app/immutable/assets/pointing-arrow.hZqSxAwL.svg" alt="pointing arrow" className="inline transform scale-x-[-1] w-6 h-6" data-magicpath-id="6" data-magicpath-path="CustomerCarouselSection.tsx" />
           </div>
         </motion.div>
 
@@ -164,16 +164,16 @@ const CustomerCarouselSection: React.FC = () => {
               <div className="flex w-fit gap-4" style={{
               transform: 'translateX(68.88px)'
             }} data-magicpath-id="10" data-magicpath-path="CustomerCarouselSection.tsx">
-                {brands.map((brand, index) => <motion.div key={brand.name} className="flex h-24 w-24 flex-none flex-col items-center justify-center gap-2 rounded-xl border border-gray-300 bg-white lg:h-32 lg:w-32 hover:shadow-lg transition-all duration-300" whileHover={{
+                {brands.map((brand, index) => <motion.div key={brand.name} className="flex h-24 w-24 flex-none flex-col items-center justify-center gap-2 rounded-xl border border-gray-300 bg-[#fcfcf9] lg:h-32 lg:w-32 hover:shadow-lg transition-all duration-300" whileHover={{
                 scale: 1.05,
                 y: -2
               }} transition={{
                 duration: 0.2
               }} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="11" data-magicpath-path="CustomerCarouselSection.tsx">
                     <div className="h-12 w-12 lg:h-16 lg:w-16" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="12" data-magicpath-path="CustomerCarouselSection.tsx">
-                      <img alt={`${brand.name} app icon`} className="block h-12 w-12 lg:h-16 lg:w-16 object-contain" loading="lazy" src={brand.logo} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:string" data-magicpath-id="13" data-magicpath-path="CustomerCarouselSection.tsx" />
+                      <img alt={`${brand.name} app icon`} className="block h-12 w-12 lg:h-16 lg:w-16 object-contain" loading="lazy" src={brand.logo} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:unknown" data-magicpath-id="13" data-magicpath-path="CustomerCarouselSection.tsx" />
                     </div>
-                    <div className="font-display text-[12px] lg:text-[16px] text-gray-700 font-medium" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:string" data-magicpath-id="14" data-magicpath-path="CustomerCarouselSection.tsx">
+                    <div className="font-display text-[12px] lg:text-[16px] text-gray-700 font-medium" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="14" data-magicpath-path="CustomerCarouselSection.tsx">
                       {brand.name}
                     </div>
                   </motion.div>)}
@@ -196,16 +196,16 @@ const CustomerCarouselSection: React.FC = () => {
               <div className="flex w-fit gap-4" style={{
               transform: 'translateX(-68.88px)'
             }} data-magicpath-id="16" data-magicpath-path="CustomerCarouselSection.tsx">
-                {secondRowBrands.map((brand, index) => <motion.div key={brand.name} className="flex h-24 w-24 flex-none flex-col items-center justify-center gap-2 rounded-xl border border-gray-300 bg-white lg:h-32 lg:w-32 hover:shadow-lg transition-all duration-300" whileHover={{
+                {secondRowBrands.map((brand, index) => <motion.div key={brand.name} className="flex h-24 w-24 flex-none flex-col items-center justify-center gap-2 rounded-xl border border-gray-300 bg-[#fcfcf9] lg:h-32 lg:w-32 hover:shadow-lg transition-all duration-300" whileHover={{
                 scale: 1.05,
                 y: -2
               }} transition={{
                 duration: 0.2
               }} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="17" data-magicpath-path="CustomerCarouselSection.tsx">
                     <div className="h-12 w-12 lg:h-16 lg:w-16" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="18" data-magicpath-path="CustomerCarouselSection.tsx">
-                      <img alt={`${brand.name} app icon`} className="block h-12 w-12 lg:h-16 lg:w-16 object-contain" loading="lazy" src={brand.logo} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:string" data-magicpath-id="19" data-magicpath-path="CustomerCarouselSection.tsx" />
+                      <img alt={`${brand.name} app icon`} className="block h-12 w-12 lg:h-16 lg:w-16 object-contain" loading="lazy" src={brand.logo} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:unknown" data-magicpath-id="19" data-magicpath-path="CustomerCarouselSection.tsx" />
                     </div>
-                    <div className="font-display text-[12px] lg:text-[16px] text-gray-700 font-medium" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:string" data-magicpath-id="20" data-magicpath-path="CustomerCarouselSection.tsx">
+                    <div className="font-display text-[12px] lg:text-[16px] text-gray-700 font-medium" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="20" data-magicpath-path="CustomerCarouselSection.tsx">
                       {brand.name}
                     </div>
                   </motion.div>)}
