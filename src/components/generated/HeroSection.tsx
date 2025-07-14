@@ -32,7 +32,7 @@ const HeroSection: React.FC = () => {
           duration: 0.8,
           ease: "easeOut"
         }} data-magicpath-id="7" data-magicpath-path="HeroSection.tsx">
-            <div className="flex flex-col items-center space-y-0 -space-y-2" data-magicpath-id="8" data-magicpath-path="HeroSection.tsx">
+            <div className="flex flex-col items-center space-y-0 -space-y-1" data-magicpath-id="8" data-magicpath-path="HeroSection.tsx">
               <span className="block" data-magicpath-id="9" data-magicpath-path="HeroSection.tsx">Make every</span>
               <span className="block" data-magicpath-id="10" data-magicpath-path="HeroSection.tsx">post</span>
               <span className="block" data-magicpath-id="11" data-magicpath-path="HeroSection.tsx">count</span>
