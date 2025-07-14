@@ -8,7 +8,7 @@ const WhyTeamsInnovateSection: React.FC = () => {
       left: '15%'
     },
     delay: 0,
-    mpid: "30be5abc-debe-463d-9625-c17002cad3b0"
+    mpid: "575a43d8-522f-4dc6-a997-b2bfaf2d16f5"
   }, {
     icon: '🚀',
     position: {
@@ -16,7 +16,7 @@ const WhyTeamsInnovateSection: React.FC = () => {
       right: '20%'
     },
     delay: 0.5,
-    mpid: "2d5e8a36-d61a-4d65-a25c-80a413eb559f"
+    mpid: "3b235e4d-0a9c-4868-a5da-8827607955a8"
   }, {
     icon: '💡',
     position: {
@@ -24,7 +24,7 @@ const WhyTeamsInnovateSection: React.FC = () => {
       left: '10%'
     },
     delay: 1,
-    mpid: "4e503c0d-772b-4f36-a670-d36343e6048d"
+    mpid: "63721b76-96d6-4c7e-8f0b-e12f7bd7c724"
   }, {
     icon: '🎯',
     position: {
@@ -32,7 +32,7 @@ const WhyTeamsInnovateSection: React.FC = () => {
       right: '15%'
     },
     delay: 1.5,
-    mpid: "ddae6b66-bcc2-4beb-84c4-12b8d8b7abf6"
+    mpid: "6ca61cbf-fe9e-422a-a845-b449fb0070e9"
   }, {
     icon: '⭐',
     position: {
@@ -40,7 +40,7 @@ const WhyTeamsInnovateSection: React.FC = () => {
       left: '5%'
     },
     delay: 2,
-    mpid: "395673e3-4dd0-43c8-8803-1385d73eb43c"
+    mpid: "b3a197ca-a893-47ae-ab37-ea338feaf43c"
   }, {
     icon: '🔥',
     position: {
@@ -48,7 +48,7 @@ const WhyTeamsInnovateSection: React.FC = () => {
       right: '8%'
     },
     delay: 2.5,
-    mpid: "8c9b91fc-f8a5-46a0-a2c5-0b91da4660b7"
+    mpid: "852b2a88-8a55-4284-816d-68bb77ecc357"
   }, {
     icon: '💎',
     position: {
@@ -56,7 +56,7 @@ const WhyTeamsInnovateSection: React.FC = () => {
       left: '50%'
     },
     delay: 3,
-    mpid: "8b9aba5d-f4a1-4191-9e5c-c992f82616d8"
+    mpid: "b95175fb-328d-416e-88a6-6e65f2f8776e"
   }, {
     icon: '🌟',
     position: {
@@ -64,7 +64,7 @@ const WhyTeamsInnovateSection: React.FC = () => {
       left: '45%'
     },
     delay: 3.5,
-    mpid: "b888ee1c-e3d8-4a13-ae00-56efb0fa6758"
+    mpid: "f4e8be1b-ec31-4754-a555-d7074b74ab20"
   }] as any[];
   return <section className="relative py-32 px-6 bg-gradient-to-br from-indigo-50 via-white to-cyan-50 overflow-hidden" data-magicpath-id="0" data-magicpath-path="WhyTeamsInnovateSection.tsx">
       {/* Floating Icons */}

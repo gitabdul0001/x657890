@@ -32,7 +32,11 @@ const HeroSection: React.FC = () => {
           duration: 0.8,
           ease: "easeOut"
         }} data-magicpath-id="7" data-magicpath-path="HeroSection.tsx">
-            Don't post without data ever again
+            <div className="flex flex-col items-center" data-magicpath-id="8" data-magicpath-path="HeroSection.tsx">
+              <span className="block" data-magicpath-id="9" data-magicpath-path="HeroSection.tsx">Make every</span>
+              <span className="block" data-magicpath-id="10" data-magicpath-path="HeroSection.tsx">post</span>
+              <span className="block" data-magicpath-id="11" data-magicpath-path="HeroSection.tsx">count</span>
+            </div>
           </motion.h1>
           
           <motion.p className="text-lg md:text-xl font-normal text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed mt-4" initial={{
@@ -45,11 +49,11 @@ const HeroSection: React.FC = () => {
           duration: 0.8,
           delay: 0.2,
           ease: "easeOut"
-        }} data-magicpath-id="8" data-magicpath-path="HeroSection.tsx">
-            No more wasted posts or blind strategies. Reaxo gives creators the insights they need to grow smarter and reach bigger.
+        }} data-magicpath-id="12" data-magicpath-path="HeroSection.tsx">
+            Stop struggling to understand your social performance. Our tools break down the numbers so you can focus on creating, connecting, and growing across every channel with confidence.
           </motion.p>
           
-          <motion.a href="https://reaxo.xyz" className="inline-block px-12 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-xl font-semibold rounded-full hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1" initial={{
+          <motion.a href="https://reaxo.xyz" className="inline-block px-12 py-4 bg-primary-900 text-white text-xl font-semibold rounded-full hover:bg-jive-green focus:ring-4 focus:ring-jive-teal/30 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 transition-all duration-300 text-center" initial={{
           opacity: 0,
           y: 30
         }} animate={{
@@ -63,8 +67,8 @@ const HeroSection: React.FC = () => {
           scale: 1.05
         }} whileTap={{
           scale: 0.95
-        }} data-magicpath-id="9" data-magicpath-path="HeroSection.tsx">
-            Sign up free
+        }} data-magicpath-id="13" data-magicpath-path="HeroSection.tsx">
+            Sign Up Free
           </motion.a>
         </div>
       </div>
