@@ -8,20 +8,56 @@ const HeroSection: React.FC = () => {
     backgroundRepeat: 'no-repeat'
   }} data-magicpath-id="0" data-magicpath-path="HeroSection.tsx">
       {/* Top navigation */}
-      <nav className="absolute top-6 right-6 z-10" data-magicpath-id="1" data-magicpath-path="HeroSection.tsx">
-        <div className="flex gap-3" data-magicpath-id="2" data-magicpath-path="HeroSection.tsx">
-          <button className="inline-block px-6 py-2 bg-white text-gray-900 text-sm font-medium rounded-full hover:bg-[#fe8363] hover:text-white focus:ring-4 focus:ring-[#fe8363]/30 transition-all duration-300 text-center border border-gray-200" data-magicpath-id="3" data-magicpath-path="HeroSection.tsx">
+      <nav className="absolute top-6 left-0 right-0 z-10 flex justify-between items-center px-6" data-magicpath-id="1" data-magicpath-path="HeroSection.tsx">
+        {/* Logo */}
+        <div className="flex-1 flex justify-center" data-magicpath-id="2" data-magicpath-path="HeroSection.tsx">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100" zoomAndPan="magnify" viewBox="0 0 75 30.000001" height="40" preserveAspectRatio="xMidYMid meet" version="1.2" data-magicpath-id="3" data-magicpath-path="HeroSection.tsx">
+            <defs data-magicpath-id="4" data-magicpath-path="HeroSection.tsx">
+              <clipPath id="fc0ad2d204" data-magicpath-id="5" data-magicpath-path="HeroSection.tsx">
+                <path d="M 1.210938 0 L 73.789062 0 L 73.789062 29.03125 L 1.210938 29.03125 Z M 1.210938 0 " data-magicpath-id="6" data-magicpath-path="HeroSection.tsx" />
+              </clipPath>
+            </defs>
+            <g id="d05eed2eff" data-magicpath-id="7" data-magicpath-path="HeroSection.tsx">
+              <g clipRule="nonzero" clipPath="url(#fc0ad2d204)" data-magicpath-id="8" data-magicpath-path="HeroSection.tsx">
+                <path style={{
+                stroke: "none",
+                fillRule: "nonzero",
+                fill: "#ffffff",
+                fillOpacity: 1
+              }} d="M 1.210938 0 L 73.789062 0 L 73.789062 29.03125 L 1.210938 29.03125 Z M 1.210938 0 " data-magicpath-id="9" data-magicpath-path="HeroSection.tsx" />
+                <path style={{
+                stroke: "none",
+                fillRule: "nonzero",
+                fill: "#ffffff",
+                fillOpacity: 1
+              }} d="M 1.210938 0 L 73.789062 0 L 73.789062 29.03125 L 1.210938 29.03125 Z M 1.210938 0 " data-magicpath-id="10" data-magicpath-path="HeroSection.tsx" />
+              </g>
+              <g mask="url(#16136a0983)" transform="matrix(0.232258,0,0,0.232258,7.712902,0.929034)" data-magicpath-id="11" data-magicpath-path="HeroSection.tsx">
+                <image width="254" xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP4AAAB1CAIAAADhg8sdAAAABmJLR0QA/wD/AP+gvaeTAAAAa0lEQVR4nO3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaXMYAAd8tazQAAAAASUVORK5CYII=" height="117" preserveAspectRatio="xMidYMid meet" data-magicpath-id="12" data-magicpath-path="HeroSection.tsx" />
+                <mask id="16136a0983" data-magicpath-id="13" data-magicpath-path="HeroSection.tsx">
+                  <g data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">
+                    <image width="254" xlinkHref="data:image/png;base64,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" height="117" preserveAspectRatio="xMidYMid meet" data-magicpath-id="15" data-magicpath-path="HeroSection.tsx" />
+                  </g>
+                </mask>
+              </g>
+            </g>
+          </svg>
+        </div>
+        
+        {/* Login/Signup buttons */}
+        <div className="flex gap-3" data-magicpath-id="16" data-magicpath-path="HeroSection.tsx">
+          <button className="inline-block px-6 py-2 bg-white text-gray-900 text-sm font-medium rounded-full hover:bg-[#fe8363] hover:text-white focus:ring-4 focus:ring-[#fe8363]/30 transition-all duration-300 text-center border border-gray-200" data-magicpath-id="17" data-magicpath-path="HeroSection.tsx">
             Login
           </button>
-          <button className="inline-block px-6 py-2 bg-black text-white text-sm font-medium rounded-full hover:bg-[#8b7fff] focus:ring-4 focus:ring-[#8b7fff]/30 transition-all duration-300 text-center" data-magicpath-id="4" data-magicpath-path="HeroSection.tsx">
+          <button className="inline-block px-6 py-2 bg-black text-white text-sm font-medium rounded-full hover:bg-[#8b7fff] focus:ring-4 focus:ring-[#8b7fff]/30 transition-all duration-300 text-center" data-magicpath-id="18" data-magicpath-path="HeroSection.tsx">
             Sign up
           </button>
         </div>
       </nav>
 
       {/* Main content */}
-      <div className="relative z-10 flex items-center justify-center min-h-screen px-6" data-magicpath-id="5" data-magicpath-path="HeroSection.tsx">
-        <div className="text-center max-w-4xl mx-auto" data-magicpath-id="6" data-magicpath-path="HeroSection.tsx">
+      <div className="relative z-10 flex items-center justify-center min-h-screen px-6" data-magicpath-id="19" data-magicpath-path="HeroSection.tsx">
+        <div className="text-center max-w-4xl mx-auto" data-magicpath-id="20" data-magicpath-path="HeroSection.tsx">
           <motion.h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 mb-6 leading-tight" initial={{
           opacity: 0,
           y: 30
@@ -31,11 +67,11 @@ const HeroSection: React.FC = () => {
         }} transition={{
           duration: 0.8,
           ease: "easeOut"
-        }} data-magicpath-id="7" data-magicpath-path="HeroSection.tsx">
-            <div className="flex flex-col items-center -space-y-4" data-magicpath-id="8" data-magicpath-path="HeroSection.tsx">
-              <span className="block" data-magicpath-id="9" data-magicpath-path="HeroSection.tsx">Make every</span>
-              <span className="block" data-magicpath-id="10" data-magicpath-path="HeroSection.tsx">post</span>
-              <span className="block" data-magicpath-id="11" data-magicpath-path="HeroSection.tsx">count</span>
+        }} data-magicpath-id="21" data-magicpath-path="HeroSection.tsx">
+            <div className="flex flex-col items-center -space-y-4" data-magicpath-id="22" data-magicpath-path="HeroSection.tsx">
+              <span className="block" data-magicpath-id="23" data-magicpath-path="HeroSection.tsx">Make every</span>
+              <span className="block" data-magicpath-id="24" data-magicpath-path="HeroSection.tsx">post</span>
+              <span className="block" data-magicpath-id="25" data-magicpath-path="HeroSection.tsx">count</span>
             </div>
           </motion.h1>
           
@@ -49,7 +85,7 @@ const HeroSection: React.FC = () => {
           duration: 0.8,
           delay: 0.2,
           ease: "easeOut"
-        }} data-magicpath-id="12" data-magicpath-path="HeroSection.tsx">
+        }} data-magicpath-id="26" data-magicpath-path="HeroSection.tsx">
             Stop struggling to understand your social performance. Our tools break down the numbers so you can focus on creating, connecting, and growing across every channel with confidence.
           </motion.p>
           
@@ -67,7 +103,7 @@ const HeroSection: React.FC = () => {
           scale: 1.05
         }} whileTap={{
           scale: 0.95
-        }} data-magicpath-id="13" data-magicpath-path="HeroSection.tsx">
+        }} data-magicpath-id="27" data-magicpath-path="HeroSection.tsx">
             Sign Up Free
           </motion.a>
         </div>
