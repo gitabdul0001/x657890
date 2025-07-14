@@ -10,10 +10,10 @@ const HeroSection: React.FC = () => {
       {/* Top navigation */}
       <nav className="absolute top-6 right-6 z-10" data-magicpath-id="1" data-magicpath-path="HeroSection.tsx">
         <div className="flex gap-4" data-magicpath-id="2" data-magicpath-path="HeroSection.tsx">
-          <button className="px-6 py-2 text-gray-700 hover:text-gray-900 font-medium transition-colors" data-magicpath-id="3" data-magicpath-path="HeroSection.tsx">
+          <button className="inline-block px-12 py-4 bg-primary-900 text-white text-xl font-semibold rounded-full hover:bg-jive-green focus:ring-4 focus:ring-jive-teal/30 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 transition-all duration-300 text-center" data-magicpath-id="3" data-magicpath-path="HeroSection.tsx">
             Login
           </button>
-          <button className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium shadow-lg" data-magicpath-id="4" data-magicpath-path="HeroSection.tsx">
+          <button className="inline-block px-12 py-4 bg-primary-900 text-white text-xl font-semibold rounded-full hover:bg-jive-green focus:ring-4 focus:ring-jive-teal/30 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 transition-all duration-300 text-center" data-magicpath-id="4" data-magicpath-path="HeroSection.tsx">
             Sign up
           </button>
         </div>
@@ -32,12 +32,9 @@ const HeroSection: React.FC = () => {
           duration: 0.8,
           ease: "easeOut"
         }} data-magicpath-id="7" data-magicpath-path="HeroSection.tsx">
-            <div className="flex flex-col items-center space-y-0 -space-y-1" data-magicpath-id="8" data-magicpath-path="HeroSection.tsx">
+            <div className="flex flex-col items-center -space-y-4" data-magicpath-id="8" data-magicpath-path="HeroSection.tsx">
               <span className="block" data-magicpath-id="9" data-magicpath-path="HeroSection.tsx">Make every</span>
-              <span className="block" data-magicpath-id="10" data-magicpath-path="HeroSection.tsx" style={{
-              height: "30px",
-              minHeight: "min-content"
-            }}>post</span>
+              <span className="block" data-magicpath-id="10" data-magicpath-path="HeroSection.tsx">post</span>
               <span className="block" data-magicpath-id="11" data-magicpath-path="HeroSection.tsx">count</span>
             </div>
           </motion.h1>
