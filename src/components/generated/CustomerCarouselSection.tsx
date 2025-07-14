@@ -5,121 +5,121 @@ import { motion } from 'framer-motion';
 const CustomerCarouselSection: React.FC = () => {
   const brands = [{
     name: 'Microsoft',
-    logo: 'https://logo.clearbit.com/microsoft.com',
-    mpid: "324ee21c-f291-468b-a161-5876d456d73e"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/microsoft.svg',
+    mpid: "3242950f-2fb2-4865-89af-dc63a67a1237"
   }, {
     name: 'Google',
-    logo: 'https://logo.clearbit.com/google.com',
-    mpid: "ce1eed54-de66-4c1b-821b-96319deb6189"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/google.svg',
+    mpid: "e5ab0a9a-6cbe-4a1e-8d7d-6a7122e92045"
   }, {
     name: 'Apple',
-    logo: 'https://logo.clearbit.com/apple.com',
-    mpid: "56d9fc58-4877-4c3b-93ea-86656750d0a4"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/apple.svg',
+    mpid: "4e3ab92d-98b5-407f-a284-f0417fa2ed86"
   }, {
     name: 'Amazon',
-    logo: 'https://logo.clearbit.com/amazon.com',
-    mpid: "412fdd11-6825-4f5c-a5c4-8bd9cd0aef3f"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/amazon.svg',
+    mpid: "ee2dcd99-a7de-49e4-9946-8ae3008fb389"
   }, {
     name: 'Netflix',
-    logo: 'https://logo.clearbit.com/netflix.com',
-    mpid: "60f30624-8742-4358-802a-8a45080e2157"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/netflix.svg',
+    mpid: "d05f38b0-3374-4e05-868d-b4b83f2cf447"
   }, {
     name: 'Spotify',
-    logo: 'https://logo.clearbit.com/spotify.com',
-    mpid: "80528bbe-e24a-4189-9b8f-18fad1219cb5"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/spotify.svg',
+    mpid: "49435873-23a3-4193-b8a1-38c739bce66b"
   }, {
     name: 'Slack',
-    logo: 'https://logo.clearbit.com/slack.com',
-    mpid: "44ab93c6-7e00-43d3-8d12-bda34726a8ed"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/slack.svg',
+    mpid: "b7906f61-285c-473e-b3cf-222ca3c7f8e6"
   }, {
     name: 'GitHub',
-    logo: 'https://logo.clearbit.com/github.com',
-    mpid: "84e1a09c-a0b3-48e1-991d-9a62ea2b5d5b"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/github.svg',
+    mpid: "a3904fe4-7909-4e6c-80d6-163ee38e30e0"
   }, {
     name: 'Zoom',
-    logo: 'https://logo.clearbit.com/zoom.us',
-    mpid: "37f2f626-0137-4062-a1d5-083384eb2bed"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/zoom.svg',
+    mpid: "50b47b11-8947-4ccd-8f2d-c137e4a25c35"
   }, {
     name: 'Dropbox',
-    logo: 'https://logo.clearbit.com/dropbox.com',
-    mpid: "5da6bce9-565f-4169-b71c-00aa74fdca83"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/dropbox.svg',
+    mpid: "860abcd7-8b25-4cac-84e3-3904158d6b5f"
   }, {
     name: 'Adobe',
-    logo: 'https://logo.clearbit.com/adobe.com',
-    mpid: "c6a511a1-3127-4634-ba57-7a2a984100e3"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/adobe.svg',
+    mpid: "8fca150d-c867-42c0-97e5-7c66b396cea6"
   }, {
     name: 'Tesla',
-    logo: 'https://logo.clearbit.com/tesla.com',
-    mpid: "e669e9b3-cbfa-481c-bcc4-9234a807dcf1"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/tesla.svg',
+    mpid: "835592c5-f71b-4470-8b07-e84f1974cef3"
   }, {
     name: 'Airbnb',
-    logo: 'https://logo.clearbit.com/airbnb.com',
-    mpid: "e53ad697-5b11-4dc7-b1f3-af3d13b8bc34"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/airbnb.svg',
+    mpid: "034cd32c-37de-4db5-9b3b-c43a5137a357"
   }, {
     name: 'Uber',
-    logo: 'https://logo.clearbit.com/uber.com',
-    mpid: "72db4f6c-34d7-41f2-9b36-0b7e6217b759"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/uber.svg',
+    mpid: "fde37ccc-7597-4a20-ab23-728b430f90ec"
   }, {
     name: 'Twitter',
-    logo: 'https://logo.clearbit.com/twitter.com',
-    mpid: "5f073c5f-c6b1-411d-9ee8-411eea398fff"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/twitter.svg',
+    mpid: "925d5843-74ca-4c38-8ae4-c3417f400397"
   }] as any[];
   const secondRowBrands = [{
     name: 'Meta',
-    logo: 'https://logo.clearbit.com/meta.com',
-    mpid: "467d422a-a189-48f8-b97d-47c5ee69ff89"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/meta.svg',
+    mpid: "fb995a15-d49e-4429-806d-086800ac0962"
   }, {
     name: 'LinkedIn',
-    logo: 'https://logo.clearbit.com/linkedin.com',
-    mpid: "6f563700-942e-4a78-8695-b21f2e9faf10"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/linkedin.svg',
+    mpid: "8b479661-098e-4b24-a6ca-904aa2e5e26b"
   }, {
     name: 'PayPal',
-    logo: 'https://logo.clearbit.com/paypal.com',
-    mpid: "e2893cf1-ff19-4e44-b26c-e0384c720353"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/paypal.svg',
+    mpid: "f7423cf7-404c-4934-a043-213f7a9b6e3e"
   }, {
     name: 'Stripe',
-    logo: 'https://logo.clearbit.com/stripe.com',
-    mpid: "4892585f-eb08-478f-8496-bdc45e6923cf"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/stripe.svg',
+    mpid: "1cf4f514-81b7-4085-9be5-9078a7f8fa8f"
   }, {
     name: 'Shopify',
-    logo: 'https://logo.clearbit.com/shopify.com',
-    mpid: "a025e50a-22ab-4c14-877b-b89840328424"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/shopify.svg',
+    mpid: "ccce1a9a-2339-49ab-9673-e486adc7f777"
   }, {
     name: 'Discord',
-    logo: 'https://logo.clearbit.com/discord.com',
-    mpid: "b336f801-6cea-4c5a-b555-5e608245dfa7"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/discord.svg',
+    mpid: "cb1de3d2-187b-4257-ba3f-1223e7f360e9"
   }, {
     name: 'Notion',
-    logo: 'https://logo.clearbit.com/notion.so',
-    mpid: "a817b906-5ed5-47f3-976c-9a58c9871a7d"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/notion.svg',
+    mpid: "c4eb6198-0b91-4fd2-bedb-e83fc344348b"
   }, {
     name: 'Figma',
-    logo: 'https://logo.clearbit.com/figma.com',
-    mpid: "5dc38dbd-1032-47d3-9f9d-ae93c983e166"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/figma.svg',
+    mpid: "da18de3c-5ab1-401d-a68a-5c765c8a0f07"
   }, {
     name: 'Canva',
-    logo: 'https://logo.clearbit.com/canva.com',
-    mpid: "9cb6d8b5-9b12-4204-993f-a1d27d14cd2c"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/canva.svg',
+    mpid: "597057f4-6953-42bf-9381-38189827a8ee"
   }, {
     name: 'Trello',
-    logo: 'https://logo.clearbit.com/trello.com',
-    mpid: "d217ba3f-7b4f-456e-accd-b5d35bb64d8f"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/trello.svg',
+    mpid: "1031b199-2e97-446c-b4bd-ba078e0d2829"
   }, {
     name: 'Asana',
-    logo: 'https://logo.clearbit.com/asana.com',
-    mpid: "b4fbe5e9-c509-42b9-ab13-946d4604557d"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/asana.svg',
+    mpid: "e230192c-2fea-456a-b53f-bd3e3df47614"
   }, {
     name: 'Salesforce',
-    logo: 'https://logo.clearbit.com/salesforce.com',
-    mpid: "ae101d16-8c45-4547-8982-8903649f16b2"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/salesforce.svg',
+    mpid: "2b206d92-0b34-46eb-ae1f-8ae69bc4e1df"
   }, {
     name: 'HubSpot',
-    logo: 'https://logo.clearbit.com/hubspot.com',
-    mpid: "d14e8c64-e1a0-4374-99cf-e7e28ca65c1c"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/hubspot.svg',
+    mpid: "6b297c5e-3f8f-4d9a-ba47-f9eda78867f7"
   }, {
     name: 'Mailchimp',
-    logo: 'https://logo.clearbit.com/mailchimp.com',
-    mpid: "630bcb14-f16f-449d-943a-4aeb62b59547"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/mailchimp.svg',
+    mpid: "e38c3950-f2d5-402e-87cd-2f7cbbdc2ad9"
   }] as any[];
   return <section className="py-24 px-6 bg-white" data-magicpath-id="0" data-magicpath-path="CustomerCarouselSection.tsx">
       <div className="max-w-7xl mx-auto" data-magicpath-id="1" data-magicpath-path="CustomerCarouselSection.tsx">
