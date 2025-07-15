@@ -7,37 +7,37 @@ const SuccessSupportSection: React.FC = () => {
     author: "Sarah Chen",
     role: "CTO at TechFlow",
     avatar: "👩‍💻",
-    mpid: "a62ed531-60bf-447d-bfd8-34782172449f"
+    mpid: "5af14511-1457-4ded-8f18-116a5e107717"
   }, {
     text: "The analytics dashboard gives us insights we never had before. Game changer!",
     author: "Marcus Johnson",
     role: "Product Manager at InnovateCorp",
     avatar: "👨‍💼",
-    mpid: "539c7ca8-93d5-4b4b-9aea-5e71d8af0415"
+    mpid: "c3cda98f-4cc8-443e-ab5d-0638b2b12722"
   }, {
     text: "Best investment we made this year. ROI was immediate and substantial.",
     author: "Elena Rodriguez",
     role: "CEO at StartupX",
     avatar: "👩‍💼",
-    mpid: "c5af8602-9dab-44dc-822d-6260abac76e8"
+    mpid: "efe2ec89-7511-488e-9c95-2dd1e2a94c2b"
   }, {
     text: "Customer support is phenomenal. They helped us migrate seamlessly.",
     author: "David Kim",
     role: "Lead Developer at CodeCraft",
     avatar: "👨‍💻",
-    mpid: "7253bd22-44e0-4adb-b0c4-b20819487357"
+    mpid: "797d45ab-3472-4ce5-b444-711a7dc24b36"
   }, {
     text: "The collaboration features brought our remote team closer together.",
     author: "Lisa Wang",
     role: "Design Lead at CreativeStudio",
     avatar: "👩‍🎨",
-    mpid: "da0271dd-8857-4b1e-ab44-33f6ac303b19"
+    mpid: "e741a79a-15c6-439a-ba14-efa4af6c8a1a"
   }, {
     text: "Reaxo's automation saved us 20 hours per week. Incredible efficiency gains.",
     author: "Alex Thompson",
     role: "Operations Director at ScaleUp",
     avatar: "👨‍🔧",
-    mpid: "e5e75765-947e-4d47-961c-cb559b01064c"
+    mpid: "2dcf6bc4-2a3b-4f8f-a074-477cea8386b9"
   }] as any[];
   const features = ["24/7 dedicated support team", "Comprehensive onboarding program", "Regular training sessions", "Custom integration assistance"];
   return <section className="py-16 px-6 bg-slate-900 text-white relative overflow-hidden" data-magicpath-id="0" data-magicpath-path="SuccessSupportSection.tsx">
@@ -132,7 +132,7 @@ const SuccessSupportSection: React.FC = () => {
                 repeat: Infinity,
                 ease: "linear"
               }} data-magicpath-id="21" data-magicpath-path="SuccessSupportSection.tsx">
-                  {[...testimonials.slice(0, 3), ...testimonials.slice(0, 3)].map((testimonial, index) => <motion.div key={`col1-${index}`} className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 shadow-2xl border border-slate-600/50 backdrop-blur-sm min-h-[180px] flex flex-col justify-between hover:shadow-3xl transition-all duration-300" whileHover={{
+                  {[...testimonials.slice(0, 3), ...testimonials.slice(0, 3)].map((testimonial, index) => <motion.div key={`col1-${index}`} className="bg-[#3a3a3b] rounded-2xl p-8 shadow-2xl border border-slate-600/50 backdrop-blur-sm min-h-[180px] flex flex-col justify-between hover:shadow-3xl transition-all duration-300" whileHover={{
                   y: -5,
                   boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.5)"
                 }} data-magicpath-id="22" data-magicpath-path="SuccessSupportSection.tsx">
@@ -159,7 +159,7 @@ const SuccessSupportSection: React.FC = () => {
                 repeat: Infinity,
                 ease: "linear"
               }} data-magicpath-id="30" data-magicpath-path="SuccessSupportSection.tsx">
-                  {[...testimonials.slice(3, 6), ...testimonials.slice(3, 6)].map((testimonial, index) => <motion.div key={`col2-${index}`} className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 shadow-2xl border border-slate-600/50 backdrop-blur-sm min-h-[180px] flex flex-col justify-between hover:shadow-3xl transition-all duration-300" whileHover={{
+                  {[...testimonials.slice(3, 6), ...testimonials.slice(3, 6)].map((testimonial, index) => <motion.div key={`col2-${index}`} className="bg-[#3a3a3b] rounded-2xl p-8 shadow-2xl border border-slate-600/50 backdrop-blur-sm min-h-[180px] flex flex-col justify-between hover:shadow-3xl transition-all duration-300" whileHover={{
                   y: -5,
                   boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.5)"
                 }} data-magicpath-id="31" data-magicpath-path="SuccessSupportSection.tsx">

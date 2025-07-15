@@ -6,32 +6,32 @@ const FlexibleWorkflowsSection: React.FC = () => {
     title: "Development Workflow",
     image: "🚀",
     description: "Streamline your development process with automated testing and deployment",
-    mpid: "23bd7ad0-4f9c-4bda-91a2-096f82815ed1"
+    mpid: "8f13dbc5-6460-4f38-9cd4-8a0dfc5f7473"
   }, {
     title: "Design System",
     image: "🎨",
     description: "Maintain consistency across your products with a unified design system",
-    mpid: "283fc281-9fa1-4102-b1ba-960512a8c176"
+    mpid: "e496db00-ecbb-4514-9384-8f7cc4c2f70d"
   }, {
     title: "Project Management",
     image: "📊",
     description: "Keep your team aligned with powerful project tracking and collaboration tools",
-    mpid: "50ac7cce-00f7-476a-8b7c-cd9ead33cff6"
+    mpid: "fe68e17b-c127-4ff2-909d-4591ee01cb98"
   }, {
     title: "Quality Assurance",
     image: "✅",
     description: "Ensure product quality with comprehensive testing and review processes",
-    mpid: "f9c8730a-b3d5-4baa-addc-4a99ecd43960"
+    mpid: "1486926a-5f5b-420f-a74e-3e3c64871de2"
   }, {
     title: "Analytics & Insights",
     image: "📈",
     description: "Make data-driven decisions with real-time analytics and reporting",
-    mpid: "951682f9-4577-44d8-b783-c67ecdb235b4"
+    mpid: "e5df40a2-296e-4fab-8e25-0c2ade4517db"
   }, {
     title: "Customer Feedback",
     image: "💬",
     description: "Collect and analyze customer feedback to improve your products continuously",
-    mpid: "ff36dc96-f39d-4532-bb37-675b3e674622"
+    mpid: "fa55218d-7fde-48bb-a367-ec63e6e88c31"
   }] as any[];
   const [currentIndex, setCurrentIndex] = useState(0);
   const itemsPerView = 3;
