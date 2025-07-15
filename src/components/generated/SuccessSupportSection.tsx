@@ -7,37 +7,37 @@ const SuccessSupportSection: React.FC = () => {
     author: "Sarah Chen",
     role: "CTO at TechFlow",
     avatar: "👩‍💻",
-    mpid: "1ab9282d-1357-4f67-8e1c-341546db0114"
+    mpid: "444162a8-266e-4524-8800-3ee7d0c0247c"
   }, {
     text: "The analytics dashboard gives us insights we never had before. Game changer!",
     author: "Marcus Johnson",
     role: "Product Manager at InnovateCorp",
     avatar: "👨‍💼",
-    mpid: "0f422ce5-1b65-4a0f-b64f-fc903a7080c7"
+    mpid: "dd3077fd-99a5-441b-800f-4e1e86fca790"
   }, {
     text: "Best investment we made this year. ROI was immediate and substantial.",
     author: "Elena Rodriguez",
     role: "CEO at StartupX",
     avatar: "👩‍💼",
-    mpid: "30ddbed9-5628-4897-9e93-80f169f9ff22"
+    mpid: "3a921082-ea34-4d21-b3fb-944f224ac5d7"
   }, {
     text: "Customer support is phenomenal. They helped us migrate seamlessly.",
     author: "David Kim",
     role: "Lead Developer at CodeCraft",
     avatar: "👨‍💻",
-    mpid: "d6489a06-e6ac-4408-9e5c-e110848f48bf"
+    mpid: "ffe824e9-ca76-4492-a8f7-3bf7a6688846"
   }, {
     text: "The collaboration features brought our remote team closer together.",
     author: "Lisa Wang",
     role: "Design Lead at CreativeStudio",
     avatar: "👩‍🎨",
-    mpid: "650f74b9-cfac-463d-85dd-907b7b56a0ca"
+    mpid: "726c4649-cfa0-4bd6-a1ae-52c71724ff14"
   }, {
     text: "Reaxo's automation saved us 20 hours per week. Incredible efficiency gains.",
     author: "Alex Thompson",
     role: "Operations Director at ScaleUp",
     avatar: "👨‍🔧",
-    mpid: "59c300e0-213f-4474-a8d6-8f40e2e937a1"
+    mpid: "31cf8c43-7a0f-4602-b0ca-baee7fcc2118"
   }] as any[];
   const features = ["24/7 dedicated support team", "Comprehensive onboarding program", "Regular training sessions", "Custom integration assistance"];
   return <section className="py-16 px-6 bg-slate-900 text-white relative overflow-hidden" data-magicpath-id="0" data-magicpath-path="SuccessSupportSection.tsx">
@@ -110,7 +110,7 @@ const SuccessSupportSection: React.FC = () => {
           </motion.div>
 
           {/* Right Column - Testimonial Carousels */}
-          <motion.div className="relative h-96" initial={{
+          <motion.div className="relative h-full min-h-[600px]" initial={{
           opacity: 0,
           x: 50
         }} whileInView={{
@@ -145,36 +145,30 @@ const SuccessSupportSection: React.FC = () => {
                       </div>
                     </div>)}
                 </motion.div>
-                {/* Gradient masks to hide overflow at section boundaries */}
-                <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="29" data-magicpath-path="SuccessSupportSection.tsx"></div>
-                <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="30" data-magicpath-path="SuccessSupportSection.tsx"></div>
               </div>
 
               {/* Second Column - Scrolling Down */}
-              <div className="relative overflow-hidden h-full" data-magicpath-id="31" data-magicpath-path="SuccessSupportSection.tsx">
+              <div className="relative overflow-hidden h-full" data-magicpath-id="29" data-magicpath-path="SuccessSupportSection.tsx">
                 <motion.div className="space-y-6" animate={{
                 y: [-100 * (testimonials.length / 2), 0]
               }} transition={{
                 duration: 20,
                 repeat: Infinity,
                 ease: "linear"
-              }} data-magicpath-id="32" data-magicpath-path="SuccessSupportSection.tsx">
-                  {[...testimonials.slice(3, 6), ...testimonials.slice(3, 6)].map((testimonial, index) => <div key={`col2-${index}`} className="bg-slate-800 rounded-2xl p-6 shadow-xl border border-slate-700" data-magicpath-id="33" data-magicpath-path="SuccessSupportSection.tsx">
-                      <blockquote className="text-gray-300 mb-4 leading-relaxed" data-magicpath-id="34" data-magicpath-path="SuccessSupportSection.tsx">
+              }} data-magicpath-id="30" data-magicpath-path="SuccessSupportSection.tsx">
+                  {[...testimonials.slice(3, 6), ...testimonials.slice(3, 6)].map((testimonial, index) => <div key={`col2-${index}`} className="bg-slate-800 rounded-2xl p-6 shadow-xl border border-slate-700" data-magicpath-id="31" data-magicpath-path="SuccessSupportSection.tsx">
+                      <blockquote className="text-gray-300 mb-4 leading-relaxed" data-magicpath-id="32" data-magicpath-path="SuccessSupportSection.tsx">
                         "{testimonial.text}"
                       </blockquote>
-                      <div className="flex items-center gap-3" data-magicpath-id="35" data-magicpath-path="SuccessSupportSection.tsx">
-                        <div className="text-2xl" data-magicpath-id="36" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.avatar}</div>
-                        <div data-magicpath-id="37" data-magicpath-path="SuccessSupportSection.tsx">
-                          <div className="font-semibold text-white" data-magicpath-id="38" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.author}</div>
-                          <div className="text-sm text-gray-400" data-magicpath-id="39" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.role}</div>
+                      <div className="flex items-center gap-3" data-magicpath-id="33" data-magicpath-path="SuccessSupportSection.tsx">
+                        <div className="text-2xl" data-magicpath-id="34" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.avatar}</div>
+                        <div data-magicpath-id="35" data-magicpath-path="SuccessSupportSection.tsx">
+                          <div className="font-semibold text-white" data-magicpath-id="36" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.author}</div>
+                          <div className="text-sm text-gray-400" data-magicpath-id="37" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.role}</div>
                         </div>
                       </div>
                     </div>)}
                 </motion.div>
-                {/* Gradient masks to hide overflow at section boundaries */}
-                <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="40" data-magicpath-path="SuccessSupportSection.tsx"></div>
-                <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="41" data-magicpath-path="SuccessSupportSection.tsx"></div>
               </div>
             </div>
           </motion.div>
