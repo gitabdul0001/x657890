@@ -19,124 +19,124 @@ const CustomerCarouselSection: React.FC = () => {
   const firstRowBrands = [{
     name: 'Microsoft',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/microsoft.svg',
-    mpid: "1fa09a91-703c-4c42-a5bf-b70ed4bd65e7"
+    mpid: "df110f8b-953a-41cb-ad27-52f74b269fd0"
   }, {
     name: 'Google',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/google.svg',
-    mpid: "62f2b3fb-99dd-4831-990f-ab3c384b71da"
+    mpid: "be21114a-a759-401e-8e98-065b0ebf9f55"
   }, {
     name: 'Apple',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/apple.svg',
-    mpid: "f32f5423-bd23-4928-bdd0-269fd0ada42e"
+    mpid: "9eb398ca-8995-434c-b006-7bc146702aa1"
   }, {
     name: 'Amazon',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/amazon.svg',
-    mpid: "385ae260-1d18-447c-b8ec-963d5cedccb8"
+    mpid: "68058abe-8b74-4bab-8775-247a6b6824ed"
   }, {
     name: 'Netflix',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/netflix.svg',
-    mpid: "2a8793de-3d5b-43fd-b20c-3724bfd467df"
+    mpid: "f04e290f-8377-4287-bf32-e4c524d644cc"
   }, {
     name: 'Spotify',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/spotify.svg',
-    mpid: "b24ec874-d2f3-46e5-97f1-b4aabe9efc50"
+    mpid: "78da197b-7c8b-4f5e-be0a-cf597bb1bd1d"
   }, {
     name: 'Slack',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/slack.svg',
-    mpid: "1e1df685-5a63-4b2f-b49d-54a9aa01c0ab"
+    mpid: "43acf050-4bb9-49ea-81fb-cd4843e12124"
   }, {
     name: 'GitHub',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/github.svg',
-    mpid: "de39d744-5272-450e-aa79-6fa5b04e599b"
+    mpid: "ee5e7f49-f622-41bc-9807-b1ca6c0e7f0b"
   }, {
     name: 'Zoom',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/zoom.svg',
-    mpid: "f948f42e-1832-43c2-b261-8ebad6a14ba8"
+    mpid: "42630a43-dbfd-43aa-9433-80c094bb73e1"
   }, {
     name: 'Dropbox',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/dropbox.svg',
-    mpid: "8657a5db-22ff-4897-b032-d918c153bb10"
+    mpid: "66126aed-a983-4daf-a41e-47b8559b5bd9"
   }, {
     name: 'Adobe',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/adobe.svg',
-    mpid: "be7fa895-c1ea-40a4-b618-62ac17c599be"
+    mpid: "94579866-f700-4276-973d-6ddd164ca841"
   }, {
     name: 'Tesla',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/tesla.svg',
-    mpid: "e3cea5a1-573e-4820-8a0e-5674238e99cc"
+    mpid: "7fff3188-68f6-44e1-bae3-f8d2099300bb"
   }, {
     name: 'Airbnb',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/airbnb.svg',
-    mpid: "70d92cfd-6c35-4355-9dbc-ff4d7ef68e3c"
+    mpid: "691553b9-3612-4959-9ff1-579fefa01030"
   }, {
     name: 'Uber',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/uber.svg',
-    mpid: "3c17e4f4-c29a-46a8-ba61-7ff93c57fc5c"
+    mpid: "697a4ae5-e90f-484c-95cd-e7429a83afea"
   }, {
     name: 'Twitter',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/twitter.svg',
-    mpid: "900c1ebe-fcae-459f-80a6-be70789e41d6"
+    mpid: "27fc2046-2607-4d82-923f-3d929e9688ac"
   }] as any[];
   const secondRowBrands = [{
     name: 'Meta',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/meta.svg',
-    mpid: "ca593ee5-bb32-4a76-beab-b733828a467f"
+    mpid: "554b1dee-b4d3-4ec7-b0c9-506f5b01659f"
   }, {
     name: 'LinkedIn',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/linkedin.svg',
-    mpid: "cdbe63fa-a10d-4466-9fcd-d22c19a0419f"
+    mpid: "65c1807a-8ca5-4a21-89a8-c0498cedbc7b"
   }, {
     name: 'PayPal',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/paypal.svg',
-    mpid: "5f66cd0e-4ee9-4814-a8ff-1f88b3aa6f53"
+    mpid: "30747fe0-2cfc-4458-ab67-fabb3afb85f7"
   }, {
     name: 'Discord',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/discord.svg',
-    mpid: "09ed81d2-b276-4290-bde5-bb69933b090a"
+    mpid: "22d4ebe8-1b2f-43e5-afaa-eecdfe845af3"
   }, {
     name: 'Notion',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/notion.svg',
-    mpid: "98ceaeea-da18-4c34-88e1-2f2525d061c5"
+    mpid: "317ba9ed-e766-48af-b4cc-cdc880c1224c"
   }, {
     name: 'Figma',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/figma.svg',
-    mpid: "6c438bda-411f-4a56-a27f-284f93c585ca"
+    mpid: "88720abc-6434-419f-89f7-fba1dd42ec2b"
   }, {
     name: 'Canva',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/canva.svg',
-    mpid: "c32a3e51-b727-4396-a0f5-5b745c8d9b00"
+    mpid: "1ea103f6-1eb4-4457-9090-fdbf148e48fc"
   }, {
     name: 'Trello',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/trello.svg',
-    mpid: "91b314fe-0ee9-4d12-92b9-30fbf7dbb4f9"
+    mpid: "ff0483f4-cd33-44dc-9945-aace26c1d79c"
   }, {
     name: 'Asana',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/asana.svg',
-    mpid: "74a2a7f0-ae15-4dfc-8078-c444e3ab32e7"
+    mpid: "262ad2dd-9a2a-47e8-8953-4aa1de867793"
   }, {
     name: 'Salesforce',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/salesforce.svg',
-    mpid: "e0f0fce3-c07e-4899-9170-6e1229797c3d"
+    mpid: "1da397b0-a133-44fe-a2ad-25987612b946"
   }, {
     name: 'HubSpot',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/hubspot.svg',
-    mpid: "742716f4-c55d-4715-a434-0ee8d326c628"
+    mpid: "56ded0a9-0510-4fb3-8c4d-18b9cc760e2d"
   }, {
     name: 'Mailchimp',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/mailchimp.svg',
-    mpid: "2539ef72-4ceb-427d-9f0b-5c73ff820674"
+    mpid: "1439a98f-63a6-473d-bd12-ad38b506c333"
   }, {
     name: 'Twitch',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/twitch.svg',
-    mpid: "b3428889-3ba4-4813-b1a2-b19e03f102d5"
+    mpid: "34f2168c-5c82-40e7-8403-3e7726c000d4"
   }, {
     name: 'Reddit',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/reddit.svg',
-    mpid: "1bbbb4a9-a6ec-4681-b07d-4d3d20c4106b"
+    mpid: "a0d5e9e3-9492-4b22-97d7-f3d6ca99abd5"
   }, {
     name: 'Vercel',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/vercel.svg',
-    mpid: "ba5658e4-9c64-4dc0-a4ec-779016745725"
+    mpid: "9322194b-b7b8-49e6-8414-fc0f9d37f8a7"
   }] as any[];
 
   // Duplicate arrays for seamless infinite scroll effect
@@ -181,8 +181,8 @@ const CustomerCarouselSection: React.FC = () => {
         {/* Brand Carousel with Scroll Animation */}
         <div className="relative w-full" data-magicpath-id="7" data-magicpath-path="CustomerCarouselSection.tsx">
           {/* First row - moves left to right on scroll down */}
-          <div className="relative mb-8 overflow-hidden w-full" data-magicpath-id="8" data-magicpath-path="CustomerCarouselSection.tsx">
-            <motion.div className="flex gap-8 w-fit min-w-full" style={{
+          <div className="relative mb-12 overflow-hidden w-full" data-magicpath-id="8" data-magicpath-path="CustomerCarouselSection.tsx">
+            <motion.div className="flex gap-12 w-fit min-w-full" style={{
             x: firstRowX
           }} initial={{
             opacity: 0,
@@ -197,20 +197,21 @@ const CustomerCarouselSection: React.FC = () => {
             once: true
           }} data-magicpath-id="9" data-magicpath-path="CustomerCarouselSection.tsx">
               {duplicatedFirstRow.map((brand, index) => <motion.div key={`first-${brand.name}-${index}`} className="flex-none" whileHover={{
-              y: -8
+              y: -12,
+              scale: 1.05
             }} transition={{
               duration: 0.3,
               ease: "easeOut"
             }} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="10" data-magicpath-path="CustomerCarouselSection.tsx">
-                  <div className="group relative w-28 h-28 lg:w-36 lg:h-36 rounded-2xl border border-slate-200/60 shadow-sm hover:shadow-xl transition-all duration-500 flex items-center justify-center backdrop-blur-sm" style={{
+                  <div className="group relative w-36 h-36 lg:w-44 lg:h-44 rounded-3xl border border-slate-200/60 shadow-lg hover:shadow-2xl transition-all duration-500 flex items-center justify-center backdrop-blur-sm" style={{
                 backgroundColor: '#fcfcf9'
               }} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="11" data-magicpath-path="CustomerCarouselSection.tsx">
-                    <div className="absolute inset-0 bg-gradient-to-br from-white/80 to-slate-50/40 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="12" data-magicpath-path="CustomerCarouselSection.tsx" />
-                    <div className="relative z-10 flex flex-col items-center gap-3" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="13" data-magicpath-path="CustomerCarouselSection.tsx">
-                      <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="14" data-magicpath-path="CustomerCarouselSection.tsx">
+                    <div className="absolute inset-0 bg-gradient-to-br from-white/90 to-slate-50/50 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="12" data-magicpath-path="CustomerCarouselSection.tsx" />
+                    <div className="relative z-10 flex flex-col items-center gap-4" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="13" data-magicpath-path="CustomerCarouselSection.tsx">
+                      <div className="w-16 h-16 lg:w-20 lg:h-20 flex items-center justify-center" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="14" data-magicpath-path="CustomerCarouselSection.tsx">
                         <img alt={`${brand.name} logo`} className="w-full h-full object-contain filter brightness-0 opacity-70 group-hover:opacity-90 transition-all duration-300" loading="lazy" src={brand.logo} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:unknown" data-magicpath-id="15" data-magicpath-path="CustomerCarouselSection.tsx" />
                       </div>
-                      <span className="text-xs lg:text-sm font-medium text-slate-600 group-hover:text-slate-800 transition-colors duration-300" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="16" data-magicpath-path="CustomerCarouselSection.tsx">
+                      <span className="text-sm lg:text-base font-medium text-slate-600 group-hover:text-slate-800 transition-colors duration-300" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="16" data-magicpath-path="CustomerCarouselSection.tsx">
                         {brand.name}
                       </span>
                     </div>
@@ -221,7 +222,7 @@ const CustomerCarouselSection: React.FC = () => {
 
           {/* Second row - moves right to left on scroll down */}
           <div className="relative overflow-hidden w-full" data-magicpath-id="17" data-magicpath-path="CustomerCarouselSection.tsx">
-            <motion.div className="flex gap-8 w-fit min-w-full" style={{
+            <motion.div className="flex gap-12 w-fit min-w-full" style={{
             x: secondRowX
           }} initial={{
             opacity: 0,
@@ -236,20 +237,21 @@ const CustomerCarouselSection: React.FC = () => {
             once: true
           }} data-magicpath-id="18" data-magicpath-path="CustomerCarouselSection.tsx">
               {duplicatedSecondRow.map((brand, index) => <motion.div key={`second-${brand.name}-${index}`} className="flex-none" whileHover={{
-              y: -8
+              y: -12,
+              scale: 1.05
             }} transition={{
               duration: 0.3,
               ease: "easeOut"
             }} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="19" data-magicpath-path="CustomerCarouselSection.tsx">
-                  <div className="group relative w-28 h-28 lg:w-36 lg:h-36 rounded-2xl border border-slate-200/60 shadow-sm hover:shadow-xl transition-all duration-500 flex items-center justify-center backdrop-blur-sm" style={{
+                  <div className="group relative w-36 h-36 lg:w-44 lg:h-44 rounded-3xl border border-slate-200/60 shadow-lg hover:shadow-2xl transition-all duration-500 flex items-center justify-center backdrop-blur-sm" style={{
                 backgroundColor: '#fcfcf9'
               }} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="20" data-magicpath-path="CustomerCarouselSection.tsx">
-                    <div className="absolute inset-0 bg-gradient-to-br from-white/80 to-slate-50/40 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="21" data-magicpath-path="CustomerCarouselSection.tsx" />
-                    <div className="relative z-10 flex flex-col items-center gap-3" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="22" data-magicpath-path="CustomerCarouselSection.tsx">
-                      <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="23" data-magicpath-path="CustomerCarouselSection.tsx">
+                    <div className="absolute inset-0 bg-gradient-to-br from-white/90 to-slate-50/50 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="21" data-magicpath-path="CustomerCarouselSection.tsx" />
+                    <div className="relative z-10 flex flex-col items-center gap-4" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="22" data-magicpath-path="CustomerCarouselSection.tsx">
+                      <div className="w-16 h-16 lg:w-20 lg:h-20 flex items-center justify-center" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="23" data-magicpath-path="CustomerCarouselSection.tsx">
                         <img alt={`${brand.name} logo`} className="w-full h-full object-contain filter brightness-0 opacity-70 group-hover:opacity-90 transition-all duration-300" loading="lazy" src={brand.logo} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:unknown" data-magicpath-id="24" data-magicpath-path="CustomerCarouselSection.tsx" />
                       </div>
-                      <span className="text-xs lg:text-sm font-medium text-slate-600 group-hover:text-slate-800 transition-colors duration-300" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="25" data-magicpath-path="CustomerCarouselSection.tsx">
+                      <span className="text-sm lg:text-base font-medium text-slate-600 group-hover:text-slate-800 transition-colors duration-300" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="25" data-magicpath-path="CustomerCarouselSection.tsx">
                         {brand.name}
                       </span>
                     </div>
