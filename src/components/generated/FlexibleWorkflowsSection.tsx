@@ -6,32 +6,32 @@ const FlexibleWorkflowsSection: React.FC = () => {
     title: "Development Workflow",
     image: "🚀",
     description: "Streamline your development process with automated testing and deployment",
-    mpid: "d2cbb9fe-427d-43b7-8e40-2d10b122ca75"
+    mpid: "23bd7ad0-4f9c-4bda-91a2-096f82815ed1"
   }, {
     title: "Design System",
     image: "🎨",
     description: "Maintain consistency across your products with a unified design system",
-    mpid: "3c051d43-f064-4dca-b12c-72157d7b6a5e"
+    mpid: "283fc281-9fa1-4102-b1ba-960512a8c176"
   }, {
     title: "Project Management",
     image: "📊",
     description: "Keep your team aligned with powerful project tracking and collaboration tools",
-    mpid: "c62f9739-c282-4b09-add6-0ac3c086155e"
+    mpid: "50ac7cce-00f7-476a-8b7c-cd9ead33cff6"
   }, {
     title: "Quality Assurance",
     image: "✅",
     description: "Ensure product quality with comprehensive testing and review processes",
-    mpid: "39e6c3b1-605f-403f-959d-54d4026ffa33"
+    mpid: "f9c8730a-b3d5-4baa-addc-4a99ecd43960"
   }, {
     title: "Analytics & Insights",
     image: "📈",
     description: "Make data-driven decisions with real-time analytics and reporting",
-    mpid: "4c769292-c9b3-4151-8d8c-dc944f200535"
+    mpid: "951682f9-4577-44d8-b783-c67ecdb235b4"
   }, {
     title: "Customer Feedback",
     image: "💬",
     description: "Collect and analyze customer feedback to improve your products continuously",
-    mpid: "57d09d8e-0fe7-4afd-ba0d-5adf1457b8a4"
+    mpid: "ff36dc96-f39d-4532-bb37-675b3e674622"
   }] as any[];
   const [currentIndex, setCurrentIndex] = useState(0);
   const itemsPerView = 3;
@@ -42,7 +42,9 @@ const FlexibleWorkflowsSection: React.FC = () => {
   const prevSlide = () => {
     setCurrentIndex(prev => Math.max(prev - 1, 0));
   };
-  return <section className="py-24 px-6 bg-white" data-magicpath-id="0" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+  return <section className="py-24 px-6" style={{
+    backgroundColor: '#2f2f30'
+  }} data-magicpath-id="0" data-magicpath-path="FlexibleWorkflowsSection.tsx">
       <div className="max-w-7xl mx-auto" data-magicpath-id="1" data-magicpath-path="FlexibleWorkflowsSection.tsx">
         {/* Section Header */}
         <motion.div className="text-center mb-16" initial={{
@@ -57,12 +59,12 @@ const FlexibleWorkflowsSection: React.FC = () => {
       }} viewport={{
         once: true
       }} data-magicpath-id="2" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6" data-magicpath-id="3" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6" data-magicpath-id="3" data-magicpath-path="FlexibleWorkflowsSection.tsx">
             Flexible Workflows for
             <br data-magicpath-id="4" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
-            <span className="text-blue-600" data-magicpath-id="5" data-magicpath-path="FlexibleWorkflowsSection.tsx">Every Use Case</span>
+            <span className="text-blue-400" data-magicpath-id="5" data-magicpath-path="FlexibleWorkflowsSection.tsx">Every Use Case</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed" data-magicpath-id="6" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed" data-magicpath-id="6" data-magicpath-path="FlexibleWorkflowsSection.tsx">
             Adapt Reaxo to your unique needs with customizable workflows that grow with your team and scale with your business.
           </p>
         </motion.div>
@@ -70,12 +72,12 @@ const FlexibleWorkflowsSection: React.FC = () => {
         {/* Carousel Container */}
         <div className="relative" data-magicpath-id="7" data-magicpath-path="FlexibleWorkflowsSection.tsx">
           {/* Navigation Arrows */}
-          <button onClick={prevSlide} disabled={currentIndex === 0} className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 bg-white rounded-full shadow-lg border border-gray-200 flex items-center justify-center hover:bg-gray-50 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed" data-magicpath-id="8" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-            <ChevronLeft className="w-6 h-6 text-gray-600" data-magicpath-id="9" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
+          <button onClick={prevSlide} disabled={currentIndex === 0} className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 bg-gray-700 rounded-full shadow-lg border border-gray-600 flex items-center justify-center hover:bg-gray-600 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed" data-magicpath-id="8" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+            <ChevronLeft className="w-6 h-6 text-gray-300" data-magicpath-id="9" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
           </button>
 
-          <button onClick={nextSlide} disabled={currentIndex === maxIndex} className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-12 h-12 bg-white rounded-full shadow-lg border border-gray-200 flex items-center justify-center hover:bg-gray-50 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed" data-magicpath-id="10" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-            <ChevronRight className="w-6 h-6 text-gray-600" data-magicpath-id="11" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
+          <button onClick={nextSlide} disabled={currentIndex === maxIndex} className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-12 h-12 bg-gray-700 rounded-full shadow-lg border border-gray-600 flex items-center justify-center hover:bg-gray-600 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed" data-magicpath-id="10" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+            <ChevronRight className="w-6 h-6 text-gray-300" data-magicpath-id="11" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
           </button>
 
           {/* Carousel Track */}
@@ -88,8 +90,9 @@ const FlexibleWorkflowsSection: React.FC = () => {
           }} style={{
             width: `${workflows.length / itemsPerView * 100}%`
           }} data-magicpath-id="13" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-              {workflows.map((workflow, index) => <motion.div key={index} className="flex-shrink-0 bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer" style={{
-              width: `${100 / workflows.length}%`
+              {workflows.map((workflow, index) => <motion.div key={index} className="flex-shrink-0 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer" style={{
+              width: `${100 / workflows.length}%`,
+              backgroundColor: '#3a3a3b'
             }} whileHover={{
               scale: 1.02,
               y: -5
@@ -109,10 +112,10 @@ const FlexibleWorkflowsSection: React.FC = () => {
                     <div className="text-6xl mb-6 group-hover:scale-110 transition-transform duration-300" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="image:unknown" data-magicpath-id="16" data-magicpath-path="FlexibleWorkflowsSection.tsx">
                       {workflow.image}
                     </div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="17" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+                    <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-400 transition-colors" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="17" data-magicpath-path="FlexibleWorkflowsSection.tsx">
                       {workflow.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:unknown" data-magicpath-id="18" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+                    <p className="text-gray-300 leading-relaxed" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:unknown" data-magicpath-id="18" data-magicpath-path="FlexibleWorkflowsSection.tsx">
                       {workflow.description}
                     </p>
                   </div>
@@ -124,7 +127,7 @@ const FlexibleWorkflowsSection: React.FC = () => {
           <div className="flex justify-center gap-2 mt-12" data-magicpath-id="19" data-magicpath-path="FlexibleWorkflowsSection.tsx">
             {Array.from({
             length: maxIndex + 1
-          }).map((_, index) => <button key={index} onClick={() => setCurrentIndex(index)} className={`w-3 h-3 rounded-full transition-all duration-300 ${index === currentIndex ? 'bg-blue-600 w-8' : 'bg-gray-300 hover:bg-gray-400'}`} data-magicpath-id="20" data-magicpath-path="FlexibleWorkflowsSection.tsx" />)}
+          }).map((_, index) => <button key={index} onClick={() => setCurrentIndex(index)} className={`w-3 h-3 rounded-full transition-all duration-300 ${index === currentIndex ? 'bg-blue-400 w-8' : 'bg-gray-500 hover:bg-gray-400'}`} data-magicpath-id="20" data-magicpath-path="FlexibleWorkflowsSection.tsx" />)}
           </div>
         </div>
 
@@ -142,7 +145,7 @@ const FlexibleWorkflowsSection: React.FC = () => {
       }} viewport={{
         once: true
       }} data-magicpath-id="21" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-          <motion.button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl" whileHover={{
+          <motion.button className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-lg font-semibold rounded-xl hover:from-blue-600 hover:to-purple-600 transition-all duration-300 shadow-lg hover:shadow-xl" whileHover={{
           scale: 1.05
         }} whileTap={{
           scale: 0.95
