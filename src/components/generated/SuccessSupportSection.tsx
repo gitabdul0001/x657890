@@ -7,37 +7,37 @@ const SuccessSupportSection: React.FC = () => {
     author: "Sarah Chen",
     role: "CTO at TechFlow",
     avatar: "👩‍💻",
-    mpid: "db9b69b7-a8b9-45d5-881b-9bd18024b0bf"
+    mpid: "a4293765-6aab-4431-bc86-75f735d2c59c"
   }, {
     text: "The analytics dashboard gives us insights we never had before. Game changer!",
     author: "Marcus Johnson",
     role: "Product Manager at InnovateCorp",
     avatar: "👨‍💼",
-    mpid: "fbe88ec2-1ed4-4dc5-ba02-0c2cd90df2fb"
+    mpid: "cba89175-673d-415f-8066-b3136723bc54"
   }, {
     text: "Best investment we made this year. ROI was immediate and substantial.",
     author: "Elena Rodriguez",
     role: "CEO at StartupX",
     avatar: "👩‍💼",
-    mpid: "0ed30c18-3e55-43be-9954-82167be1d8e2"
+    mpid: "c249fabb-b018-48c2-ada2-d7a43b83ab78"
   }, {
     text: "Customer support is phenomenal. They helped us migrate seamlessly.",
     author: "David Kim",
     role: "Lead Developer at CodeCraft",
     avatar: "👨‍💻",
-    mpid: "0c43f7fa-5973-4922-885d-9f362be2d905"
+    mpid: "f552c85c-2523-4274-8db6-27a590b4794e"
   }, {
     text: "The collaboration features brought our remote team closer together.",
     author: "Lisa Wang",
     role: "Design Lead at CreativeStudio",
     avatar: "👩‍🎨",
-    mpid: "742f66c9-3182-4cc0-ad20-d9e10dd5b896"
+    mpid: "0c1aaedb-b3c0-42d0-a52c-e6aac42c39eb"
   }, {
     text: "Reaxo's automation saved us 20 hours per week. Incredible efficiency gains.",
     author: "Alex Thompson",
     role: "Operations Director at ScaleUp",
     avatar: "👨‍🔧",
-    mpid: "21790fe4-85a8-4b9f-86fb-80a68a785134"
+    mpid: "d20303fe-1b8d-4846-8dbb-2c2cbe29c89f"
   }] as any[];
   const features = ["24/7 dedicated support team", "Comprehensive onboarding program", "Regular training sessions", "Custom integration assistance"];
   return <section className="py-16 px-6 bg-slate-900 text-white" data-magicpath-id="0" data-magicpath-path="SuccessSupportSection.tsx">
@@ -110,7 +110,7 @@ const SuccessSupportSection: React.FC = () => {
           </motion.div>
 
           {/* Right Column - Testimonial Carousels */}
-          <motion.div className="relative h-96 overflow-hidden" initial={{
+          <motion.div className="relative h-96" initial={{
           opacity: 0,
           x: 50
         }} whileInView={{
