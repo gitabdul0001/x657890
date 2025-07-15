@@ -7,37 +7,37 @@ const SuccessSupportSection: React.FC = () => {
     author: "Sarah Chen",
     role: "CTO at TechFlow",
     avatar: "👩‍💻",
-    mpid: "2a3b429e-baf8-41e1-bedb-e411d3a800c2"
+    mpid: "f25f76df-d02b-4efd-b976-e40f8d0ee547"
   }, {
     text: "The analytics dashboard gives us insights we never had before. Game changer!",
     author: "Marcus Johnson",
     role: "Product Manager at InnovateCorp",
     avatar: "👨‍💼",
-    mpid: "fd60a0d2-ab8c-4395-ba7c-b599aebe29bc"
+    mpid: "cee31363-5cc1-4820-87f0-fb3e254d700a"
   }, {
     text: "Best investment we made this year. ROI was immediate and substantial.",
     author: "Elena Rodriguez",
     role: "CEO at StartupX",
     avatar: "👩‍💼",
-    mpid: "e446f0a8-eef6-4d00-a1ec-0866aad04086"
+    mpid: "2ce70bb8-4455-4f53-a374-b6e45bbbbdc1"
   }, {
     text: "Customer support is phenomenal. They helped us migrate seamlessly.",
     author: "David Kim",
     role: "Lead Developer at CodeCraft",
     avatar: "👨‍💻",
-    mpid: "014a9212-38bc-44c5-98df-c9423c8a8698"
+    mpid: "e91d6097-ebbf-449e-bf07-06c84b94cf08"
   }, {
     text: "The collaboration features brought our remote team closer together.",
     author: "Lisa Wang",
     role: "Design Lead at CreativeStudio",
     avatar: "👩‍🎨",
-    mpid: "8062c299-bd6c-46b7-a361-9789e75c0a38"
+    mpid: "f1e38005-bd88-44c6-ba1d-2f9234763a37"
   }, {
     text: "Reaxo's automation saved us 20 hours per week. Incredible efficiency gains.",
     author: "Alex Thompson",
     role: "Operations Director at ScaleUp",
     avatar: "👨‍🔧",
-    mpid: "a2553fa0-aff3-489d-a529-31eaa50c9c05"
+    mpid: "affdd908-932b-453c-985c-877e90c3661a"
   }] as any[];
   const features = ["24/7 dedicated support team", "Comprehensive onboarding program", "Regular training sessions", "Custom integration assistance"];
   return <section className="py-16 px-6 bg-slate-900 text-white relative overflow-hidden" style={{
@@ -134,18 +134,15 @@ const SuccessSupportSection: React.FC = () => {
                 repeat: Infinity,
                 ease: "linear"
               }} data-magicpath-id="21" data-magicpath-path="SuccessSupportSection.tsx">
-                  {[...testimonials.slice(0, 3), ...testimonials.slice(0, 3)].map((testimonial, index) => <motion.div key={`col1-${index}`} className="support_testimonials-item bg-[#3a3a3b] rounded-2xl p-8 shadow-2xl border border-slate-600/50 backdrop-blur-sm min-h-[180px] flex flex-col justify-between hover:shadow-3xl transition-all duration-300" whileHover={{
-                  y: -5,
-                  boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.5)"
-                }} data-magicpath-id="22" data-magicpath-path="SuccessSupportSection.tsx">
-                      <blockquote className="support_testimonials-text text-gray-200 mb-6 leading-relaxed text-lg font-medium flex-grow" data-magicpath-id="23" data-magicpath-path="SuccessSupportSection.tsx">
+                  {[...testimonials.slice(0, 3), ...testimonials.slice(0, 3)].map((testimonial, index) => <motion.div key={`col1-${index}`} className="support_testimonials-item bg-[#3a3a3b] rounded-lg p-6 min-h-[160px] flex flex-col justify-between" data-magicpath-id="22" data-magicpath-path="SuccessSupportSection.tsx">
+                      <div className="support_testimonials-text text-gray-200 mb-4 leading-relaxed text-base flex-grow" data-magicpath-id="23" data-magicpath-path="SuccessSupportSection.tsx">
                         "{testimonial.text}"
-                      </blockquote>
-                      <div className="support_testimonials-flex flex items-center gap-4" data-magicpath-id="24" data-magicpath-path="SuccessSupportSection.tsx">
-                        <div className="support_testimonials-image text-3xl w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-sm" data-magicpath-id="25" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.avatar}</div>
+                      </div>
+                      <div className="support_testimonials-flex flex items-center gap-3" data-magicpath-id="24" data-magicpath-path="SuccessSupportSection.tsx">
+                        <div className="support_testimonials-image w-10 h-10 rounded-full bg-gray-600 flex items-center justify-center text-white text-sm" data-magicpath-id="25" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.avatar}</div>
                         <div className="support_testimonials-text-flex" data-magicpath-id="26" data-magicpath-path="SuccessSupportSection.tsx">
-                          <div className="heading-style-h6 text-weight-bold text-color-grey font-bold text-white text-lg" data-magicpath-id="27" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.author}</div>
-                          <div className="heading-style-h6 text-color-grey text-gray-400 font-medium" data-magicpath-id="28" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.role}</div>
+                          <div className="heading-style-h6 text-weight-bold text-color-grey font-semibold text-white text-sm" data-magicpath-id="27" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.author}</div>
+                          <div className="heading-style-h6 text-color-grey text-gray-400 text-sm" data-magicpath-id="28" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.role}</div>
                         </div>
                       </div>
                     </motion.div>)}
@@ -161,18 +158,15 @@ const SuccessSupportSection: React.FC = () => {
                 repeat: Infinity,
                 ease: "linear"
               }} data-magicpath-id="30" data-magicpath-path="SuccessSupportSection.tsx">
-                  {[...testimonials.slice(3, 6), ...testimonials.slice(3, 6)].map((testimonial, index) => <motion.div key={`col2-${index}`} className="support_testimonials-item bg-[#3a3a3b] rounded-2xl p-8 shadow-2xl border border-slate-600/50 backdrop-blur-sm min-h-[180px] flex flex-col justify-between hover:shadow-3xl transition-all duration-300" whileHover={{
-                  y: -5,
-                  boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.5)"
-                }} data-magicpath-id="31" data-magicpath-path="SuccessSupportSection.tsx">
-                      <blockquote className="support_testimonials-text text-gray-200 mb-6 leading-relaxed text-lg font-medium flex-grow" data-magicpath-id="32" data-magicpath-path="SuccessSupportSection.tsx">
+                  {[...testimonials.slice(3, 6), ...testimonials.slice(3, 6)].map((testimonial, index) => <motion.div key={`col2-${index}`} className="support_testimonials-item bg-[#3a3a3b] rounded-lg p-6 min-h-[160px] flex flex-col justify-between" data-magicpath-id="31" data-magicpath-path="SuccessSupportSection.tsx">
+                      <div className="support_testimonials-text text-gray-200 mb-4 leading-relaxed text-base flex-grow" data-magicpath-id="32" data-magicpath-path="SuccessSupportSection.tsx">
                         "{testimonial.text}"
-                      </blockquote>
-                      <div className="support_testimonials-flex flex items-center gap-4" data-magicpath-id="33" data-magicpath-path="SuccessSupportSection.tsx">
-                        <div className="support_testimonials-image text-3xl w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-sm" data-magicpath-id="34" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.avatar}</div>
+                      </div>
+                      <div className="support_testimonials-flex flex items-center gap-3" data-magicpath-id="33" data-magicpath-path="SuccessSupportSection.tsx">
+                        <div className="support_testimonials-image w-10 h-10 rounded-full bg-gray-600 flex items-center justify-center text-white text-sm" data-magicpath-id="34" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.avatar}</div>
                         <div className="support_testimonials-text-flex" data-magicpath-id="35" data-magicpath-path="SuccessSupportSection.tsx">
-                          <div className="heading-style-h6 text-weight-bold text-color-grey font-bold text-white text-lg" data-magicpath-id="36" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.author}</div>
-                          <div className="heading-style-h6 text-color-grey text-gray-400 font-medium" data-magicpath-id="37" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.role}</div>
+                          <div className="heading-style-h6 text-weight-bold text-color-grey font-semibold text-white text-sm" data-magicpath-id="36" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.author}</div>
+                          <div className="heading-style-h6 text-color-grey text-gray-400 text-sm" data-magicpath-id="37" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.role}</div>
                         </div>
                       </div>
                     </motion.div>)}
