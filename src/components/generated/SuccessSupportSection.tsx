@@ -7,37 +7,37 @@ const SuccessSupportSection: React.FC = () => {
     author: "Sarah Chen",
     role: "CTO at TechFlow",
     avatar: "👩‍💻",
-    mpid: "c69110ad-3c75-49e6-8a1d-920a726a6da0"
+    mpid: "66931b1e-e2a6-47ff-8fa1-85bf0cde2643"
   }, {
     text: "The analytics dashboard gives us insights we never had before. Game changer!",
     author: "Marcus Johnson",
     role: "Product Manager at InnovateCorp",
     avatar: "👨‍💼",
-    mpid: "f65a97b7-6e12-4025-aa6b-df91688c6411"
+    mpid: "c2a7ab90-bc0d-416b-a62e-2506ba361854"
   }, {
     text: "Best investment we made this year. ROI was immediate and substantial.",
     author: "Elena Rodriguez",
     role: "CEO at StartupX",
     avatar: "👩‍💼",
-    mpid: "00b99bf3-223f-47aa-82e4-bb05e4f9d392"
+    mpid: "a12a4dab-407d-494f-8b57-7d75323751aa"
   }, {
     text: "Customer support is phenomenal. They helped us migrate seamlessly.",
     author: "David Kim",
     role: "Lead Developer at CodeCraft",
     avatar: "👨‍💻",
-    mpid: "1952e826-ec7a-4229-a32f-ad527b3189e3"
+    mpid: "adaa6200-1ca3-46cf-8758-8debe378bc3e"
   }, {
     text: "The collaboration features brought our remote team closer together.",
     author: "Lisa Wang",
     role: "Design Lead at CreativeStudio",
     avatar: "👩‍🎨",
-    mpid: "9401afb4-dc30-417a-ac8f-51144ffdaabd"
+    mpid: "d78977ce-5e7f-4adb-8f0d-739a548c49a4"
   }, {
     text: "Reaxo's automation saved us 20 hours per week. Incredible efficiency gains.",
     author: "Alex Thompson",
     role: "Operations Director at ScaleUp",
     avatar: "👨‍🔧",
-    mpid: "0b534e88-98c8-4129-a453-03ac37305ab6"
+    mpid: "f738afb7-f4d8-4c5c-b23d-3a5533ea39fb"
   }] as any[];
   const features = ["24/7 dedicated support team", "Comprehensive onboarding program", "Regular training sessions", "Custom integration assistance"];
   return <section className="py-16 px-6 bg-slate-900 text-white relative overflow-hidden" data-magicpath-id="0" data-magicpath-path="SuccessSupportSection.tsx">
@@ -122,7 +122,7 @@ const SuccessSupportSection: React.FC = () => {
         }} viewport={{
           once: true
         }} data-magicpath-id="18" data-magicpath-path="SuccessSupportSection.tsx">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 h-full overflow-hidden" data-magicpath-id="19" data-magicpath-path="SuccessSupportSection.tsx">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 h-full" data-magicpath-id="19" data-magicpath-path="SuccessSupportSection.tsx">
               {/* First Column - Scrolling Up */}
               <div className="relative overflow-hidden h-full" data-magicpath-id="20" data-magicpath-path="SuccessSupportSection.tsx">
                 <motion.div className="space-y-6" animate={{
