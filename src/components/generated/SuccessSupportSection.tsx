@@ -7,40 +7,40 @@ const SuccessSupportSection: React.FC = () => {
     author: "Sarah Chen",
     role: "CTO at TechFlow",
     avatar: "👩‍💻",
-    mpid: "bb44f140-cfd4-4c80-b827-39b5d5a1906c"
+    mpid: "83699163-28b0-4791-94d9-90e69f49b65c"
   }, {
     text: "The analytics dashboard gives us insights we never had before. Game changer!",
     author: "Marcus Johnson",
     role: "Product Manager at InnovateCorp",
     avatar: "👨‍💼",
-    mpid: "07a1b390-d770-4f25-a038-03c9f54779f9"
+    mpid: "00621543-600a-44f0-a187-638011f09b4b"
   }, {
     text: "Best investment we made this year. ROI was immediate and substantial.",
     author: "Elena Rodriguez",
     role: "CEO at StartupX",
     avatar: "👩‍💼",
-    mpid: "1273e5a9-60d2-47f3-90cb-9df5bd75f11f"
+    mpid: "b90c7292-8ad7-49c6-ad72-007c7b7730d5"
   }, {
     text: "Customer support is phenomenal. They helped us migrate seamlessly.",
     author: "David Kim",
     role: "Lead Developer at CodeCraft",
     avatar: "👨‍💻",
-    mpid: "14715b6a-8c02-43ba-8c9f-70fe32a7badb"
+    mpid: "6722dc17-947f-42a7-b0e2-fb888d1915dc"
   }, {
     text: "The collaboration features brought our remote team closer together.",
     author: "Lisa Wang",
     role: "Design Lead at CreativeStudio",
     avatar: "👩‍🎨",
-    mpid: "5a8c8d10-f924-4fb7-b80f-dc21f44e7569"
+    mpid: "c0f3f2f7-3199-49bc-a992-069e70c033e0"
   }, {
     text: "Reaxo's automation saved us 20 hours per week. Incredible efficiency gains.",
     author: "Alex Thompson",
     role: "Operations Director at ScaleUp",
     avatar: "👨‍🔧",
-    mpid: "b15a9c15-a73c-4a07-a53f-36cc41da548b"
+    mpid: "4a483155-8637-4244-98cf-723dca0a78ba"
   }] as any[];
   const features = ["24/7 dedicated support team", "Comprehensive onboarding program", "Regular training sessions", "Custom integration assistance"];
-  return <section className="py-24 px-6 bg-slate-900 text-white" data-magicpath-id="0" data-magicpath-path="SuccessSupportSection.tsx">
+  return <section className="py-16 px-6 bg-slate-900 text-white" data-magicpath-id="0" data-magicpath-path="SuccessSupportSection.tsx">
       <div className="max-w-7xl mx-auto" data-magicpath-id="1" data-magicpath-path="SuccessSupportSection.tsx">
         <div className="grid lg:grid-cols-2 gap-16 items-start" data-magicpath-id="2" data-magicpath-path="SuccessSupportSection.tsx">
           {/* Left Column - Content */}
@@ -110,7 +110,7 @@ const SuccessSupportSection: React.FC = () => {
           </motion.div>
 
           {/* Right Column - Testimonial Carousels */}
-          <motion.div className="relative" initial={{
+          <motion.div className="relative h-96 overflow-hidden" initial={{
           opacity: 0,
           x: 50
         }} whileInView={{
@@ -122,9 +122,9 @@ const SuccessSupportSection: React.FC = () => {
         }} viewport={{
           once: true
         }} data-magicpath-id="18" data-magicpath-path="SuccessSupportSection.tsx">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6" data-magicpath-id="19" data-magicpath-path="SuccessSupportSection.tsx">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 h-full" data-magicpath-id="19" data-magicpath-path="SuccessSupportSection.tsx">
               {/* First Column - Scrolling Up */}
-              <div className="relative overflow-hidden" data-magicpath-id="20" data-magicpath-path="SuccessSupportSection.tsx">
+              <div className="relative overflow-hidden h-full" data-magicpath-id="20" data-magicpath-path="SuccessSupportSection.tsx">
                 <motion.div className="space-y-6" animate={{
                 y: [0, -100 * (testimonials.length / 2)]
               }} transition={{
@@ -148,7 +148,7 @@ const SuccessSupportSection: React.FC = () => {
               </div>
 
               {/* Second Column - Scrolling Down */}
-              <div className="relative overflow-hidden" data-magicpath-id="29" data-magicpath-path="SuccessSupportSection.tsx">
+              <div className="relative overflow-hidden h-full" data-magicpath-id="29" data-magicpath-path="SuccessSupportSection.tsx">
                 <motion.div className="space-y-6" animate={{
                 y: [-100 * (testimonials.length / 2), 0]
               }} transition={{
