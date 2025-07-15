@@ -19,124 +19,124 @@ const CustomerCarouselSection: React.FC = () => {
   const firstRowBrands = [{
     name: 'Microsoft',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/microsoft.svg',
-    mpid: "658849ff-3e37-47f8-aa5b-4fb48e987444"
+    mpid: "6e98a308-0d93-40ee-9f3a-8f0b6b242862"
   }, {
     name: 'Google',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/google.svg',
-    mpid: "3ec0bd08-2980-47e7-b001-35efde577de8"
+    mpid: "f40732e4-6bd2-42e0-b924-362a59e63e2f"
   }, {
     name: 'Apple',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/apple.svg',
-    mpid: "28c385e0-3221-4b72-893b-43d3a997f52e"
+    mpid: "0bd6a6f4-28cb-46a2-b156-f1b70e62ab21"
   }, {
     name: 'Amazon',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/amazon.svg',
-    mpid: "8452a90a-6650-4585-8166-f0837253710f"
+    mpid: "d6c99a67-97a8-440e-9788-c32d79bfcdff"
   }, {
     name: 'Netflix',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/netflix.svg',
-    mpid: "282c6458-5709-4f46-bedc-40998f9fc9b6"
+    mpid: "f02cf5e5-8599-45c1-96f3-da8e648d8e96"
   }, {
     name: 'Spotify',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/spotify.svg',
-    mpid: "621099a1-0227-4b7e-aeea-27304262ac7b"
+    mpid: "2c3b8613-1d27-4abf-8bed-ac1941f5aea6"
   }, {
     name: 'Slack',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/slack.svg',
-    mpid: "4acf5d39-114e-4a86-b2c0-abb0fe70f062"
+    mpid: "3b5bef42-6a4a-4b88-b57f-25c9123f0d11"
   }, {
     name: 'GitHub',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/github.svg',
-    mpid: "e1349fe9-07e1-441e-8be3-56ce9e142580"
+    mpid: "2a4485fe-bd5e-4379-824b-32f10026adeb"
   }, {
     name: 'Zoom',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/zoom.svg',
-    mpid: "bf462885-7b9d-49f1-a4f5-09295faeaa73"
+    mpid: "e9779103-6fcf-4f78-bf41-a48b2adf0a10"
   }, {
     name: 'Dropbox',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/dropbox.svg',
-    mpid: "1dc4432a-ffa4-469e-b50f-e0bc526dd313"
+    mpid: "59d15f80-9a3e-4046-b3f9-dc21c1b2a653"
   }, {
     name: 'Adobe',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/adobe.svg',
-    mpid: "d7fe9a61-a5d7-4b91-93df-9baafa3ff128"
+    mpid: "6b5250df-eeff-4e25-bece-044fc91ab32f"
   }, {
     name: 'Tesla',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/tesla.svg',
-    mpid: "0c9073a7-44dd-440b-beb0-a2a1be809c61"
+    mpid: "cf2f5e9f-46f3-47b9-aea3-071430018254"
   }, {
     name: 'Airbnb',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/airbnb.svg',
-    mpid: "2818d6bb-1869-42af-bb62-838c776ff6da"
+    mpid: "16c23ae1-ae79-410e-9d1b-0c83a11136b0"
   }, {
     name: 'Uber',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/uber.svg',
-    mpid: "aec54566-4f53-424e-864b-557d4e67335c"
+    mpid: "2ccffd8d-f5cc-4430-93e9-f91a21f78dfa"
   }, {
     name: 'Twitter',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/twitter.svg',
-    mpid: "cb05c84b-7ed1-4c43-90d9-1a8c8a9e8bd2"
+    mpid: "66db73e6-eadd-4ffa-82ae-f149931c354b"
   }] as any[];
   const secondRowBrands = [{
     name: 'Meta',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/meta.svg',
-    mpid: "4e4fcb40-61b3-423a-b101-df60ca5e3fb8"
+    mpid: "db841c3d-fb9a-4856-9bfb-324917dec2a7"
   }, {
     name: 'LinkedIn',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/linkedin.svg',
-    mpid: "effa1e31-95ca-4aad-a048-e45e178bbb88"
+    mpid: "d27ee62e-a3ac-4196-940b-c2ea1998f14b"
   }, {
     name: 'PayPal',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/paypal.svg',
-    mpid: "b46e0e3e-774f-440d-a626-470127c89b2f"
+    mpid: "a535aaaf-1ef0-4451-b5e9-8fa2b754ca97"
   }, {
     name: 'Discord',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/discord.svg',
-    mpid: "1b999a25-cab8-4934-9f56-c9692d8c7222"
+    mpid: "3eed9d1c-4eed-4e3c-ac9e-d2a5e79684f2"
   }, {
     name: 'Notion',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/notion.svg',
-    mpid: "83c69fa9-ba27-4846-9f24-860a6153f3fa"
+    mpid: "6b6d6307-6ed4-4534-b9ce-c21e670d5c16"
   }, {
     name: 'Figma',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/figma.svg',
-    mpid: "4b43d58a-b958-43d1-a638-9c9760559ed3"
+    mpid: "5a61f3a7-beac-431e-bb14-fab64b010dfc"
   }, {
     name: 'Canva',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/canva.svg',
-    mpid: "d250dff9-b746-4b47-9a88-6f33e75126fa"
+    mpid: "2c156a6c-7331-4125-a829-bc5afd537a1f"
   }, {
     name: 'Trello',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/trello.svg',
-    mpid: "7d663ecb-9f47-4f3a-9af1-aba85cec0b79"
+    mpid: "70df1eed-16ee-4fb2-9c23-39345d11106f"
   }, {
     name: 'Asana',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/asana.svg',
-    mpid: "5e22efc6-2329-473c-8510-8c1a2bdf3ac5"
+    mpid: "645dd147-2e07-4458-bf0a-7a6b9f44bf95"
   }, {
     name: 'Salesforce',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/salesforce.svg',
-    mpid: "baaa50d9-f67f-407a-8a8f-c7b5bb626619"
+    mpid: "4bb4ecca-0cb4-4c9a-b7fb-7d40acee4b51"
   }, {
     name: 'HubSpot',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/hubspot.svg',
-    mpid: "abfd9fac-79f8-47e6-9243-c8ba7d699f8a"
+    mpid: "c24ce9fc-4e47-4c8a-8c32-190a08c33919"
   }, {
     name: 'Mailchimp',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/mailchimp.svg',
-    mpid: "9ba63f66-f6a2-4be4-9f23-b9bbf943b030"
+    mpid: "627e09f4-e123-4400-a605-5a695ac8d5ca"
   }, {
     name: 'Twitch',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/twitch.svg',
-    mpid: "9bf3e0a7-f896-4326-a103-e3905e7c231c"
+    mpid: "5cff958e-a0a4-4c92-8e23-4dd517742658"
   }, {
     name: 'Reddit',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/reddit.svg',
-    mpid: "e640ee83-0218-4040-8524-97af428d0498"
+    mpid: "3bf3e647-c850-44f2-a514-8646c20a8c5c"
   }, {
     name: 'Vercel',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/vercel.svg',
-    mpid: "95979be8-7599-4d3a-9e74-1d0de0290077"
+    mpid: "771d9503-1263-4e22-9df6-d690752ed8d6"
   }] as any[];
 
   // Duplicate arrays for seamless infinite scroll effect

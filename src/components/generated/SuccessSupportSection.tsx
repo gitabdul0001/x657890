@@ -7,37 +7,37 @@ const SuccessSupportSection: React.FC = () => {
     author: "Sarah Chen",
     role: "CTO at TechFlow",
     avatar: "👩‍💻",
-    mpid: "c5bd6690-8891-4f1c-9399-8851601884fe"
+    mpid: "1ab9282d-1357-4f67-8e1c-341546db0114"
   }, {
     text: "The analytics dashboard gives us insights we never had before. Game changer!",
     author: "Marcus Johnson",
     role: "Product Manager at InnovateCorp",
     avatar: "👨‍💼",
-    mpid: "6c95f721-c2fc-4a0b-a75c-6272cfc9004e"
+    mpid: "0f422ce5-1b65-4a0f-b64f-fc903a7080c7"
   }, {
     text: "Best investment we made this year. ROI was immediate and substantial.",
     author: "Elena Rodriguez",
     role: "CEO at StartupX",
     avatar: "👩‍💼",
-    mpid: "1d82c0da-b098-44bd-9959-00a37b55c5bb"
+    mpid: "30ddbed9-5628-4897-9e93-80f169f9ff22"
   }, {
     text: "Customer support is phenomenal. They helped us migrate seamlessly.",
     author: "David Kim",
     role: "Lead Developer at CodeCraft",
     avatar: "👨‍💻",
-    mpid: "99bc45e8-5385-479a-8f0e-e611ad114b17"
+    mpid: "d6489a06-e6ac-4408-9e5c-e110848f48bf"
   }, {
     text: "The collaboration features brought our remote team closer together.",
     author: "Lisa Wang",
     role: "Design Lead at CreativeStudio",
     avatar: "👩‍🎨",
-    mpid: "220518c9-5450-4932-a47e-291f388e427d"
+    mpid: "650f74b9-cfac-463d-85dd-907b7b56a0ca"
   }, {
     text: "Reaxo's automation saved us 20 hours per week. Incredible efficiency gains.",
     author: "Alex Thompson",
     role: "Operations Director at ScaleUp",
     avatar: "👨‍🔧",
-    mpid: "e37a0a55-1798-4c4f-936b-4d9ca45b8244"
+    mpid: "59c300e0-213f-4474-a8d6-8f40e2e937a1"
   }] as any[];
   const features = ["24/7 dedicated support team", "Comprehensive onboarding program", "Regular training sessions", "Custom integration assistance"];
   return <section className="py-16 px-6 bg-slate-900 text-white relative overflow-hidden" data-magicpath-id="0" data-magicpath-path="SuccessSupportSection.tsx">
@@ -146,8 +146,8 @@ const SuccessSupportSection: React.FC = () => {
                     </div>)}
                 </motion.div>
                 {/* Gradient masks to hide overflow at section boundaries */}
-                <div className="absolute top-0 left-0 right-0 h-8 bg-gradient-to-b from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="29" data-magicpath-path="SuccessSupportSection.tsx"></div>
-                <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="30" data-magicpath-path="SuccessSupportSection.tsx"></div>
+                <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="29" data-magicpath-path="SuccessSupportSection.tsx"></div>
+                <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="30" data-magicpath-path="SuccessSupportSection.tsx"></div>
               </div>
 
               {/* Second Column - Scrolling Down */}
@@ -173,8 +173,8 @@ const SuccessSupportSection: React.FC = () => {
                     </div>)}
                 </motion.div>
                 {/* Gradient masks to hide overflow at section boundaries */}
-                <div className="absolute top-0 left-0 right-0 h-8 bg-gradient-to-b from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="40" data-magicpath-path="SuccessSupportSection.tsx"></div>
-                <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="41" data-magicpath-path="SuccessSupportSection.tsx"></div>
+                <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="40" data-magicpath-path="SuccessSupportSection.tsx"></div>
+                <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="41" data-magicpath-path="SuccessSupportSection.tsx"></div>
               </div>
             </div>
           </motion.div>
