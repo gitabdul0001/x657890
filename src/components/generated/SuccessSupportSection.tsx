@@ -7,37 +7,37 @@ const SuccessSupportSection: React.FC = () => {
     author: "Sarah Chen",
     role: "CTO at TechFlow",
     avatar: "👩‍💻",
-    mpid: "dbea1b34-dc04-408f-9af3-6698dd80aac3"
+    mpid: "0567b7ce-05bd-4a61-8ba6-857b3a881554"
   }, {
     text: "The analytics dashboard gives us insights we never had before. Game changer!",
     author: "Marcus Johnson",
     role: "Product Manager at InnovateCorp",
     avatar: "👨‍💼",
-    mpid: "c662434b-eeec-4731-b1f8-7f3d72d48299"
+    mpid: "2360815d-f847-4159-9fa5-8c4701a1bcef"
   }, {
     text: "Best investment we made this year. ROI was immediate and substantial.",
     author: "Elena Rodriguez",
     role: "CEO at StartupX",
     avatar: "👩‍💼",
-    mpid: "a227caea-bb49-4680-923e-f8a8ea27bc71"
+    mpid: "d4077d28-f818-4d7c-bf4b-628ad4892ed4"
   }, {
     text: "Customer support is phenomenal. They helped us migrate seamlessly.",
     author: "David Kim",
     role: "Lead Developer at CodeCraft",
     avatar: "👨‍💻",
-    mpid: "425a3a55-3faa-4e6f-8687-117953a9280b"
+    mpid: "dd9831f2-867c-47b5-be63-fcd09cfa645e"
   }, {
     text: "The collaboration features brought our remote team closer together.",
     author: "Lisa Wang",
     role: "Design Lead at CreativeStudio",
     avatar: "👩‍🎨",
-    mpid: "c497b9c9-83ed-483f-8b21-76be07a006fa"
+    mpid: "6fbb648f-7d6d-4def-bbe6-9c52e7b4cafe"
   }, {
     text: "Reaxo's automation saved us 20 hours per week. Incredible efficiency gains.",
     author: "Alex Thompson",
     role: "Operations Director at ScaleUp",
     avatar: "👨‍🔧",
-    mpid: "22087f37-ca37-436c-91ee-5b5798d7fc40"
+    mpid: "94b5163c-67cc-4d57-b0a7-bc298e0f3e5b"
   }] as any[];
   const features = ["24/7 dedicated support team", "Comprehensive onboarding program", "Regular training sessions", "Custom integration assistance"];
   return <section className="py-16 px-6 bg-slate-900 text-white relative overflow-hidden" data-magicpath-id="0" data-magicpath-path="SuccessSupportSection.tsx">
@@ -110,7 +110,7 @@ const SuccessSupportSection: React.FC = () => {
           </motion.div>
 
           {/* Right Column - Testimonial Carousels */}
-          <motion.div className="relative h-[500px]" initial={{
+          <motion.div className="relative h-[600px]" initial={{
           opacity: 0,
           x: 50
         }} whileInView={{
@@ -125,18 +125,18 @@ const SuccessSupportSection: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 h-full" data-magicpath-id="19" data-magicpath-path="SuccessSupportSection.tsx">
               {/* First Column - Scrolling Up */}
               <div className="relative overflow-hidden h-full" data-magicpath-id="20" data-magicpath-path="SuccessSupportSection.tsx">
-                <motion.div className="space-y-6" animate={{
-                y: [0, -120 * (testimonials.length / 2)]
+                <motion.div className="space-y-8" animate={{
+                y: [0, -140 * (testimonials.length / 2)]
               }} transition={{
                 duration: 25,
                 repeat: Infinity,
                 ease: "linear"
               }} data-magicpath-id="21" data-magicpath-path="SuccessSupportSection.tsx">
-                  {[...testimonials.slice(0, 3), ...testimonials.slice(0, 3)].map((testimonial, index) => <motion.div key={`col1-${index}`} className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 shadow-2xl border border-slate-600/50 backdrop-blur-sm transform hover:scale-105 transition-all duration-300" whileHover={{
+                  {[...testimonials.slice(0, 3), ...testimonials.slice(0, 3)].map((testimonial, index) => <motion.div key={`col1-${index}`} className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 shadow-2xl border border-slate-600/50 backdrop-blur-sm min-h-[180px] flex flex-col justify-between hover:shadow-3xl transition-all duration-300" whileHover={{
                   y: -5,
-                  scale: 1.02
+                  boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.5)"
                 }} data-magicpath-id="22" data-magicpath-path="SuccessSupportSection.tsx">
-                      <blockquote className="text-gray-200 mb-6 leading-relaxed text-lg font-medium" data-magicpath-id="23" data-magicpath-path="SuccessSupportSection.tsx">
+                      <blockquote className="text-gray-200 mb-6 leading-relaxed text-lg font-medium flex-grow" data-magicpath-id="23" data-magicpath-path="SuccessSupportSection.tsx">
                         "{testimonial.text}"
                       </blockquote>
                       <div className="flex items-center gap-4" data-magicpath-id="24" data-magicpath-path="SuccessSupportSection.tsx">
@@ -152,18 +152,18 @@ const SuccessSupportSection: React.FC = () => {
 
               {/* Second Column - Scrolling Down */}
               <div className="relative overflow-hidden h-full" data-magicpath-id="29" data-magicpath-path="SuccessSupportSection.tsx">
-                <motion.div className="space-y-6" animate={{
-                y: [-120 * (testimonials.length / 2), 0]
+                <motion.div className="space-y-8" animate={{
+                y: [-140 * (testimonials.length / 2), 0]
               }} transition={{
                 duration: 25,
                 repeat: Infinity,
                 ease: "linear"
               }} data-magicpath-id="30" data-magicpath-path="SuccessSupportSection.tsx">
-                  {[...testimonials.slice(3, 6), ...testimonials.slice(3, 6)].map((testimonial, index) => <motion.div key={`col2-${index}`} className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 shadow-2xl border border-slate-600/50 backdrop-blur-sm transform hover:scale-105 transition-all duration-300" whileHover={{
+                  {[...testimonials.slice(3, 6), ...testimonials.slice(3, 6)].map((testimonial, index) => <motion.div key={`col2-${index}`} className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 shadow-2xl border border-slate-600/50 backdrop-blur-sm min-h-[180px] flex flex-col justify-between hover:shadow-3xl transition-all duration-300" whileHover={{
                   y: -5,
-                  scale: 1.02
+                  boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.5)"
                 }} data-magicpath-id="31" data-magicpath-path="SuccessSupportSection.tsx">
-                      <blockquote className="text-gray-200 mb-6 leading-relaxed text-lg font-medium" data-magicpath-id="32" data-magicpath-path="SuccessSupportSection.tsx">
+                      <blockquote className="text-gray-200 mb-6 leading-relaxed text-lg font-medium flex-grow" data-magicpath-id="32" data-magicpath-path="SuccessSupportSection.tsx">
                         "{testimonial.text}"
                       </blockquote>
                       <div className="flex items-center gap-4" data-magicpath-id="33" data-magicpath-path="SuccessSupportSection.tsx">
