@@ -7,37 +7,37 @@ const SuccessSupportSection: React.FC = () => {
     author: "Sarah Chen",
     role: "CTO at TechFlow",
     avatar: "👩‍💻",
-    mpid: "97940abb-b9e9-4140-ae59-0ef091c1cb50"
+    mpid: "dbea1b34-dc04-408f-9af3-6698dd80aac3"
   }, {
     text: "The analytics dashboard gives us insights we never had before. Game changer!",
     author: "Marcus Johnson",
     role: "Product Manager at InnovateCorp",
     avatar: "👨‍💼",
-    mpid: "62f66eb9-4610-494a-8213-5fcc2247e139"
+    mpid: "c662434b-eeec-4731-b1f8-7f3d72d48299"
   }, {
     text: "Best investment we made this year. ROI was immediate and substantial.",
     author: "Elena Rodriguez",
     role: "CEO at StartupX",
     avatar: "👩‍💼",
-    mpid: "e33aa765-a9dc-45e0-a48b-4aa69fe22fc1"
+    mpid: "a227caea-bb49-4680-923e-f8a8ea27bc71"
   }, {
     text: "Customer support is phenomenal. They helped us migrate seamlessly.",
     author: "David Kim",
     role: "Lead Developer at CodeCraft",
     avatar: "👨‍💻",
-    mpid: "6c96f2d9-dc12-445e-be31-09064ac315aa"
+    mpid: "425a3a55-3faa-4e6f-8687-117953a9280b"
   }, {
     text: "The collaboration features brought our remote team closer together.",
     author: "Lisa Wang",
     role: "Design Lead at CreativeStudio",
     avatar: "👩‍🎨",
-    mpid: "2856559d-fb95-485d-a3cb-c1ac987222f5"
+    mpid: "c497b9c9-83ed-483f-8b21-76be07a006fa"
   }, {
     text: "Reaxo's automation saved us 20 hours per week. Incredible efficiency gains.",
     author: "Alex Thompson",
     role: "Operations Director at ScaleUp",
     avatar: "👨‍🔧",
-    mpid: "569002fd-1502-4a1f-b682-83a227c7d306"
+    mpid: "22087f37-ca37-436c-91ee-5b5798d7fc40"
   }] as any[];
   const features = ["24/7 dedicated support team", "Comprehensive onboarding program", "Regular training sessions", "Custom integration assistance"];
   return <section className="py-16 px-6 bg-slate-900 text-white relative overflow-hidden" data-magicpath-id="0" data-magicpath-path="SuccessSupportSection.tsx">
@@ -110,7 +110,7 @@ const SuccessSupportSection: React.FC = () => {
           </motion.div>
 
           {/* Right Column - Testimonial Carousels */}
-          <motion.div className="relative h-96" initial={{
+          <motion.div className="relative h-[500px]" initial={{
           opacity: 0,
           x: 50
         }} whileInView={{
@@ -126,48 +126,54 @@ const SuccessSupportSection: React.FC = () => {
               {/* First Column - Scrolling Up */}
               <div className="relative overflow-hidden h-full" data-magicpath-id="20" data-magicpath-path="SuccessSupportSection.tsx">
                 <motion.div className="space-y-6" animate={{
-                y: [0, -100 * (testimonials.length / 2)]
+                y: [0, -120 * (testimonials.length / 2)]
               }} transition={{
-                duration: 20,
+                duration: 25,
                 repeat: Infinity,
                 ease: "linear"
               }} data-magicpath-id="21" data-magicpath-path="SuccessSupportSection.tsx">
-                  {[...testimonials.slice(0, 3), ...testimonials.slice(0, 3)].map((testimonial, index) => <div key={`col1-${index}`} className="bg-slate-800 rounded-2xl p-6 shadow-xl border border-slate-700" data-magicpath-id="22" data-magicpath-path="SuccessSupportSection.tsx">
-                      <blockquote className="text-gray-300 mb-4 leading-relaxed" data-magicpath-id="23" data-magicpath-path="SuccessSupportSection.tsx">
+                  {[...testimonials.slice(0, 3), ...testimonials.slice(0, 3)].map((testimonial, index) => <motion.div key={`col1-${index}`} className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 shadow-2xl border border-slate-600/50 backdrop-blur-sm transform hover:scale-105 transition-all duration-300" whileHover={{
+                  y: -5,
+                  scale: 1.02
+                }} data-magicpath-id="22" data-magicpath-path="SuccessSupportSection.tsx">
+                      <blockquote className="text-gray-200 mb-6 leading-relaxed text-lg font-medium" data-magicpath-id="23" data-magicpath-path="SuccessSupportSection.tsx">
                         "{testimonial.text}"
                       </blockquote>
-                      <div className="flex items-center gap-3" data-magicpath-id="24" data-magicpath-path="SuccessSupportSection.tsx">
-                        <div className="text-2xl" data-magicpath-id="25" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.avatar}</div>
+                      <div className="flex items-center gap-4" data-magicpath-id="24" data-magicpath-path="SuccessSupportSection.tsx">
+                        <div className="text-3xl" data-magicpath-id="25" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.avatar}</div>
                         <div data-magicpath-id="26" data-magicpath-path="SuccessSupportSection.tsx">
-                          <div className="font-semibold text-white" data-magicpath-id="27" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.author}</div>
-                          <div className="text-sm text-gray-400" data-magicpath-id="28" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.role}</div>
+                          <div className="font-bold text-white text-lg" data-magicpath-id="27" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.author}</div>
+                          <div className="text-blue-300 font-medium" data-magicpath-id="28" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.role}</div>
                         </div>
                       </div>
-                    </div>)}
+                    </motion.div>)}
                 </motion.div>
               </div>
 
               {/* Second Column - Scrolling Down */}
               <div className="relative overflow-hidden h-full" data-magicpath-id="29" data-magicpath-path="SuccessSupportSection.tsx">
                 <motion.div className="space-y-6" animate={{
-                y: [-100 * (testimonials.length / 2), 0]
+                y: [-120 * (testimonials.length / 2), 0]
               }} transition={{
-                duration: 20,
+                duration: 25,
                 repeat: Infinity,
                 ease: "linear"
               }} data-magicpath-id="30" data-magicpath-path="SuccessSupportSection.tsx">
-                  {[...testimonials.slice(3, 6), ...testimonials.slice(3, 6)].map((testimonial, index) => <div key={`col2-${index}`} className="bg-slate-800 rounded-2xl p-6 shadow-xl border border-slate-700" data-magicpath-id="31" data-magicpath-path="SuccessSupportSection.tsx">
-                      <blockquote className="text-gray-300 mb-4 leading-relaxed" data-magicpath-id="32" data-magicpath-path="SuccessSupportSection.tsx">
+                  {[...testimonials.slice(3, 6), ...testimonials.slice(3, 6)].map((testimonial, index) => <motion.div key={`col2-${index}`} className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 shadow-2xl border border-slate-600/50 backdrop-blur-sm transform hover:scale-105 transition-all duration-300" whileHover={{
+                  y: -5,
+                  scale: 1.02
+                }} data-magicpath-id="31" data-magicpath-path="SuccessSupportSection.tsx">
+                      <blockquote className="text-gray-200 mb-6 leading-relaxed text-lg font-medium" data-magicpath-id="32" data-magicpath-path="SuccessSupportSection.tsx">
                         "{testimonial.text}"
                       </blockquote>
-                      <div className="flex items-center gap-3" data-magicpath-id="33" data-magicpath-path="SuccessSupportSection.tsx">
-                        <div className="text-2xl" data-magicpath-id="34" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.avatar}</div>
+                      <div className="flex items-center gap-4" data-magicpath-id="33" data-magicpath-path="SuccessSupportSection.tsx">
+                        <div className="text-3xl" data-magicpath-id="34" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.avatar}</div>
                         <div data-magicpath-id="35" data-magicpath-path="SuccessSupportSection.tsx">
-                          <div className="font-semibold text-white" data-magicpath-id="36" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.author}</div>
-                          <div className="text-sm text-gray-400" data-magicpath-id="37" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.role}</div>
+                          <div className="font-bold text-white text-lg" data-magicpath-id="36" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.author}</div>
+                          <div className="text-blue-300 font-medium" data-magicpath-id="37" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.role}</div>
                         </div>
                       </div>
-                    </div>)}
+                    </motion.div>)}
                 </motion.div>
               </div>
             </div>
