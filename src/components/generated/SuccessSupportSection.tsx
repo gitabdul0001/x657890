@@ -7,37 +7,37 @@ const SuccessSupportSection: React.FC = () => {
     author: "Sarah Chen",
     role: "CTO at TechFlow",
     avatar: "👩‍💻",
-    mpid: "f25f76df-d02b-4efd-b976-e40f8d0ee547"
+    mpid: "13e184b1-b3a8-46c9-a4c2-5f85e71cb702"
   }, {
     text: "The analytics dashboard gives us insights we never had before. Game changer!",
     author: "Marcus Johnson",
     role: "Product Manager at InnovateCorp",
     avatar: "👨‍💼",
-    mpid: "cee31363-5cc1-4820-87f0-fb3e254d700a"
+    mpid: "79da6623-4205-45ec-8e29-86884be3224d"
   }, {
     text: "Best investment we made this year. ROI was immediate and substantial.",
     author: "Elena Rodriguez",
     role: "CEO at StartupX",
     avatar: "👩‍💼",
-    mpid: "2ce70bb8-4455-4f53-a374-b6e45bbbbdc1"
+    mpid: "98a5d603-a035-457b-b8fe-6f3bb0f7969e"
   }, {
     text: "Customer support is phenomenal. They helped us migrate seamlessly.",
     author: "David Kim",
     role: "Lead Developer at CodeCraft",
     avatar: "👨‍💻",
-    mpid: "e91d6097-ebbf-449e-bf07-06c84b94cf08"
+    mpid: "df432bf2-58d4-45af-bf16-3b16ce3f47ce"
   }, {
     text: "The collaboration features brought our remote team closer together.",
     author: "Lisa Wang",
     role: "Design Lead at CreativeStudio",
     avatar: "👩‍🎨",
-    mpid: "f1e38005-bd88-44c6-ba1d-2f9234763a37"
+    mpid: "7ccce9ca-e164-4145-848b-829fba5bb64f"
   }, {
     text: "Reaxo's automation saved us 20 hours per week. Incredible efficiency gains.",
     author: "Alex Thompson",
     role: "Operations Director at ScaleUp",
     avatar: "👨‍🔧",
-    mpid: "affdd908-932b-453c-985c-877e90c3661a"
+    mpid: "be205662-b84b-4262-8872-2c3745ade4fa"
   }] as any[];
   const features = ["24/7 dedicated support team", "Comprehensive onboarding program", "Regular training sessions", "Custom integration assistance"];
   return <section className="py-16 px-6 bg-slate-900 text-white relative overflow-hidden" style={{
