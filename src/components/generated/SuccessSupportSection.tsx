@@ -7,37 +7,37 @@ const SuccessSupportSection: React.FC = () => {
     author: "Sarah Chen",
     role: "CTO at TechFlow",
     avatar: "👩‍💻",
-    mpid: "66931b1e-e2a6-47ff-8fa1-85bf0cde2643"
+    mpid: "c5bd6690-8891-4f1c-9399-8851601884fe"
   }, {
     text: "The analytics dashboard gives us insights we never had before. Game changer!",
     author: "Marcus Johnson",
     role: "Product Manager at InnovateCorp",
     avatar: "👨‍💼",
-    mpid: "c2a7ab90-bc0d-416b-a62e-2506ba361854"
+    mpid: "6c95f721-c2fc-4a0b-a75c-6272cfc9004e"
   }, {
     text: "Best investment we made this year. ROI was immediate and substantial.",
     author: "Elena Rodriguez",
     role: "CEO at StartupX",
     avatar: "👩‍💼",
-    mpid: "a12a4dab-407d-494f-8b57-7d75323751aa"
+    mpid: "1d82c0da-b098-44bd-9959-00a37b55c5bb"
   }, {
     text: "Customer support is phenomenal. They helped us migrate seamlessly.",
     author: "David Kim",
     role: "Lead Developer at CodeCraft",
     avatar: "👨‍💻",
-    mpid: "adaa6200-1ca3-46cf-8758-8debe378bc3e"
+    mpid: "99bc45e8-5385-479a-8f0e-e611ad114b17"
   }, {
     text: "The collaboration features brought our remote team closer together.",
     author: "Lisa Wang",
     role: "Design Lead at CreativeStudio",
     avatar: "👩‍🎨",
-    mpid: "d78977ce-5e7f-4adb-8f0d-739a548c49a4"
+    mpid: "220518c9-5450-4932-a47e-291f388e427d"
   }, {
     text: "Reaxo's automation saved us 20 hours per week. Incredible efficiency gains.",
     author: "Alex Thompson",
     role: "Operations Director at ScaleUp",
     avatar: "👨‍🔧",
-    mpid: "f738afb7-f4d8-4c5c-b23d-3a5533ea39fb"
+    mpid: "e37a0a55-1798-4c4f-936b-4d9ca45b8244"
   }] as any[];
   const features = ["24/7 dedicated support team", "Comprehensive onboarding program", "Regular training sessions", "Custom integration assistance"];
   return <section className="py-16 px-6 bg-slate-900 text-white relative overflow-hidden" data-magicpath-id="0" data-magicpath-path="SuccessSupportSection.tsx">
@@ -145,30 +145,36 @@ const SuccessSupportSection: React.FC = () => {
                       </div>
                     </div>)}
                 </motion.div>
+                {/* Gradient masks to hide overflow at section boundaries */}
+                <div className="absolute top-0 left-0 right-0 h-8 bg-gradient-to-b from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="29" data-magicpath-path="SuccessSupportSection.tsx"></div>
+                <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="30" data-magicpath-path="SuccessSupportSection.tsx"></div>
               </div>
 
               {/* Second Column - Scrolling Down */}
-              <div className="relative overflow-hidden h-full" data-magicpath-id="29" data-magicpath-path="SuccessSupportSection.tsx">
+              <div className="relative overflow-hidden h-full" data-magicpath-id="31" data-magicpath-path="SuccessSupportSection.tsx">
                 <motion.div className="space-y-6" animate={{
                 y: [-100 * (testimonials.length / 2), 0]
               }} transition={{
                 duration: 20,
                 repeat: Infinity,
                 ease: "linear"
-              }} data-magicpath-id="30" data-magicpath-path="SuccessSupportSection.tsx">
-                  {[...testimonials.slice(3, 6), ...testimonials.slice(3, 6)].map((testimonial, index) => <div key={`col2-${index}`} className="bg-slate-800 rounded-2xl p-6 shadow-xl border border-slate-700" data-magicpath-id="31" data-magicpath-path="SuccessSupportSection.tsx">
-                      <blockquote className="text-gray-300 mb-4 leading-relaxed" data-magicpath-id="32" data-magicpath-path="SuccessSupportSection.tsx">
+              }} data-magicpath-id="32" data-magicpath-path="SuccessSupportSection.tsx">
+                  {[...testimonials.slice(3, 6), ...testimonials.slice(3, 6)].map((testimonial, index) => <div key={`col2-${index}`} className="bg-slate-800 rounded-2xl p-6 shadow-xl border border-slate-700" data-magicpath-id="33" data-magicpath-path="SuccessSupportSection.tsx">
+                      <blockquote className="text-gray-300 mb-4 leading-relaxed" data-magicpath-id="34" data-magicpath-path="SuccessSupportSection.tsx">
                         "{testimonial.text}"
                       </blockquote>
-                      <div className="flex items-center gap-3" data-magicpath-id="33" data-magicpath-path="SuccessSupportSection.tsx">
-                        <div className="text-2xl" data-magicpath-id="34" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.avatar}</div>
-                        <div data-magicpath-id="35" data-magicpath-path="SuccessSupportSection.tsx">
-                          <div className="font-semibold text-white" data-magicpath-id="36" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.author}</div>
-                          <div className="text-sm text-gray-400" data-magicpath-id="37" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.role}</div>
+                      <div className="flex items-center gap-3" data-magicpath-id="35" data-magicpath-path="SuccessSupportSection.tsx">
+                        <div className="text-2xl" data-magicpath-id="36" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.avatar}</div>
+                        <div data-magicpath-id="37" data-magicpath-path="SuccessSupportSection.tsx">
+                          <div className="font-semibold text-white" data-magicpath-id="38" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.author}</div>
+                          <div className="text-sm text-gray-400" data-magicpath-id="39" data-magicpath-path="SuccessSupportSection.tsx">{testimonial.role}</div>
                         </div>
                       </div>
                     </div>)}
                 </motion.div>
+                {/* Gradient masks to hide overflow at section boundaries */}
+                <div className="absolute top-0 left-0 right-0 h-8 bg-gradient-to-b from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="40" data-magicpath-path="SuccessSupportSection.tsx"></div>
+                <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-slate-900 to-transparent pointer-events-none z-10" data-magicpath-id="41" data-magicpath-path="SuccessSupportSection.tsx"></div>
               </div>
             </div>
           </motion.div>
