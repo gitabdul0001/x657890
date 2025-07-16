@@ -2,7 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 const Footer: React.FC = () => {
   return <footer className="bg-gradient-to-b from-slate-50 to-white border-t border-slate-200/50" style={{
-    background: "oklch(98.34% 0 236.34deg / 0)"
+    background: "oklch(98.34% 0 236.34deg / 0)",
+    display: "none"
   }} data-magicpath-id="0" data-magicpath-path="Footer.tsx">
       <div className="max-w-7xl mx-auto px-6 py-20" data-magicpath-id="1" data-magicpath-path="Footer.tsx">
         {/* Main Content */}
