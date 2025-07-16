@@ -7,67 +7,67 @@ const CustomerCarouselSection: React.FC = () => {
   const brands = [{
     name: 'Microsoft',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/microsoft.svg',
-    mpid: "ad293458-be95-4348-a231-56873ec935f7"
+    mpid: "26647ef5-6a5b-4a8e-bd20-64d40e675469"
   }, {
     name: 'Google',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/google.svg',
-    mpid: "29df1b0e-8b6e-48fe-95dd-91aafeeb8055"
+    mpid: "b491efb5-d769-438c-b025-0b09ba65abef"
   }, {
     name: 'Apple',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/apple.svg',
-    mpid: "d55e370e-2ee6-4e2e-bbca-c233c044c885"
+    mpid: "2a99a2e2-456e-4f91-ad33-6f133b6ee9b1"
   }, {
     name: 'Amazon',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/amazon.svg',
-    mpid: "c4384898-b0e0-4687-8465-94da8167c8b9"
+    mpid: "60328ccf-fc2d-49ee-b94f-a0b930c682eb"
   }, {
     name: 'Netflix',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/netflix.svg',
-    mpid: "9d39c9d1-7617-4743-9204-a06bbd930218"
+    mpid: "df9e5323-087b-44e3-b196-c90d65dc79e3"
   }, {
     name: 'Spotify',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/spotify.svg',
-    mpid: "d8d13f03-ea4f-4ab0-9ed8-d9ef3973b918"
+    mpid: "d5f7f58f-3db9-4d9d-a1e0-24c9b536260a"
   }, {
     name: 'Slack',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/slack.svg',
-    mpid: "5345156d-c23e-4e70-adf6-bd3cb1f3440e"
+    mpid: "45eddfab-a93d-48c7-a46d-da925923866a"
   }, {
     name: 'GitHub',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/github.svg',
-    mpid: "6c92d3d6-a6e3-4b69-822e-cb3b8773410a"
+    mpid: "f62f18e5-4738-4dde-93c7-800b1dbb4620"
   }, {
     name: 'Meta',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/meta.svg',
-    mpid: "dd6ae25f-4314-4ea4-accf-88dc1f21067b"
+    mpid: "1946f9af-a326-4b18-93c5-3e4bab8ce4a7"
   }, {
     name: 'LinkedIn',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/linkedin.svg',
-    mpid: "60af40e2-9855-4185-a8b1-2300b6faf054"
+    mpid: "0ed2a100-9126-42d6-917f-a9837eccfd63"
   }, {
     name: 'PayPal',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/paypal.svg',
-    mpid: "23cb9365-0869-49d3-985c-572d054d5e31"
+    mpid: "aad875bf-bf70-4666-948b-5306086b8fe7"
   }, {
     name: 'Discord',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/discord.svg',
-    mpid: "a3259e7b-6580-46e8-b9e9-da065a0416ef"
+    mpid: "b5ad7bf1-dfab-4d7d-b3fa-a8cc7f342ec9"
   }, {
     name: 'Notion',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/notion.svg',
-    mpid: "5682d549-ebc7-4ce0-a874-21a026f75439"
+    mpid: "c1dea8dc-6855-4309-b3e9-9b7c45a3166a"
   }, {
     name: 'Figma',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/figma.svg',
-    mpid: "13c554e7-55ff-4b2d-a528-7a78611dee04"
+    mpid: "71d87905-5e2f-41d5-b47a-11ba9440ae09"
   }, {
     name: 'Canva',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/canva.svg',
-    mpid: "0506b136-99ec-4854-beb7-eb6f449a46a9"
+    mpid: "34ecf4c8-23c5-40c7-953f-14373aec9dcd"
   }, {
     name: 'Trello',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/trello.svg',
-    mpid: "71b99d01-b8e1-41a1-a207-616f884b929c"
+    mpid: "c38b458a-146a-4326-b2c2-5bd72ed73687"
   }] as any[];
   return <section className="py-16 px-6 bg-white" style={{
     display: "none"
