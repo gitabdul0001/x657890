@@ -60,14 +60,10 @@ const FlexibleWorkflowsSection: React.FC = () => {
       }} viewport={{
         once: true
       }} data-magicpath-id="2" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6" data-magicpath-id="3" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-            Flexible Workflows for
-            <br data-magicpath-id="4" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6" data-magicpath-id="3" data-magicpath-path="FlexibleWorkflowsSection.tsx">Smart Workflows for Any Social Media Goal<br data-magicpath-id="4" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
             <span className="text-blue-400" data-magicpath-id="5" data-magicpath-path="FlexibleWorkflowsSection.tsx">Every Use Case</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed" data-magicpath-id="6" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-            Adapt Reaxo to your unique needs with customizable workflows that grow with your team and scale with your business.
-          </p>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed" data-magicpath-id="6" data-magicpath-path="FlexibleWorkflowsSection.tsx">One platform. Endless ways to work your way. That’s Reaxo.</p>
         </motion.div>
 
         {/* Carousel Container */}
