@@ -142,7 +142,9 @@ const CustomerCarouselSection: React.FC = () => {
   // Duplicate arrays for seamless infinite scroll effect
   const duplicatedFirstRow = [...firstRowBrands, ...firstRowBrands, ...firstRowBrands];
   const duplicatedSecondRow = [...secondRowBrands, ...secondRowBrands, ...secondRowBrands];
-  return <section ref={sectionRef} className="py-32 px-6 bg-white overflow-hidden" data-magicpath-id="0" data-magicpath-path="CustomerCarouselSection.tsx">
+  return <section ref={sectionRef} className="py-32 px-6 bg-white overflow-hidden" data-magicpath-id="0" data-magicpath-path="CustomerCarouselSection.tsx" style={{
+    display: "none"
+  }}>
       <div className="w-full max-w-none mx-auto" data-magicpath-id="1" data-magicpath-path="CustomerCarouselSection.tsx">
         {/* Section Header */}
         <motion.div className="text-center mb-20 max-w-7xl mx-auto" initial={{

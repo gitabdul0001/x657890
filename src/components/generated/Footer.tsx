@@ -89,7 +89,9 @@ const Footer: React.FC = () => {
     label: 'Email',
     mpid: "c7953d78-1d7d-443d-844f-2f66f45fee42"
   }] as any[];
-  return <footer className="bg-black text-white" data-magicpath-id="0" data-magicpath-path="Footer.tsx">
+  return <footer className="bg-black text-white" data-magicpath-id="0" data-magicpath-path="Footer.tsx" style={{
+    display: "none"
+  }}>
       <div className="max-w-7xl mx-auto px-6 py-16" data-magicpath-id="1" data-magicpath-path="Footer.tsx">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mb-12" data-magicpath-id="2" data-magicpath-path="Footer.tsx">
