@@ -73,7 +73,7 @@ const HeroSection: React.FC = () => {
           delay: 0.4,
           ease: "easeOut"
         }}>
-            <motion.a href="https://reaxo.xyz" className="inline-block px-12 py-4 bg-primary-900 text-white text-xl font-semibold rounded-full hover:bg-jive-green focus:ring-4 focus:ring-jive-teal/30 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 transition-all duration-300 text-center" whileHover={{
+            <motion.a href="https://onboarding.reaxo.xyz" className="inline-block px-12 py-4 bg-primary-900 text-white text-xl font-semibold rounded-full hover:bg-jive-green focus:ring-4 focus:ring-jive-teal/30 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 transition-all duration-300 text-center" whileHover={{
             scale: 1.05
           }} whileTap={{
             scale: 0.95
