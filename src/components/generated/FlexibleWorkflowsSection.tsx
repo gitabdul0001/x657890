@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const FlexibleWorkflowsSection: React.FC = () => {
   const workflows = [{
     title: "Boost Engagement",
-    image: "🚀",
+    image: "\uD83D\uDE80.",
     description: "Boost your social engagement with automated scheduling and smart analytics",
     mpid: "68465f3e-4ce0-4fae-925a-2a97c93ad341"
   }, {
