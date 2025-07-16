@@ -44,7 +44,8 @@ const FlexibleWorkflowsSection: React.FC = () => {
   };
   return <section className="py-24 px-6" style={{
     backgroundColor: '#2f2f30',
-    background: "linear-gradient(90deg, oklch(0.208 0.042 265.755) 0%, oklch(0.279 0.041 260.031) 50%, oklch(0.208 0.042 265.755) 100%)"
+    background: "oklch(98.51% 0 none / 0)",
+    borderWidth: "0px"
   }} data-magicpath-id="0" data-magicpath-path="FlexibleWorkflowsSection.tsx">
       <div className="max-w-7xl mx-auto" data-magicpath-id="1" data-magicpath-path="FlexibleWorkflowsSection.tsx">
         {/* Section Header */}
@@ -60,7 +61,9 @@ const FlexibleWorkflowsSection: React.FC = () => {
       }} viewport={{
         once: true
       }} data-magicpath-id="2" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6" data-magicpath-id="3" data-magicpath-path="FlexibleWorkflowsSection.tsx">Smart Workflows for Any Social Media Goal<br data-magicpath-id="4" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6" data-magicpath-id="3" data-magicpath-path="FlexibleWorkflowsSection.tsx" style={{
+          color: "rgb(0 0 0)"
+        }}>Smart Workflows for Any Social Media Goal<br data-magicpath-id="4" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
             <span className="text-blue-400" data-magicpath-id="5" data-magicpath-path="FlexibleWorkflowsSection.tsx">Every Use Case</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed" data-magicpath-id="6" data-magicpath-path="FlexibleWorkflowsSection.tsx">One platform. Endless ways to work your way. That’s Reaxo.</p>
