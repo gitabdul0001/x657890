@@ -67,7 +67,7 @@ export default function TypingEffect({
       }} transition={{
         duration: 0.2,
         ease: "easeOut"
-      }} className="inline-block px-3 py-1 rounded-md font-extrabold text-white text-sm shadow-sm" style={{
+      }} className="inline-block px-4 py-2 rounded-full font-extrabold text-white text-lg shadow-lg" style={{
         backgroundColor: currentColor,
         boxShadow: `0 2px 8px ${currentColor}30`
       }} data-magicpath-id="2" data-magicpath-path="TypingEffect.tsx">
