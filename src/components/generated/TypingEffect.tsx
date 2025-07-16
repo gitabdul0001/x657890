@@ -15,9 +15,9 @@ export interface TypingEffectProps {
 export default function TypingEffect({
   words = ["Effortless", "viral", "effective"],
   colors = ["#989cfc", "#fc7557", "#fc7557"],
-  typingSpeed = 150,
-  deletingSpeed = 100,
-  pauseDuration = 2000,
+  typingSpeed = 100,
+  deletingSpeed = 50,
+  pauseDuration = 1500,
   className = ""
 }: TypingEffectProps) {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -26,7 +26,6 @@ export default function TypingEffect({
   const [isTyping, setIsTyping] = useState(true);
   useEffect(() => {
     const currentWord = words[currentWordIndex];
-    const currentColor = colors[currentWordIndex % colors.length];
     const timeout = setTimeout(() => {
       if (isTyping && !isDeleting) {
         // Typing phase
@@ -58,25 +57,25 @@ export default function TypingEffect({
       <AnimatePresence mode="wait" data-magicpath-id="1" data-magicpath-path="TypingEffect.tsx">
         <motion.span key={`${currentWordIndex}-${currentText}`} initial={{
         opacity: 0,
-        y: 20
+        scale: 0.8
       }} animate={{
         opacity: 1,
-        y: 0
+        scale: 1
       }} exit={{
         opacity: 0,
-        y: -20
+        scale: 0.8
       }} transition={{
-        duration: 0.3,
+        duration: 0.2,
         ease: "easeOut"
-      }} className="inline-block px-4 py-2 rounded-lg font-extrabold text-white shadow-lg" style={{
+      }} className="inline-block px-3 py-1 rounded-md font-extrabold text-white text-sm shadow-sm" style={{
         backgroundColor: currentColor,
-        boxShadow: `0 4px 20px ${currentColor}40`
+        boxShadow: `0 2px 8px ${currentColor}30`
       }} data-magicpath-id="2" data-magicpath-path="TypingEffect.tsx">
           {currentText}
           <motion.span animate={{
           opacity: [1, 0]
         }} transition={{
-          duration: 0.8,
+          duration: 0.6,
           repeat: Infinity,
           repeatType: "reverse"
         }} className="ml-1 text-white" data-magicpath-id="3" data-magicpath-path="TypingEffect.tsx">
