@@ -15,24 +15,24 @@ const HeroSection: React.FC = () => {
           <h1 className="text-4xl font-black text-black tracking-tight" style={{
           fontFamily: 'system-ui, -apple-system, sans-serif'
         }} data-magicpath-id="3" data-magicpath-path="HeroSection.tsx">
-            <span data-magicpath-id="4" data-magicpath-path="HeroSection.tsx">R</span><em data-magicpath-id="5" data-magicpath-path="HeroSection.tsx">e</em><span data-magicpath-id="6" data-magicpath-path="HeroSection.tsx">axo</span>
+            <em data-magicpath-id="4" data-magicpath-path="HeroSection.tsx">R</em><span data-magicpath-id="5" data-magicpath-path="HeroSection.tsx">eaxo</span>
           </h1>
         </div>
         
         {/* Login/Signup buttons */}
-        <div className="flex gap-3 ml-auto" data-magicpath-id="7" data-magicpath-path="HeroSection.tsx">
-          <button className="inline-block px-6 py-2 bg-white text-gray-900 text-sm font-medium rounded-full hover:bg-[#fe8363] hover:text-white focus:ring-4 focus:ring-[#fe8363]/30 transition-all duration-300 text-center border border-gray-200" data-magicpath-id="8" data-magicpath-path="HeroSection.tsx">
+        <div className="flex gap-3 ml-auto" data-magicpath-id="6" data-magicpath-path="HeroSection.tsx">
+          <button className="inline-block px-6 py-2 bg-white text-gray-900 text-sm font-medium rounded-full hover:bg-[#fe8363] hover:text-white focus:ring-4 focus:ring-[#fe8363]/30 transition-all duration-300 text-center border border-gray-200" data-magicpath-id="7" data-magicpath-path="HeroSection.tsx">
             Login
           </button>
-          <button className="inline-block px-6 py-2 bg-black text-white text-sm font-medium rounded-full hover:bg-[#8b7fff] focus:ring-4 focus:ring-[#8b7fff]/30 transition-all duration-300 text-center" data-magicpath-id="9" data-magicpath-path="HeroSection.tsx">
+          <button className="inline-block px-6 py-2 bg-black text-white text-sm font-medium rounded-full hover:bg-[#8b7fff] focus:ring-4 focus:ring-[#8b7fff]/30 transition-all duration-300 text-center" data-magicpath-id="8" data-magicpath-path="HeroSection.tsx">
             Sign up
           </button>
         </div>
       </nav>
 
       {/* Main content */}
-      <div className="relative z-10 flex items-center justify-center min-h-screen px-6 border-0 outline-none" data-magicpath-id="10" data-magicpath-path="HeroSection.tsx">
-        <div className="text-center max-w-4xl mx-auto" data-magicpath-id="11" data-magicpath-path="HeroSection.tsx">
+      <div className="relative z-10 flex items-center justify-center min-h-screen px-6 border-0 outline-none" data-magicpath-id="9" data-magicpath-path="HeroSection.tsx">
+        <div className="text-center max-w-4xl mx-auto" data-magicpath-id="10" data-magicpath-path="HeroSection.tsx">
           <motion.h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 mb-6 leading-tight" initial={{
           opacity: 0,
           y: 30
@@ -42,11 +42,11 @@ const HeroSection: React.FC = () => {
         }} transition={{
           duration: 0.8,
           ease: "easeOut"
-        }} data-magicpath-id="12" data-magicpath-path="HeroSection.tsx">
-            <div className="flex flex-col items-center -space-y-4" data-magicpath-id="13" data-magicpath-path="HeroSection.tsx">
-              <span className="block" data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">Make every</span>
-              <span className="block" data-magicpath-id="15" data-magicpath-path="HeroSection.tsx">post</span>
-              <TypingEffect words={["Effortless", "viral", "Wins"]} colors={["#989cfc", "#fc7557", "#f9c558"]} className="block mt-2" data-magicpath-id="16" data-magicpath-path="HeroSection.tsx" />
+        }} data-magicpath-id="11" data-magicpath-path="HeroSection.tsx">
+            <div className="flex flex-col items-center -space-y-4" data-magicpath-id="12" data-magicpath-path="HeroSection.tsx">
+              <span className="block" data-magicpath-id="13" data-magicpath-path="HeroSection.tsx">Make every</span>
+              <span className="block" data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">post</span>
+              <TypingEffect words={["Effortless", "viral", "Wins"]} colors={["#989cfc", "#fc7557", "#f9c558"]} className="block mt-2" data-magicpath-id="15" data-magicpath-path="HeroSection.tsx" />
             </div>
           </motion.h1>
           
@@ -60,7 +60,7 @@ const HeroSection: React.FC = () => {
           duration: 0.8,
           delay: 0.2,
           ease: "easeOut"
-        }} data-magicpath-id="17" data-magicpath-path="HeroSection.tsx">Stop struggling to understand your social performance. Our tools break down the numbers so you can focus on creating, connecting, and growing across every channel with confidence.</motion.p>
+        }} data-magicpath-id="16" data-magicpath-path="HeroSection.tsx">Stop struggling to understand your social performance. Our tools break down the numbers so you can focus on creating, connecting, and growing across every channel with confidence.</motion.p>
           
           <motion.div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8" initial={{
           opacity: 0,
@@ -72,12 +72,12 @@ const HeroSection: React.FC = () => {
           duration: 0.8,
           delay: 0.4,
           ease: "easeOut"
-        }} data-magicpath-id="18" data-magicpath-path="HeroSection.tsx">
+        }} data-magicpath-id="17" data-magicpath-path="HeroSection.tsx">
             <motion.a href="https://reaxo.xyz" className="inline-block px-12 py-4 bg-primary-900 text-white text-xl font-semibold rounded-full hover:bg-jive-green focus:ring-4 focus:ring-jive-teal/30 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 transition-all duration-300 text-center" whileHover={{
             scale: 1.05
           }} whileTap={{
             scale: 0.95
-          }} data-magicpath-id="19" data-magicpath-path="HeroSection.tsx">
+          }} data-magicpath-id="18" data-magicpath-path="HeroSection.tsx">
               Sign Up Free
             </motion.a>
             
@@ -85,7 +85,7 @@ const HeroSection: React.FC = () => {
             scale: 1.02
           }} style={{
             display: "none"
-          }} data-magicpath-id="20" data-magicpath-path="HeroSection.tsx">
+          }} data-magicpath-id="19" data-magicpath-path="HeroSection.tsx">
               Get connected and start with Reaxo
             </motion.p>
           </motion.div>
@@ -103,14 +103,14 @@ const HeroSection: React.FC = () => {
           ease: "easeOut"
         }} style={{
           display: "none"
-        }} data-magicpath-id="21" data-magicpath-path="HeroSection.tsx">
-            <p className="text-lg text-gray-700 mb-8 font-light" data-magicpath-id="22" data-magicpath-path="HeroSection.tsx">
+        }} data-magicpath-id="20" data-magicpath-path="HeroSection.tsx">
+            <p className="text-lg text-gray-700 mb-8 font-light" data-magicpath-id="21" data-magicpath-path="HeroSection.tsx">
               Get connected and start jiving.
             </p>
             
             <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-8 mb-6" style={{
             display: "none"
-          }} data-magicpath-id="23" data-magicpath-path="HeroSection.tsx">
+          }} data-magicpath-id="22" data-magicpath-path="HeroSection.tsx">
               <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300 text-base font-medium">
                 About
               </a>
@@ -125,7 +125,7 @@ const HeroSection: React.FC = () => {
               </a>
             </div>
             
-            <p className="text-gray-500 text-sm font-light" data-magicpath-id="24" data-magicpath-path="HeroSection.tsx">
+            <p className="text-gray-500 text-sm font-light" data-magicpath-id="23" data-magicpath-path="HeroSection.tsx">
               © 2025 Reaxo by Abdul Mazid
             </p>
           </motion.div>

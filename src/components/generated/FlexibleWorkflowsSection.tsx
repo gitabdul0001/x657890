@@ -6,32 +6,32 @@ const FlexibleWorkflowsSection: React.FC = () => {
     title: "Boost Engagement",
     image: "🚀",
     description: "Boost your social engagement with automated scheduling and smart analytics",
-    mpid: "1c35776e-8b38-4818-9640-6de50202d890"
+    mpid: "7f3a5d3f-a6a4-401d-93d2-72b91b3dc4c2"
   }, {
     title: "Schedule Post",
     image: "🎨",
     description: "Streamline your content strategy with auto-posting and real-time insights",
-    mpid: "0867a353-9b0c-4eb5-bb9b-5ea4c69317fa"
+    mpid: "9f7ea471-8eef-4c84-957a-6a1b2200b7c6"
   }, {
     title: "Deep Analysis",
     image: "📊",
     description: "Deep-dive into performance with multi-metric post insights",
-    mpid: "3c9f6907-5362-4fa6-b9ff-8dde5b85a4f5"
+    mpid: "ea5fe2ec-48a0-46ff-a17d-890c4a043250"
   }, {
     title: "Quality Assurance",
     image: "✅",
     description: "Ensure product quality with comprehensive testing and review processes",
-    mpid: "4e4b68c7-8356-4d0f-a8f7-b14929f558e5"
+    mpid: "5cc4babc-487d-40e5-a264-ffc1b62fe6a3"
   }, {
     title: "Analytics & Insights",
     image: "📈",
     description: "Make data-driven decisions with real-time analytics and reporting",
-    mpid: "859a6380-ef96-4387-ab85-2d7c3829a4ca"
+    mpid: "06d0dcb6-c961-47c9-a7c1-57c62c2bc359"
   }, {
     title: "Customer Feedback",
     image: "💬",
     description: "Collect and analyze customer feedback to improve your products continuously",
-    mpid: "52e7afd6-ed3b-453a-bf75-de381f03b895"
+    mpid: "aa5d50c5-b9f4-441e-bf89-9236890536a0"
   }] as any[];
   return <div className="flexible-workflows-section" data-magicpath-id="0" data-magicpath-path="FlexibleWorkflowsSection.tsx">
       <div className="flexible-workflows-section__header" data-magicpath-id="1" data-magicpath-path="FlexibleWorkflowsSection.tsx">
