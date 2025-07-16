@@ -70,10 +70,14 @@ const FlexibleWorkflowsSection: React.FC = () => {
         <div className="relative" data-magicpath-id="7" data-magicpath-path="FlexibleWorkflowsSection.tsx">
           {/* Navigation Arrows */}
           <button onClick={prevSlide} disabled={currentIndex === 0} className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 bg-gray-700 rounded-full shadow-lg border border-gray-600 flex items-center justify-center hover:bg-gray-600 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed" data-magicpath-id="8" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-            <ChevronLeft className="w-6 h-6 text-gray-300" data-magicpath-id="9" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
+            <ChevronLeft className="w-6 h-6 text-gray-300" data-magicpath-id="9" data-magicpath-path="FlexibleWorkflowsSection.tsx" style={{
+            display: "none"
+          }} />
           </button>
 
-          <button onClick={nextSlide} disabled={currentIndex === maxIndex} className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-12 h-12 bg-gray-700 rounded-full shadow-lg border border-gray-600 flex items-center justify-center hover:bg-gray-600 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed" data-magicpath-id="10" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+          <button onClick={nextSlide} disabled={currentIndex === maxIndex} className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-12 h-12 bg-gray-700 rounded-full shadow-lg border border-gray-600 flex items-center justify-center hover:bg-gray-600 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed" data-magicpath-id="10" data-magicpath-path="FlexibleWorkflowsSection.tsx" style={{
+          display: "none"
+        }}>
             <ChevronRight className="w-6 h-6 text-gray-300" data-magicpath-id="11" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
           </button>
 
