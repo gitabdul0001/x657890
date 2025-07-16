@@ -118,7 +118,7 @@ const HeroSection: React.FC = () => {
           </motion.div>
 
           {/* Bottom text section */}
-          <motion.div className="mt-16 text-center" initial={{
+          <motion.div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-center w-full px-6" initial={{
           opacity: 0,
           y: 30
         }} animate={{
