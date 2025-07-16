@@ -3,19 +3,19 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 const FlexibleWorkflowsSection: React.FC = () => {
   const workflows = [{
-    title: "Development Workflow",
+    title: "Boost Engagement",
     image: "🚀",
-    description: "Streamline your development process with automated testing and deployment",
+    description: "Boost your social engagement with automated scheduling and smart analytics",
     mpid: "68465f3e-4ce0-4fae-925a-2a97c93ad341"
   }, {
-    title: "Design System",
+    title: "Schedule Post",
     image: "🎨",
-    description: "Maintain consistency across your products with a unified design system",
+    description: "Streamline your content strategy with auto-posting and real-time insights",
     mpid: "9aaf46ea-f789-4755-9952-986f6d93013f"
   }, {
-    title: "Project Management",
+    title: "Deep Analysis",
     image: "📊",
-    description: "Keep your team aligned with powerful project tracking and collaboration tools",
+    description: "Deep-dive into performance with multi-metric post insights",
     mpid: "ab75596d-15b8-4d70-bf87-5af6dd62e3bc"
   }, {
     title: "Quality Assurance",
