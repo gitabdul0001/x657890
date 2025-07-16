@@ -5,54 +5,48 @@ const FlexibleWorkflowsSection: React.FC = () => {
   const workflows = [{
     title: "Boost Engagement",
     image: "🚀",
-    description: "Boost your social engagement with automated scheduling and smart analytics",
-    mpid: "7f3a5d3f-a6a4-401d-93d2-72b91b3dc4c2"
+    description: "Boost your social engagement with automated scheduling and smart analytics"
   }, {
     title: "Schedule Post",
     image: "🎨",
-    description: "Streamline your content strategy with auto-posting and real-time insights",
-    mpid: "9f7ea471-8eef-4c84-957a-6a1b2200b7c6"
+    description: "Streamline your content strategy with auto-posting and real-time insights"
   }, {
     title: "Deep Analysis",
     image: "📊",
-    description: "Deep-dive into performance with multi-metric post insights",
-    mpid: "ea5fe2ec-48a0-46ff-a17d-890c4a043250"
+    description: "Deep-dive into performance with multi-metric post insights"
   }, {
     title: "Quality Assurance",
     image: "✅",
-    description: "Ensure product quality with comprehensive testing and review processes",
-    mpid: "5cc4babc-487d-40e5-a264-ffc1b62fe6a3"
+    description: "Ensure product quality with comprehensive testing and review processes"
   }, {
     title: "Analytics & Insights",
     image: "📈",
-    description: "Make data-driven decisions with real-time analytics and reporting",
-    mpid: "06d0dcb6-c961-47c9-a7c1-57c62c2bc359"
+    description: "Make data-driven decisions with real-time analytics and reporting"
   }, {
     title: "Customer Feedback",
     image: "💬",
-    description: "Collect and analyze customer feedback to improve your products continuously",
-    mpid: "aa5d50c5-b9f4-441e-bf89-9236890536a0"
+    description: "Collect and analyze customer feedback to improve your products continuously"
   }] as any[];
-  return <div className="flexible-workflows-section" data-magicpath-id="0" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-      <div className="flexible-workflows-section__header" data-magicpath-id="1" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+  return <div className="flexible-workflows-section">
+      <div className="flexible-workflows-section__header">
         <h2 style={{
         display: "none"
-      }} data-magicpath-id="2" data-magicpath-path="FlexibleWorkflowsSection.tsx">Flexible Workflows</h2>
+      }}>Flexible Workflows</h2>
         <div className="flexible-workflows-section__header__controls" style={{
         display: "none"
-      }} data-magicpath-id="3" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-          <button className="flexible-workflows-section__header__controls__button" data-magicpath-id="4" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-            <ChevronLeft data-magicpath-id="5" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
+      }}>
+          <button className="flexible-workflows-section__header__controls__button">
+            <ChevronLeft />
           </button>
-          <button className="flexible-workflows-section__header__controls__button" data-magicpath-id="6" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+          <button className="flexible-workflows-section__header__controls__button">
             <ChevronRight style={{
             display: "none"
-          }} data-magicpath-id="7" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
+          }} />
           </button>
         </div>
       </div>
-      <div className="flexible-workflows-section__content" data-magicpath-id="8" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-        <AnimatePresence data-magicpath-id="9" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+      <div className="flexible-workflows-section__content">
+        <AnimatePresence>
           {workflows.map((workflow, index) => <motion.div key={workflow.mpid} initial={{
           opacity: 0,
           y: 50
@@ -64,15 +58,15 @@ const FlexibleWorkflowsSection: React.FC = () => {
           y: 50
         }} transition={{
           duration: 0.5
-        }} className="flexible-workflows-section__content__workflow" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-id="10" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+        }} className="flexible-workflows-section__content__workflow">
               <div className="flexible-workflows-section__content__workflow__title" style={{
             display: "none"
-          }} data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="11" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+          }}>
                 {workflow.title}
               </div>
               <div className="flexible-workflows-section__content__workflow__description" style={{
             display: "none"
-          }} data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:unknown" data-magicpath-id="12" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+          }}>
                 {workflow.description}
               </div>
             </motion.div>)}

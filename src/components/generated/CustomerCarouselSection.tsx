@@ -6,73 +6,57 @@ const CustomerCarouselSection: React.FC = () => {
   // Combined brand list from both rows
   const brands = [{
     name: 'Microsoft',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/microsoft.svg',
-    mpid: "bad8da3b-1926-4b26-acf2-8f14e0c587c7"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/microsoft.svg'
   }, {
     name: 'Google',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/google.svg',
-    mpid: "83e4dbb1-6250-416f-8176-7cf45d50aaf5"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/google.svg'
   }, {
     name: 'Apple',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/apple.svg',
-    mpid: "d9fdbbbd-d736-4d4a-bcee-438b5b355d94"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/apple.svg'
   }, {
     name: 'Amazon',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/amazon.svg',
-    mpid: "f85c7942-c4a4-444e-9fa4-b245386d95da"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/amazon.svg'
   }, {
     name: 'Netflix',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/netflix.svg',
-    mpid: "9352a9d1-70b0-4768-85e8-0fbceef364ed"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/netflix.svg'
   }, {
     name: 'Spotify',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/spotify.svg',
-    mpid: "e3a52e52-55b5-4339-b147-1fefc6b1371f"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/spotify.svg'
   }, {
     name: 'Slack',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/slack.svg',
-    mpid: "374114f6-6530-438f-8026-79722aa78330"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/slack.svg'
   }, {
     name: 'GitHub',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/github.svg',
-    mpid: "671bb578-53d2-4b41-af2f-afd631d891af"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/github.svg'
   }, {
     name: 'Meta',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/meta.svg',
-    mpid: "fc9ea2fc-0656-4f7b-854d-08ac335c652e"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/meta.svg'
   }, {
     name: 'LinkedIn',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/linkedin.svg',
-    mpid: "1152dfdd-b895-4a48-91bb-5999c1cc8a01"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/linkedin.svg'
   }, {
     name: 'PayPal',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/paypal.svg',
-    mpid: "50aa2176-9e67-4e1d-8b90-8bdacc6588ae"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/paypal.svg'
   }, {
     name: 'Discord',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/discord.svg',
-    mpid: "fb4d9539-b71b-4e53-b715-acd7aef26458"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/discord.svg'
   }, {
     name: 'Notion',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/notion.svg',
-    mpid: "b79439fe-049b-4058-bbe9-994e392fa7b3"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/notion.svg'
   }, {
     name: 'Figma',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/figma.svg',
-    mpid: "1c253bf6-a1ac-4930-9dd0-9adf1ff3b710"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/figma.svg'
   }, {
     name: 'Canva',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/canva.svg',
-    mpid: "0a09ae0c-5f13-494b-b9df-8ea25c670f13"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/canva.svg'
   }, {
     name: 'Trello',
-    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/trello.svg',
-    mpid: "e4b3c24c-3117-4a60-8895-56a0dde88cf7"
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons@v9/icons/trello.svg'
   }] as any[];
   return <section className="py-16 px-6 bg-white" style={{
     display: "none"
-  }} data-magicpath-id="0" data-magicpath-path="CustomerCarouselSection.tsx">
-      <div className="w-full max-w-7xl mx-auto" data-magicpath-id="1" data-magicpath-path="CustomerCarouselSection.tsx">
+  }}>
+      <div className="w-full max-w-7xl mx-auto">
         {/* Section Header - Simplified */}
         <motion.div className="text-center mb-12" initial={{
         opacity: 0,
@@ -85,8 +69,8 @@ const CustomerCarouselSection: React.FC = () => {
         ease: "easeOut"
       }} viewport={{
         once: true
-      }} data-magicpath-id="2" data-magicpath-path="CustomerCarouselSection.tsx">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-light text-slate-800 tracking-wide" data-magicpath-id="3" data-magicpath-path="CustomerCarouselSection.tsx">
+      }}>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-light text-slate-800 tracking-wide">
             Trusted by industry leaders
           </h2>
         </motion.div>
@@ -103,7 +87,7 @@ const CustomerCarouselSection: React.FC = () => {
         delay: 0.2
       }} viewport={{
         once: true
-      }} data-magicpath-id="4" data-magicpath-path="CustomerCarouselSection.tsx">
+      }}>
           {brands.map((brand, index) => <motion.div key={`brand-${brand.name}-${index}`} className="flex justify-center" initial={{
           opacity: 0,
           y: 20
@@ -118,16 +102,16 @@ const CustomerCarouselSection: React.FC = () => {
         }} whileHover={{
           y: -8,
           scale: 1.03
-        }} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="5" data-magicpath-path="CustomerCarouselSection.tsx">
+        }}>
               <div className="group relative w-24 h-24 rounded-2xl border border-slate-200/60 shadow-md hover:shadow-xl transition-all duration-300 flex items-center justify-center backdrop-blur-sm" style={{
             backgroundColor: '#fcfcf9'
-          }} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="6" data-magicpath-path="CustomerCarouselSection.tsx">
-                <div className="absolute inset-0 bg-gradient-to-br from-white/90 to-slate-50/50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="7" data-magicpath-path="CustomerCarouselSection.tsx" />
-                <div className="relative z-10 flex flex-col items-center gap-2" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="8" data-magicpath-path="CustomerCarouselSection.tsx">
-                  <div className="w-10 h-10 flex items-center justify-center" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-id="9" data-magicpath-path="CustomerCarouselSection.tsx">
-                    <img alt={`${brand.name} logo`} className="w-full h-full object-contain filter brightness-0 opacity-70 group-hover:opacity-90 transition-all duration-300" loading="lazy" src={brand.logo} data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="logo:unknown" data-magicpath-id="10" data-magicpath-path="CustomerCarouselSection.tsx" />
+          }}>
+                <div className="absolute inset-0 bg-gradient-to-br from-white/90 to-slate-50/50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="relative z-10 flex flex-col items-center gap-2">
+                  <div className="w-10 h-10 flex items-center justify-center">
+                    <img alt={`${brand.name} logo`} className="w-full h-full object-contain filter brightness-0 opacity-70 group-hover:opacity-90 transition-all duration-300" loading="lazy" src={brand.logo} />
                   </div>
-                  <span className="text-xs font-medium text-slate-600 group-hover:text-slate-800 transition-colors duration-300 text-center" data-magicpath-uuid={(brand as any)["mpid"] ?? "unsafe"} data-magicpath-field="name:unknown" data-magicpath-id="11" data-magicpath-path="CustomerCarouselSection.tsx">
+                  <span className="text-xs font-medium text-slate-600 group-hover:text-slate-800 transition-colors duration-300 text-center">
                     {brand.name}
                   </span>
                 </div>
@@ -148,8 +132,8 @@ const CustomerCarouselSection: React.FC = () => {
         ease: "easeOut"
       }} viewport={{
         once: true
-      }} data-magicpath-id="12" data-magicpath-path="CustomerCarouselSection.tsx">
-          <p className="text-lg text-slate-600 mb-8 font-light" data-magicpath-id="13" data-magicpath-path="CustomerCarouselSection.tsx">
+      }}>
+          <p className="text-lg text-slate-600 mb-8 font-light">
             Ready to join the leaders?
           </p>
           <motion.button className="group relative px-10 py-4 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white text-base font-medium rounded-xl overflow-hidden transition-all duration-300 shadow-lg hover:shadow-xl" whileHover={{
@@ -157,9 +141,9 @@ const CustomerCarouselSection: React.FC = () => {
           y: -2
         }} whileTap={{
           scale: 0.98
-        }} data-magicpath-id="14" data-magicpath-path="CustomerCarouselSection.tsx">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-purple-600/20 to-blue-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" data-magicpath-id="15" data-magicpath-path="CustomerCarouselSection.tsx" />
-            <span className="relative z-10" data-magicpath-id="16" data-magicpath-path="CustomerCarouselSection.tsx">
+        }}>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-purple-600/20 to-blue-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <span className="relative z-10">
               Start your journey today
             </span>
             <motion.div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent" initial={{
@@ -169,7 +153,7 @@ const CustomerCarouselSection: React.FC = () => {
           }} transition={{
             duration: 0.6,
             ease: "easeInOut"
-          }} data-magicpath-id="17" data-magicpath-path="CustomerCarouselSection.tsx" />
+          }} />
           </motion.button>
         </motion.div>
       </div>

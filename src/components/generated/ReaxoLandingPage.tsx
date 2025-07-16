@@ -7,14 +7,14 @@ import WhyTeamsInnovateSection from './WhyTeamsInnovateSection';
 import Footer from './Footer';
 import CursorSnowEffect from './CursorSnowEffect';
 const ReaxoLandingPage: React.FC = () => {
-  return <main className="min-h-screen bg-transparent relative" data-magicpath-id="0" data-magicpath-path="ReaxoLandingPage.tsx">
-      <CursorSnowEffect data-magicpath-id="1" data-magicpath-path="ReaxoLandingPage.tsx" />
-      <HeroSection data-magicpath-id="2" data-magicpath-path="ReaxoLandingPage.tsx" />
-      <CustomerCarouselSection data-magicpath-id="3" data-magicpath-path="ReaxoLandingPage.tsx" />
-      <SuccessSupportSection data-magicpath-id="4" data-magicpath-path="ReaxoLandingPage.tsx" />
-      <FlexibleWorkflowsSection data-magicpath-id="5" data-magicpath-path="ReaxoLandingPage.tsx" />
-      <WhyTeamsInnovateSection data-magicpath-id="6" data-magicpath-path="ReaxoLandingPage.tsx" />
-      <Footer data-magicpath-id="7" data-magicpath-path="ReaxoLandingPage.tsx" />
+  return <main className="min-h-screen bg-transparent relative">
+      <CursorSnowEffect />
+      <HeroSection />
+      <CustomerCarouselSection />
+      <SuccessSupportSection />
+      <FlexibleWorkflowsSection />
+      <WhyTeamsInnovateSection />
+      <Footer />
     </main>;
 };
 export default ReaxoLandingPage;

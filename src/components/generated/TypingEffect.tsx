@@ -9,7 +9,6 @@ export interface TypingEffectProps {
   deletingSpeed?: number;
   pauseDuration?: number;
   className?: string;
-  mpid?: string;
 }
 export default function TypingEffect({
   words = ["Effortless", "viral", "Wins"],
@@ -52,12 +51,12 @@ export default function TypingEffect({
     return () => clearTimeout(timeout);
   }, [currentText, currentWordIndex, isDeleting, isTyping, words, colors, typingSpeed, deletingSpeed, pauseDuration]);
   const currentColor = colors[currentWordIndex % colors.length];
-  return <span className={`inline-block relative ${className}`} data-magicpath-id="0" data-magicpath-path="TypingEffect.tsx">
+  return <span className={`inline-block relative ${className}`}>
       <span className="animated-word inline-block px-3 py-2 rounded-lg text-white transition-all duration-500 ease-in-out min-w-[200px] text-center text-4xl md:text-6xl" style={{
       backgroundColor: currentColor
-    }} data-magicpath-id="1" data-magicpath-path="TypingEffect.tsx">
+    }}>
         {currentText}
-        <span className="inline-block w-0.5 h-8 bg-white ml-1 animate-pulse" data-magicpath-id="2" data-magicpath-path="TypingEffect.tsx"></span>
+        <span className="inline-block w-0.5 h-8 bg-white ml-1 animate-pulse"></span>
       </span>
     </span>;
 }

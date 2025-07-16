@@ -4,8 +4,8 @@ const Footer: React.FC = () => {
   return <footer className="bg-gradient-to-b from-slate-50 to-white border-t border-slate-200/50" style={{
     background: "oklch(98.34% 0 236.34deg / 0)",
     display: "none"
-  }} data-magicpath-id="0" data-magicpath-path="Footer.tsx">
-      <div className="max-w-7xl mx-auto px-6 py-20" data-magicpath-id="1" data-magicpath-path="Footer.tsx">
+  }}>
+      <div className="max-w-7xl mx-auto px-6 py-20">
         {/* Main Content */}
         <motion.div className="text-center mb-16" initial={{
         opacity: 0,
@@ -18,8 +18,8 @@ const Footer: React.FC = () => {
         ease: "easeOut"
       }} viewport={{
         once: true
-      }} data-magicpath-id="2" data-magicpath-path="Footer.tsx">
-          <h2 className="text-4xl md:text-5xl font-light text-slate-900 mb-6 tracking-tight" data-magicpath-id="3" data-magicpath-path="Footer.tsx">
+      }}>
+          <h2 className="text-4xl md:text-5xl font-light text-slate-900 mb-6 tracking-tight">
             Get connected and start jiving.
           </h2>
         </motion.div>
@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
         ease: "easeOut"
       }} viewport={{
         once: true
-      }} data-magicpath-id="4" data-magicpath-path="Footer.tsx">
+      }}>
           <a href="#" className="text-slate-600 hover:text-slate-900 transition-colors duration-300 text-lg font-light tracking-wide">
             About
           </a>
@@ -65,15 +65,15 @@ const Footer: React.FC = () => {
         ease: "easeOut"
       }} viewport={{
         once: true
-      }} data-magicpath-id="5" data-magicpath-path="Footer.tsx">
-          <p className="text-slate-500 text-sm font-light tracking-wide" data-magicpath-id="6" data-magicpath-path="Footer.tsx">
+      }}>
+          <p className="text-slate-500 text-sm font-light tracking-wide">
             © 2025 Reaxo by Abdul Mazid
           </p>
         </motion.div>
       </div>
 
       {/* Subtle decorative gradient */}
-      <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-slate-300/30 to-transparent" data-magicpath-id="7" data-magicpath-path="Footer.tsx" />
+      <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-slate-300/30 to-transparent" />
     </footer>;
 };
 export default Footer;

@@ -15,7 +15,6 @@ interface Snowflake {
   opacity: number;
   life: number;
   maxLife: number;
-  mpid?: string;
 }
 const COLORS = ['#00b99a', '#8b7fff', '#fe8363', '#ffc45c', '#ff6b9d', '#4ecdc4', '#45b7d1', '#96ceb4'];
 export default function CursorSnowEffect() {
@@ -135,5 +134,5 @@ export default function CursorSnowEffect() {
   return <canvas ref={canvasRef} className="fixed inset-0 pointer-events-none z-50" style={{
     mixBlendMode: 'screen',
     filter: 'blur(0.5px)'
-  }} data-magicpath-id="0" data-magicpath-path="CursorSnowEffect.tsx" />;
+  }} />;
 }
