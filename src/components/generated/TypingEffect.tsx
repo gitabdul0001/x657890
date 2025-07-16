@@ -12,7 +12,7 @@ export interface TypingEffectProps {
   mpid?: string;
 }
 export default function TypingEffect({
-  words = ["Effortless", "Viral", "Wins"],
+  words = ["Effortless", "viral", "Wins"],
   colors = ["#989cfc", "#fc7557", "#f9c558"],
   typingSpeed = 100,
   deletingSpeed = 50,
