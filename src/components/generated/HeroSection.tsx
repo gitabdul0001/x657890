@@ -56,7 +56,7 @@ const HeroSection: React.FC = () => {
       </nav>
 
       {/* Main content */}
-      <div className="relative z-10 flex items-center justify-center min-h-screen px-6" data-magicpath-id="19" data-magicpath-path="HeroSection.tsx">
+      <div className="relative z-10 flex items-center justify-center min-h-screen px-6 border-0 outline-none" data-magicpath-id="19" data-magicpath-path="HeroSection.tsx">
         <div className="text-center max-w-4xl mx-auto" data-magicpath-id="20" data-magicpath-path="HeroSection.tsx">
           <motion.h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 mb-6 leading-tight" initial={{
           opacity: 0,
