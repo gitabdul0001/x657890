@@ -13,7 +13,7 @@ export interface TypingEffectProps {
 }
 export default function TypingEffect({
   words = ["Effortless", "Viral", "Wins"],
-  colors = ["#989cfc", "#fc7557", "#fc7557"],
+  colors = ["#989cfc", "#fc7557", "#f9c558"],
   typingSpeed = 100,
   deletingSpeed = 50,
   pauseDuration = 1500,

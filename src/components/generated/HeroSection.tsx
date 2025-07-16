@@ -72,7 +72,7 @@ const HeroSection: React.FC = () => {
             <div className="flex flex-col items-center -space-y-4" data-magicpath-id="22" data-magicpath-path="HeroSection.tsx">
               <span className="block" data-magicpath-id="23" data-magicpath-path="HeroSection.tsx">Make every</span>
               <span className="block" data-magicpath-id="24" data-magicpath-path="HeroSection.tsx">post</span>
-              <TypingEffect words={["Effortless", "viral", "effective"]} colors={["#989cfc", "#fc7557", "#fc7557"]} className="block mt-2" data-magicpath-id="25" data-magicpath-path="HeroSection.tsx" />
+              <TypingEffect words={["Effortless", "viral", "Wins"]} colors={["#989cfc", "#fc7557", "#f9c558"]} className="block mt-2" data-magicpath-id="25" data-magicpath-path="HeroSection.tsx" />
             </div>
           </motion.h1>
           
