@@ -41,7 +41,8 @@ const SuccessSupportSection: React.FC = () => {
   }] as any[];
   const features = ["24/7 dedicated support team", "Comprehensive onboarding program", "Regular training sessions", "Custom integration assistance"];
   return <section className="py-16 px-6 bg-slate-900 text-white relative overflow-hidden" style={{
-    background: "rgba(47,47,48,255)"
+    background: "rgba(47,47,48,255)",
+    display: "none"
   }} data-magicpath-id="0" data-magicpath-path="SuccessSupportSection.tsx">
       <div className="max-w-7xl mx-auto" data-magicpath-id="1" data-magicpath-path="SuccessSupportSection.tsx">
         <div className="grid lg:grid-cols-2 gap-16 items-start" data-magicpath-id="2" data-magicpath-path="SuccessSupportSection.tsx">

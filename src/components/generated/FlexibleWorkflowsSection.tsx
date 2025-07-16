@@ -43,7 +43,8 @@ const FlexibleWorkflowsSection: React.FC = () => {
     setCurrentIndex(prev => Math.max(prev - 1, 0));
   };
   return <section className="py-24 px-6" style={{
-    backgroundColor: '#2f2f30'
+    backgroundColor: '#2f2f30',
+    background: "linear-gradient(90deg, oklch(0.208 0.042 265.755) 0%, oklch(0.279 0.041 260.031) 50%, oklch(0.208 0.042 265.755) 100%)"
   }} data-magicpath-id="0" data-magicpath-path="FlexibleWorkflowsSection.tsx">
       <div className="max-w-7xl mx-auto" data-magicpath-id="1" data-magicpath-path="FlexibleWorkflowsSection.tsx">
         {/* Section Header */}
