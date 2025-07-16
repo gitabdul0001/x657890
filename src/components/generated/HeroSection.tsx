@@ -116,6 +116,42 @@ const HeroSection: React.FC = () => {
               Get connected and start with Reaxo
             </motion.p>
           </motion.div>
+
+          {/* Bottom text section */}
+          <motion.div className="mt-16 text-center" initial={{
+          opacity: 0,
+          y: 30
+        }} animate={{
+          opacity: 1,
+          y: 0
+        }} transition={{
+          duration: 0.8,
+          delay: 0.6,
+          ease: "easeOut"
+        }} data-magicpath-id="30" data-magicpath-path="HeroSection.tsx">
+            <p className="text-lg text-gray-700 mb-8 font-light" data-magicpath-id="31" data-magicpath-path="HeroSection.tsx">
+              Get connected and start jiving.
+            </p>
+            
+            <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-8 mb-6" data-magicpath-id="32" data-magicpath-path="HeroSection.tsx">
+              <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300 text-base font-medium">
+                About
+              </a>
+              <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300 text-base font-medium">
+                Privacy
+              </a>
+              <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300 text-base font-medium">
+                Terms
+              </a>
+              <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-300 text-base font-medium">
+                Contact
+              </a>
+            </div>
+            
+            <p className="text-gray-500 text-sm font-light" data-magicpath-id="33" data-magicpath-path="HeroSection.tsx">
+              © 2025 Reaxo by Abdul Mazid
+            </p>
+          </motion.div>
         </div>
       </div>
     </section>;
