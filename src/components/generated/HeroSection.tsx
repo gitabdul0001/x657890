@@ -89,7 +89,7 @@ const HeroSection: React.FC = () => {
             Stop struggling to understand your social performance. Our tools break down the numbers so you can focus on creating, connecting, and growing across every channel with confidence.
           </motion.p>
           
-          <motion.a href="https://reaxo.xyz" className="inline-block px-12 py-4 bg-primary-900 text-white text-xl font-semibold rounded-full hover:bg-jive-green focus:ring-4 focus:ring-jive-teal/30 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 transition-all duration-300 text-center" initial={{
+          <motion.div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8" initial={{
           opacity: 0,
           y: 30
         }} animate={{
@@ -99,13 +99,21 @@ const HeroSection: React.FC = () => {
           duration: 0.8,
           delay: 0.4,
           ease: "easeOut"
-        }} whileHover={{
-          scale: 1.05
-        }} whileTap={{
-          scale: 0.95
         }} data-magicpath-id="27" data-magicpath-path="HeroSection.tsx">
-            Sign Up Free
-          </motion.a>
+            <motion.a href="https://reaxo.xyz" className="inline-block px-12 py-4 bg-primary-900 text-white text-xl font-semibold rounded-full hover:bg-jive-green focus:ring-4 focus:ring-jive-teal/30 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 transition-all duration-300 text-center" whileHover={{
+            scale: 1.05
+          }} whileTap={{
+            scale: 0.95
+          }} data-magicpath-id="28" data-magicpath-path="HeroSection.tsx">
+              Sign Up Free
+            </motion.a>
+            
+            <motion.p className="text-sm text-gray-500 font-medium" whileHover={{
+            scale: 1.02
+          }} data-magicpath-id="29" data-magicpath-path="HeroSection.tsx">
+              Get connected and start with Reaxo
+            </motion.p>
+          </motion.div>
         </div>
       </div>
     </section>;

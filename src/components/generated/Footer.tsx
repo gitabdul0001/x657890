@@ -6,92 +6,90 @@ const Footer: React.FC = () => {
     Product: [{
       name: 'Features',
       href: '#',
-      mpid: "9e969b9f-7caa-4943-9048-92189a2e57ef"
+      mpid: "9404897b-3187-4d5a-9238-e917e9081d48"
     }, {
       name: 'Pricing',
       href: '#',
-      mpid: "cd07c964-8759-45f2-8575-c6b7c8255beb"
+      mpid: "53c4483d-2eb3-4cbc-8ced-e8103773a43b"
     }, {
       name: 'Integrations',
       href: '#',
-      mpid: "301d71aa-dba8-4d52-b1de-fe04a3492199"
+      mpid: "dc229338-423b-44bf-8504-f0c8853fc048"
     }],
     Company: [{
       name: 'About',
       href: '#',
-      mpid: "cbc0a6c4-67fb-450e-ba68-708f5e89264e"
+      mpid: "411f13ac-a093-423f-aa8d-260c4c191f27"
     }, {
       name: 'Blog',
       href: '#',
-      mpid: "d5e97ac2-8d38-409e-ac8e-fdc52d2faa88"
+      mpid: "22598a90-6d9f-4ecc-ba87-069afa0a5754"
     }, {
       name: 'Careers',
       href: '#',
-      mpid: "b3fe35f9-0dcd-47a4-8847-e9806b278648"
+      mpid: "4d16edaa-f342-4ca6-8343-00ac019897fb"
     }, {
       name: 'Press',
       href: '#',
-      mpid: "1141b0b6-f913-4d5b-a7d1-087132cef70a"
+      mpid: "674715f4-057c-4d17-8ed9-ffa805d270f7"
     }],
     Resources: [{
       name: 'Documentation',
       href: '#',
-      mpid: "518fef98-5841-4811-9da6-2ae6ce47c6c2"
+      mpid: "33978de4-b6d2-4d28-a32c-b65e11221d81"
     }, {
       name: 'Help Center',
       href: '#',
-      mpid: "7ca5c562-bc4b-415d-a714-6dd18fa9fca5"
+      mpid: "62c1cec5-caae-4114-9847-d9d7fd048a2d"
     }, {
       name: 'Community',
       href: '#',
-      mpid: "d89f558c-89e8-4be7-8d31-723c95ea8630"
+      mpid: "a17219fb-c371-44f5-ac51-37ef7dc896de"
     }, {
       name: 'Status',
       href: '#',
-      mpid: "2c7789df-6dd8-496d-ae10-59e7de9cf497"
+      mpid: "1f727ab0-d924-4427-8ed1-96c22aa8ebdb"
     }],
     Legal: [{
       name: 'Privacy',
       href: '#',
-      mpid: "0297e50a-b84a-4a32-b4f3-563302a19874"
+      mpid: "35114009-8f86-486e-a2fe-f25f1b6677e4"
     }, {
       name: 'Terms',
       href: '#',
-      mpid: "be077e97-2a4f-43e1-8a77-928225bfdba1"
+      mpid: "d9e7352c-c25a-4849-ab0a-5626cd7b91c3"
     }, {
       name: 'Security',
       href: '#',
-      mpid: "96392f64-4e11-473f-9ef5-7c1d6ddca298"
+      mpid: "6806a9e9-4fd8-4002-bda7-b1ab62901e9e"
     }, {
       name: 'Cookies',
       href: '#',
-      mpid: "2700ebb0-a6e5-4bc5-b952-24919881dab6"
+      mpid: "c751fbee-5d16-4503-8a63-df554ab3feda"
     }]
   };
   const socialLinks = [{
     icon: Github,
     href: '#',
     label: 'GitHub',
-    mpid: "e307f17b-5fdc-4662-8c4b-a34dfa221f29"
+    mpid: "d59b0fd1-8a48-4f4b-a93a-e6f6dbd2ecd9"
   }, {
     icon: Twitter,
     href: '#',
     label: 'Twitter',
-    mpid: "aba06064-bb52-47d5-8261-db200a02eac3"
+    mpid: "07c76746-7040-4a00-84d6-1d693cac8a4e"
   }, {
     icon: Linkedin,
     href: '#',
     label: 'LinkedIn',
-    mpid: "8848a784-55c9-44d5-9253-c87ec334220e"
+    mpid: "3d92e16e-aeb2-4d42-b111-1c03dc14c3f6"
   }, {
     icon: Mail,
     href: '#',
     label: 'Email',
-    mpid: "c7953d78-1d7d-443d-844f-2f66f45fee42"
+    mpid: "59d7b698-d76b-4649-b6c8-8efd3d162540"
   }] as any[];
-  return <footer className="bg-black text-white" data-magicpath-id="0" data-magicpath-path="Footer.tsx" style={{
-    display: "none"
-  }}>
+  return <footer className="bg-black text-white" data-magicpath-id="0" data-magicpath-path="Footer.tsx">
       <div className="max-w-7xl mx-auto px-6 py-16" data-magicpath-id="1" data-magicpath-path="Footer.tsx">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 mb-12" data-magicpath-id="2" data-magicpath-path="Footer.tsx">
@@ -202,18 +200,21 @@ const Footer: React.FC = () => {
         once: true
       }} data-magicpath-id="21" data-magicpath-path="Footer.tsx">
           <div className="text-gray-400 text-sm" data-magicpath-id="22" data-magicpath-path="Footer.tsx">
-            © 2024 Reaxo. All rights reserved.
+            © 2025 Reaxo by Abdul Mazid
           </div>
           
           <div className="flex items-center gap-6 text-sm text-gray-400" data-magicpath-id="23" data-magicpath-path="Footer.tsx">
             <a href="#" className="hover:text-white transition-colors">
-              Privacy Policy
+              About
             </a>
             <a href="#" className="hover:text-white transition-colors">
-              Terms of Service
+              Privacy
             </a>
             <a href="#" className="hover:text-white transition-colors">
-              Cookie Settings
+              Terms
+            </a>
+            <a href="#" className="hover:text-white transition-colors">
+              Contact
             </a>
           </div>
         </motion.div>
