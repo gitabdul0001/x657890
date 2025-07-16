@@ -60,9 +60,7 @@ const HeroSection: React.FC = () => {
           duration: 0.8,
           delay: 0.2,
           ease: "easeOut"
-        }} data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">
-            Stop struggling to understand your social performance. Our tools break down the numbers so you can focus on creating, connecting, and growing across every channel with confidence.
-          </motion.p>
+        }} data-magicpath-id="14" data-magicpath-path="HeroSection.tsx">Stop struggling to understand your social performance. Our tools break down the numbers so you can focus on creating, connecting, and growing across every channel with confidence.</motion.p>
           
           <motion.div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8" initial={{
           opacity: 0,
