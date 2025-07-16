@@ -110,7 +110,9 @@ const HeroSection: React.FC = () => {
             
             <motion.p className="text-sm text-gray-500 font-medium" whileHover={{
             scale: 1.02
-          }} data-magicpath-id="29" data-magicpath-path="HeroSection.tsx">
+          }} data-magicpath-id="29" data-magicpath-path="HeroSection.tsx" style={{
+            display: "none"
+          }}>
               Get connected and start with Reaxo
             </motion.p>
           </motion.div>
