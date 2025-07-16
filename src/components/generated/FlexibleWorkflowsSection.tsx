@@ -35,7 +35,9 @@ const FlexibleWorkflowsSection: React.FC = () => {
   }] as any[];
   return <div className="flexible-workflows-section" data-magicpath-id="0" data-magicpath-path="FlexibleWorkflowsSection.tsx">
       <div className="flexible-workflows-section__header" data-magicpath-id="1" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-        <h2 data-magicpath-id="2" data-magicpath-path="FlexibleWorkflowsSection.tsx">Flexible Workflows</h2>
+        <h2 data-magicpath-id="2" data-magicpath-path="FlexibleWorkflowsSection.tsx" style={{
+        display: "none"
+      }}>Flexible Workflows</h2>
         <div className="flexible-workflows-section__header__controls" data-magicpath-id="3" data-magicpath-path="FlexibleWorkflowsSection.tsx">
           <button className="flexible-workflows-section__header__controls__button" data-magicpath-id="4" data-magicpath-path="FlexibleWorkflowsSection.tsx">
             <ChevronLeft data-magicpath-id="5" data-magicpath-path="FlexibleWorkflowsSection.tsx" />
@@ -59,10 +61,14 @@ const FlexibleWorkflowsSection: React.FC = () => {
         }} transition={{
           duration: 0.5
         }} className="flexible-workflows-section__content__workflow" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-id="10" data-magicpath-path="FlexibleWorkflowsSection.tsx">
-              <div className="flexible-workflows-section__content__workflow__title" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="11" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+              <div className="flexible-workflows-section__content__workflow__title" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="title:unknown" data-magicpath-id="11" data-magicpath-path="FlexibleWorkflowsSection.tsx" style={{
+            display: "none"
+          }}>
                 {workflow.title}
               </div>
-              <div className="flexible-workflows-section__content__workflow__description" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:unknown" data-magicpath-id="12" data-magicpath-path="FlexibleWorkflowsSection.tsx">
+              <div className="flexible-workflows-section__content__workflow__description" data-magicpath-uuid={(workflow as any)["mpid"] ?? "unsafe"} data-magicpath-field="description:unknown" data-magicpath-id="12" data-magicpath-path="FlexibleWorkflowsSection.tsx" style={{
+            display: "none"
+          }}>
                 {workflow.description}
               </div>
             </motion.div>)}
