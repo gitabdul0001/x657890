@@ -2,7 +2,10 @@
 
 import * as React from "react";
 export default function WhyTeamsInnovateSection() {
-  return <section className="relative overflow-hidden w-full min-h-screen bg-gradient-to-b from-slate-50 to-white" data-magicpath-id="0" data-magicpath-path="WhyTeamsInnovateSection.tsx">
+  return <section className="relative overflow-hidden w-full min-h-screen bg-gradient-to-b from-slate-50 to-white" data-magicpath-id="0" data-magicpath-path="WhyTeamsInnovateSection.tsx" style={{
+    background: "linear-gradient(90deg, oklch(0.984 0.003 247.858) 0%, rgb(255, 255, 255) 100%)",
+    display: "none"
+  }}>
       {/* Canvas background with fade effect */}
       <div className="absolute inset-0 bg-gradient-to-t from-transparent to-slate-100/30" style={{
       background: `
